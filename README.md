@@ -10,7 +10,7 @@ Each section below includes a screenshot, a short description, the devices used,
 
 ## What You'll Need
 
-- Node-RED (this was built on v3.1.7)
+- Node-RED (this was built on v4.1.4)
 - FlowFuse Dashboard 2.0 (`@flowfuse/node-red-dashboard`)
 - An MQTT broker (Mosquitto here)
 
