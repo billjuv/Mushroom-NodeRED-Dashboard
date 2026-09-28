@@ -22,9 +22,8 @@ Each section below includes a screenshot, a short description, the devices used,
 
 <img src="Node-Red_Screenshots/Shelly_LED.png" alt="Shelly LED Lights" width="300">
 
-Simple on/off switches for four banks of LED light panels. (Overkill, but they were available.) The fruiting area LEDs run on a timer or can be switched manually from the dashboard.
+Simple on/off switches and dimming levels for four banks of LED light panels. (Overkill, but they were available.) The fruiting area LEDs run on a timer or can be switched manually from the dashboard.
 
-I did work out a flow to control brightness from Node-RED, but it never got used. My friend set the brightness once in the Shelly app and never touched it again.
 
 **Devices:** Shelly Plus 0-10V Dimmers
 
