@@ -59,7 +59,7 @@ All flow files are in the [flows](flows) folder:
 | Sensor Calibration page | SCD41-Calibration-Commands | EZO-Info-Test |
 | Energy Billing page | Energy-Billing | InfluxDB |
 
-A few flows work behind the scenes with no card of their own: **VPD-Calculations** (logs vapor pressure deficit to InfluxDB), **RemoteRED** (remote access and alerts), and **Pi-Monitoring-v2** (a Pi health "Control Panel" page).
+A few flows work behind the scenes with no card of their own: **VPD-Calculations** (logs vapor pressure deficit to InfluxDB), **RemoteRED** & **Watchdogs** (remote access and alerts), and **Pi-Monitoring-v2** (a Pi health "Control Panel" page).
 
 ---
 ---
