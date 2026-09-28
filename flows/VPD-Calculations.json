@@ -1,0 +1,1963 @@
+[
+    {
+        "id": "c09725236d321738",
+        "type": "tab",
+        "label": "VPD Calculations",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0aa24e2aeb3ba49c",
+        "type": "group",
+        "z": "c09725236d321738",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "14c7c7f9ef12a155",
+            "25c04c77f5739c30",
+            "705aece775dbc6a0",
+            "77b13e85c6fb48c7",
+            "8d102c4c9ec01863",
+            "c45f72935e9c1f89",
+            "4f432c42fc32a931",
+            "c6e7011476e2ed37",
+            "0261dd02ed25450c",
+            "bfd390f588df9872",
+            "3bdf9d1ae5ccef7b",
+            "0df569b4aedefd25",
+            "62b68e22f39ccce8",
+            "2a9357a65f1d958b",
+            "cd78d8a55d9b6873"
+        ],
+        "x": 114,
+        "y": 99,
+        "w": 1092,
+        "h": 242
+    },
+    {
+        "id": "e9c0e9bda74b6485",
+        "type": "group",
+        "z": "c09725236d321738",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bc39baa6d1c38849",
+            "71e3fd220aedf6e9",
+            "2a797622e732e7dc",
+            "83a1c9451ee6d482",
+            "465d8a1a356cf7ca",
+            "a34c40b6373f23e9",
+            "2ece2a65264b40c3",
+            "5822dc58b1cc7436",
+            "844e82a912cf5f4f",
+            "b6b3cecd42a2a297",
+            "dde7a6f62b07154a",
+            "0481ede1d61da4ce",
+            "ac69e7765340f5f6",
+            "0f3425e426c76ca1",
+            "40c67db080a8f5e9"
+        ],
+        "x": 124,
+        "y": 599,
+        "w": 1082,
+        "h": 242
+    },
+    {
+        "id": "ec638fb090759db4",
+        "type": "group",
+        "z": "c09725236d321738",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8fa2b9b8438e8ff9",
+            "1f708a64835a59ed",
+            "67ac909839fd1fb9",
+            "28837a03c2fa62c2",
+            "8022e1bdd49edc17",
+            "39344703145cbfc3",
+            "c8b4775a93e0bee4",
+            "677f5a8816f265e5",
+            "055f8dbb2a0a45bf",
+            "c630b25d19a1389f",
+            "326d600cc8ca4e69",
+            "21542561cd9dbdd3",
+            "c1f1645bb0704653",
+            "b6e8c690095f4e1e",
+            "69cad98bd18c9e78",
+            "d214b298a01df2e8"
+        ],
+        "x": 124,
+        "y": 1099,
+        "w": 1062,
+        "h": 262
+    },
+    {
+        "id": "f18cd2803327226d",
+        "type": "group",
+        "z": "c09725236d321738",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "30316d73150a554a",
+            "3d35eb0b4973cb96",
+            "2ec09ee1d691c022",
+            "74f7809d2d109d2c",
+            "18b4ac710b18a6b3",
+            "26d67810eb91aa04",
+            "1befceef01ad8d55",
+            "850e602782920b2b",
+            "fc7ebcf47972b2bf",
+            "0b8754412a5da46f",
+            "0aaa9d2199f7e0ce",
+            "9e3b99ebd1c8f1fd",
+            "c561c3e589d50328",
+            "16b6eeffe0552fd9",
+            "3f48042467ce101b"
+        ],
+        "x": 114,
+        "y": 339,
+        "w": 1092,
+        "h": 242
+    },
+    {
+        "id": "4a2b0ce3e2805ba8",
+        "type": "group",
+        "z": "c09725236d321738",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bccfadcee858c631",
+            "e3fc477030e30b05",
+            "b49015c2fd4fb0a7",
+            "b396bc6b9e6539ac",
+            "fb7427483bb5b706",
+            "77979f7205704303",
+            "e2b0752a65cc5669",
+            "2c377416ad0206a1",
+            "3829ec1a3b5652a4",
+            "5943536d41c6a7e1",
+            "150ba16e5ede88ad",
+            "0e3c54e8b14bf257",
+            "f95a6ee5ae288d6f",
+            "2891e8b6f85ffc2d",
+            "91eaf749481f2595"
+        ],
+        "x": 124,
+        "y": 859,
+        "w": 1082,
+        "h": 242
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "12606b49c66bd206",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "25610350729beff8",
+        "type": "ui-page",
+        "name": "MushRoom",
+        "ui": "b19902285c24f724",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "12606b49c66bd206",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "babd6b15fe74bba2",
+        "type": "ui-group",
+        "d": true,
+        "name": "Fruiting Front EZO1-HUM",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 10,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "4f05a17be0ea0119",
+        "type": "ui-group",
+        "d": true,
+        "name": "Fruiting Rear - EZO2-HUM",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 11,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a6bd0992df1d3a58",
+        "type": "ui-group",
+        "d": true,
+        "name": "Incubation - EZO-HUM Box",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 12,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e5d695bf95ae6c6c",
+        "type": "influxdb",
+        "hostname": "MushRmPi.local",
+        "port": 8086,
+        "protocol": "http",
+        "database": "mushroom_data",
+        "name": "InfluxDB 1.x - mushroom_data",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "14c7c7f9ef12a155",
+        "type": "link in",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "EZO1 TempC VPD",
+        "links": [],
+        "x": 155,
+        "y": 180,
+        "wires": [
+            [
+                "c6e7011476e2ed37"
+            ]
+        ]
+    },
+    {
+        "id": "25c04c77f5739c30",
+        "type": "link in",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "EZO1 Humidity VPD",
+        "links": [],
+        "x": 155,
+        "y": 300,
+        "wires": [
+            [
+                "0261dd02ed25450c"
+            ]
+        ]
+    },
+    {
+        "id": "705aece775dbc6a0",
+        "type": "function",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "Calculate VPD",
+        "func": "// Get temperature (tempC) and relative humidity (rh) from the input message\nconst tempC = msg.payload.tempC;\nconst rh = msg.payload.rh;\n\n// Check if inputs are valid numbers\nif (typeof tempC !== 'number' || typeof rh !== 'number') {\n    node.error(\"Invalid input: tempC and rh must be numbers.\", msg);\n    return null;\n}\n\n// Calculate saturation vapor pressure (es) in kPa using the Buck equation approximation\n// es = 0.6108 * exp(17.27 * T / (T + 237.3))\nconst saturationVP = 0.6108 * Math.exp((17.27 * tempC) / (tempC + 237.3));\n\n// Calculate actual vapor pressure (ea) in kPa\n// ea = (RH / 100) * es\nconst actualVP = (rh / 100) * saturationVP;\n\n// Calculate Vapor Pressure Deficit (VPD) in kPa\n// VPD = es - ea = es * (100 - RH) / 100\nconst vpd = saturationVP - actualVP;\n\n// Set the output message payload to the calculated VPD, rounded to 2 decimal places\nmsg.payload = parseFloat(vpd.toFixed(2));\n//msg.payload = vpd.toFixed(2);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 180,
+        "wires": [
+            [
+                "2a9357a65f1d958b",
+                "77b13e85c6fb48c7",
+                "cd78d8a55d9b6873"
+            ]
+        ]
+    },
+    {
+        "id": "77b13e85c6fb48c7",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "VPD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "8d102c4c9ec01863",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "tempC",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c45f72935e9c1f89",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "rh",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4f432c42fc32a931",
+        "type": "join",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "Join temp + humidity",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 490,
+        "y": 240,
+        "wires": [
+            [
+                "705aece775dbc6a0"
+            ]
+        ]
+    },
+    {
+        "id": "c6e7011476e2ed37",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "Set Temperature Topic (tempC)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "tempC",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 180,
+        "wires": [
+            [
+                "4f432c42fc32a931",
+                "8d102c4c9ec01863"
+            ]
+        ]
+    },
+    {
+        "id": "0261dd02ed25450c",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "Set Humidity Topic (rh)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "rh",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 300,
+        "wires": [
+            [
+                "4f432c42fc32a931",
+                "c45f72935e9c1f89"
+            ]
+        ]
+    },
+    {
+        "id": "bfd390f588df9872",
+        "type": "comment",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "VPD (assuming \"leaf\" temp = air temp)",
+        "info": "",
+        "x": 550,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "bc39baa6d1c38849",
+        "type": "link in",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "EZO2 TempC VPD",
+        "links": [],
+        "x": 165,
+        "y": 680,
+        "wires": [
+            [
+                "5822dc58b1cc7436"
+            ]
+        ]
+    },
+    {
+        "id": "71e3fd220aedf6e9",
+        "type": "link in",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "EZO2 Humidity VPD",
+        "links": [],
+        "x": 175,
+        "y": 800,
+        "wires": [
+            [
+                "844e82a912cf5f4f"
+            ]
+        ]
+    },
+    {
+        "id": "2a797622e732e7dc",
+        "type": "function",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "Calculate VPD",
+        "func": "// Get temperature (tempC) and relative humidity (rh) from the input message\nconst tempC = msg.payload.tempC;\nconst rh = msg.payload.rh;\n\n// Check if inputs are valid numbers\nif (typeof tempC !== 'number' || typeof rh !== 'number') {\n    node.error(\"Invalid input: tempC and rh must be numbers.\", msg);\n    return null;\n}\n\n// Calculate saturation vapor pressure (es) in kPa using the Buck equation approximation\n// es = 0.6108 * exp(17.27 * T / (T + 237.3))\nconst saturationVP = 0.6108 * Math.exp((17.27 * tempC) / (tempC + 237.3));\n\n// Calculate actual vapor pressure (ea) in kPa\n// ea = (RH / 100) * es\nconst actualVP = (rh / 100) * saturationVP;\n\n// Calculate Vapor Pressure Deficit (VPD) in kPa\n// VPD = es - ea = es * (100 - RH) / 100\nconst vpd = saturationVP - actualVP;\n\n// Set the output message payload to the calculated VPD, rounded to 2 decimal places\nmsg.payload = parseFloat(vpd.toFixed(2));\n//msg.payload = vpd.toFixed(2);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 680,
+        "wires": [
+            [
+                "83a1c9451ee6d482",
+                "ac69e7765340f5f6",
+                "40c67db080a8f5e9"
+            ]
+        ]
+    },
+    {
+        "id": "83a1c9451ee6d482",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "VPD",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "465d8a1a356cf7ca",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "tempC",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "a34c40b6373f23e9",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "rh",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "2ece2a65264b40c3",
+        "type": "join",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "Join temp + humidity",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 510,
+        "y": 740,
+        "wires": [
+            [
+                "2a797622e732e7dc"
+            ]
+        ]
+    },
+    {
+        "id": "5822dc58b1cc7436",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "Set Temperature Topic (tempC)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "tempC",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 680,
+        "wires": [
+            [
+                "2ece2a65264b40c3",
+                "465d8a1a356cf7ca"
+            ]
+        ]
+    },
+    {
+        "id": "844e82a912cf5f4f",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "Set Humidity Topic (rh)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "rh",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 800,
+        "wires": [
+            [
+                "2ece2a65264b40c3",
+                "a34c40b6373f23e9"
+            ]
+        ]
+    },
+    {
+        "id": "b6b3cecd42a2a297",
+        "type": "comment",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "VPD (assuming \"leaf\" temp = air temp)",
+        "info": "",
+        "x": 570,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "3bdf9d1ae5ccef7b",
+        "type": "comment",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "VPD Fruiting front (EZO1)",
+        "info": "",
+        "x": 260,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "dde7a6f62b07154a",
+        "type": "comment",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "VPD Fruiting rear (EZO2)",
+        "info": "",
+        "x": 300,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "8fa2b9b8438e8ff9",
+        "type": "link in",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "EZO3 TempC VPD",
+        "links": [],
+        "x": 175,
+        "y": 1180,
+        "wires": [
+            [
+                "677f5a8816f265e5"
+            ]
+        ]
+    },
+    {
+        "id": "1f708a64835a59ed",
+        "type": "link in",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "EZO3 Humidity VPD",
+        "links": [],
+        "x": 165,
+        "y": 1320,
+        "wires": [
+            [
+                "055f8dbb2a0a45bf"
+            ]
+        ]
+    },
+    {
+        "id": "67ac909839fd1fb9",
+        "type": "function",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "Calculate VPD",
+        "func": "// Get temperature (tempC) and relative humidity (rh) from the input message\nconst tempC = msg.payload.tempC;\nconst rh = msg.payload.rh;\n\n// Check if inputs are valid numbers\nif (typeof tempC !== 'number' || typeof rh !== 'number') {\n    node.error(\"Invalid input: tempC and rh must be numbers.\", msg);\n    return null;\n}\n\n// Calculate saturation vapor pressure (es) in kPa using the Buck equation approximation\n// es = 0.6108 * exp(17.27 * T / (T + 237.3))\nconst saturationVP = 0.6108 * Math.exp((17.27 * tempC) / (tempC + 237.3));\n\n// Calculate actual vapor pressure (ea) in kPa\n// ea = (RH / 100) * es\nconst actualVP = (rh / 100) * saturationVP;\n\n// Calculate Vapor Pressure Deficit (VPD) in kPa\n// VPD = es - ea = es * (100 - RH) / 100\nconst vpd = saturationVP - actualVP;\n\n// Set the output message payload to the calculated VPD, rounded to 2 decimal places\nmsg.payload = parseFloat(vpd.toFixed(2));\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 1200,
+        "wires": [
+            [
+                "28837a03c2fa62c2",
+                "21542561cd9dbdd3",
+                "d214b298a01df2e8"
+            ]
+        ]
+    },
+    {
+        "id": "28837a03c2fa62c2",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "VPD",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "8022e1bdd49edc17",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "tempC",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "39344703145cbfc3",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "rh",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "c8b4775a93e0bee4",
+        "type": "join",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "Join temp + humidity",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 510,
+        "y": 1280,
+        "wires": [
+            [
+                "67ac909839fd1fb9"
+            ]
+        ]
+    },
+    {
+        "id": "677f5a8816f265e5",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "Set Temperature Topic (tempC)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "tempC",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 1180,
+        "wires": [
+            [
+                "b6e8c690095f4e1e"
+            ]
+        ]
+    },
+    {
+        "id": "055f8dbb2a0a45bf",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "Set Humidity Topic (rh)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "rh",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 1320,
+        "wires": [
+            [
+                "c8b4775a93e0bee4",
+                "39344703145cbfc3"
+            ]
+        ]
+    },
+    {
+        "id": "c630b25d19a1389f",
+        "type": "comment",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "VPD (assuming \"leaf\" temp = air temp)",
+        "info": "",
+        "x": 520,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "326d600cc8ca4e69",
+        "type": "comment",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "VPD Incubation",
+        "info": "",
+        "x": 270,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "0df569b4aedefd25",
+        "type": "ui-gauge",
+        "z": "c09725236d321738",
+        "d": true,
+        "g": "0aa24e2aeb3ba49c",
+        "name": "VPD FruitFront",
+        "group": "babd6b15fe74bba2",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "VPD",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "kPa",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "3",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1100,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0481ede1d61da4ce",
+        "type": "ui-gauge",
+        "z": "c09725236d321738",
+        "d": true,
+        "g": "e9c0e9bda74b6485",
+        "name": "VPD FruitRear",
+        "group": "4f05a17be0ea0119",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "VPD",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "kPa",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "3",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1080,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac69e7765340f5f6",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "Set Humidity Topic (VPD)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "VPD",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 740,
+        "wires": [
+            [
+                "0481ede1d61da4ce",
+                "0f3425e426c76ca1"
+            ]
+        ]
+    },
+    {
+        "id": "21542561cd9dbdd3",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "Set Humidity Topic (VPD)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "VPD",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 1260,
+        "wires": [
+            [
+                "c1f1645bb0704653",
+                "69cad98bd18c9e78"
+            ]
+        ]
+    },
+    {
+        "id": "c1f1645bb0704653",
+        "type": "ui-gauge",
+        "z": "c09725236d321738",
+        "d": true,
+        "g": "ec638fb090759db4",
+        "name": "VPD Incubation",
+        "group": "a6bd0992df1d3a58",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "VPD",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "kPa",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "3",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1080,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6e8c690095f4e1e",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "F to C",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round((payload-32)*5/9, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 1240,
+        "wires": [
+            [
+                "8022e1bdd49edc17",
+                "c8b4775a93e0bee4"
+            ]
+        ]
+    },
+    {
+        "id": "0f3425e426c76ca1",
+        "type": "link out",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "name": "VPD out - FR",
+        "mode": "link",
+        "links": [],
+        "x": 1005,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "62b68e22f39ccce8",
+        "type": "link out",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "VPD out - FF",
+        "mode": "link",
+        "links": [],
+        "x": 1035,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "69cad98bd18c9e78",
+        "type": "link out",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "name": "VPD out - Incu",
+        "mode": "link",
+        "links": [],
+        "x": 1005,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "2a9357a65f1d958b",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "name": "Set Humidity Topic (VPD))",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "VPD",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 240,
+        "wires": [
+            [
+                "0df569b4aedefd25",
+                "62b68e22f39ccce8"
+            ]
+        ]
+    },
+    {
+        "id": "cd78d8a55d9b6873",
+        "type": "influxdb out",
+        "z": "c09725236d321738",
+        "g": "0aa24e2aeb3ba49c",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "VPD_FruitFront_EZO1",
+        "measurement": "VPD_FruitFront_EZO1",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1060,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "40c67db080a8f5e9",
+        "type": "influxdb out",
+        "z": "c09725236d321738",
+        "g": "e9c0e9bda74b6485",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "VPD_FruitRear_EZO2",
+        "measurement": "VPD_FruitRear_EZO2",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1080,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "30316d73150a554a",
+        "type": "link in",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "SCD1 TempC VPD",
+        "links": [],
+        "x": 155,
+        "y": 420,
+        "wires": [
+            [
+                "850e602782920b2b"
+            ]
+        ]
+    },
+    {
+        "id": "3d35eb0b4973cb96",
+        "type": "link in",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "SCD1 Humidity VPD",
+        "links": [],
+        "x": 155,
+        "y": 540,
+        "wires": [
+            [
+                "fc7ebcf47972b2bf"
+            ]
+        ]
+    },
+    {
+        "id": "2ec09ee1d691c022",
+        "type": "function",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "Calculate VPD",
+        "func": "// Get temperature (tempC) and relative humidity (rh) from the input message\nconst tempC = msg.payload.tempC;\nconst rh = msg.payload.rh;\n\n// Check if inputs are valid numbers\nif (typeof tempC !== 'number' || typeof rh !== 'number') {\n    node.error(\"Invalid input: tempC and rh must be numbers.\", msg);\n    return null;\n}\n\n// Calculate saturation vapor pressure (es) in kPa using the Buck equation approximation\n// es = 0.6108 * exp(17.27 * T / (T + 237.3))\nconst saturationVP = 0.6108 * Math.exp((17.27 * tempC) / (tempC + 237.3));\n\n// Calculate actual vapor pressure (ea) in kPa\n// ea = (RH / 100) * es\nconst actualVP = (rh / 100) * saturationVP;\n\n// Calculate Vapor Pressure Deficit (VPD) in kPa\n// VPD = es - ea = es * (100 - RH) / 100\nconst vpd = saturationVP - actualVP;\n\n// Set the output message payload to the calculated VPD, rounded to 2 decimal places\nmsg.payload = parseFloat(vpd.toFixed(2));\n//msg.payload = vpd.toFixed(2);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 420,
+        "wires": [
+            [
+                "16b6eeffe0552fd9",
+                "74f7809d2d109d2c",
+                "3f48042467ce101b"
+            ]
+        ]
+    },
+    {
+        "id": "74f7809d2d109d2c",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "VPD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "18b4ac710b18a6b3",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "tempC",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "26d67810eb91aa04",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "rh",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "1befceef01ad8d55",
+        "type": "join",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "Join temp + humidity",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 490,
+        "y": 480,
+        "wires": [
+            [
+                "2ec09ee1d691c022"
+            ]
+        ]
+    },
+    {
+        "id": "850e602782920b2b",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "Set Temperature Topic (tempC)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "tempC",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 420,
+        "wires": [
+            [
+                "1befceef01ad8d55",
+                "18b4ac710b18a6b3"
+            ]
+        ]
+    },
+    {
+        "id": "fc7ebcf47972b2bf",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "Set Humidity Topic (rh)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "rh",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 540,
+        "wires": [
+            [
+                "1befceef01ad8d55",
+                "26d67810eb91aa04"
+            ]
+        ]
+    },
+    {
+        "id": "0b8754412a5da46f",
+        "type": "comment",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "VPD (assuming \"leaf\" temp = air temp)",
+        "info": "",
+        "x": 550,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "0aaa9d2199f7e0ce",
+        "type": "comment",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "VPD Fruiting front (SCD1)",
+        "info": "",
+        "x": 260,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "9e3b99ebd1c8f1fd",
+        "type": "ui-gauge",
+        "z": "c09725236d321738",
+        "d": true,
+        "g": "f18cd2803327226d",
+        "name": "VPD FruitFront",
+        "group": "babd6b15fe74bba2",
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "VPD",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "kPa",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "3",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1100,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c561c3e589d50328",
+        "type": "link out",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "VPD out - FF",
+        "mode": "link",
+        "links": [],
+        "x": 1035,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "16b6eeffe0552fd9",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "name": "Set Humidity Topic (VPD))",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "VPD",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 480,
+        "wires": [
+            [
+                "9e3b99ebd1c8f1fd",
+                "c561c3e589d50328"
+            ]
+        ]
+    },
+    {
+        "id": "3f48042467ce101b",
+        "type": "influxdb out",
+        "z": "c09725236d321738",
+        "g": "f18cd2803327226d",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "VPD_FruitFront_SCD1",
+        "measurement": "VPD_FruitFront_SCD1",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1060,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "bccfadcee858c631",
+        "type": "link in",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "SCD2 TempC VPD",
+        "links": [],
+        "x": 165,
+        "y": 940,
+        "wires": [
+            [
+                "2c377416ad0206a1"
+            ]
+        ]
+    },
+    {
+        "id": "e3fc477030e30b05",
+        "type": "link in",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "SCD2 Humidity VPD",
+        "links": [],
+        "x": 175,
+        "y": 1060,
+        "wires": [
+            [
+                "3829ec1a3b5652a4"
+            ]
+        ]
+    },
+    {
+        "id": "b49015c2fd4fb0a7",
+        "type": "function",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "Calculate VPD",
+        "func": "// Get temperature (tempC) and relative humidity (rh) from the input message\nconst tempC = msg.payload.tempC;\nconst rh = msg.payload.rh;\n\n// Check if inputs are valid numbers\nif (typeof tempC !== 'number' || typeof rh !== 'number') {\n    node.error(\"Invalid input: tempC and rh must be numbers.\", msg);\n    return null;\n}\n\n// Calculate saturation vapor pressure (es) in kPa using the Buck equation approximation\n// es = 0.6108 * exp(17.27 * T / (T + 237.3))\nconst saturationVP = 0.6108 * Math.exp((17.27 * tempC) / (tempC + 237.3));\n\n// Calculate actual vapor pressure (ea) in kPa\n// ea = (RH / 100) * es\nconst actualVP = (rh / 100) * saturationVP;\n\n// Calculate Vapor Pressure Deficit (VPD) in kPa\n// VPD = es - ea = es * (100 - RH) / 100\nconst vpd = saturationVP - actualVP;\n\n// Set the output message payload to the calculated VPD, rounded to 2 decimal places\nmsg.payload = parseFloat(vpd.toFixed(2));\n//msg.payload = vpd.toFixed(2);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 940,
+        "wires": [
+            [
+                "b396bc6b9e6539ac",
+                "f95a6ee5ae288d6f",
+                "91eaf749481f2595"
+            ]
+        ]
+    },
+    {
+        "id": "b396bc6b9e6539ac",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "VPD",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "fb7427483bb5b706",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "tempC",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "77979f7205704303",
+        "type": "debug",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "rh",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "e2b0752a65cc5669",
+        "type": "join",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "Join temp + humidity",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 510,
+        "y": 1000,
+        "wires": [
+            [
+                "b49015c2fd4fb0a7"
+            ]
+        ]
+    },
+    {
+        "id": "2c377416ad0206a1",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "Set Temperature Topic (tempC)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "tempC",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 940,
+        "wires": [
+            [
+                "e2b0752a65cc5669",
+                "fb7427483bb5b706"
+            ]
+        ]
+    },
+    {
+        "id": "3829ec1a3b5652a4",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "Set Humidity Topic (rh)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "rh",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 1060,
+        "wires": [
+            [
+                "e2b0752a65cc5669",
+                "77979f7205704303"
+            ]
+        ]
+    },
+    {
+        "id": "5943536d41c6a7e1",
+        "type": "comment",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "VPD (assuming \"leaf\" temp = air temp)",
+        "info": "",
+        "x": 570,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "150ba16e5ede88ad",
+        "type": "comment",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "VPD Fruiting rear (SCD2)",
+        "info": "",
+        "x": 300,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "0e3c54e8b14bf257",
+        "type": "ui-gauge",
+        "z": "c09725236d321738",
+        "d": true,
+        "g": "4a2b0ce3e2805ba8",
+        "name": "VPD FruitRear",
+        "group": "4f05a17be0ea0119",
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "VPD",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "kPa",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "3",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1080,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f95a6ee5ae288d6f",
+        "type": "change",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "Set Humidity Topic (VPD)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "VPD",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 1000,
+        "wires": [
+            [
+                "0e3c54e8b14bf257",
+                "2891e8b6f85ffc2d"
+            ]
+        ]
+    },
+    {
+        "id": "2891e8b6f85ffc2d",
+        "type": "link out",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "name": "VPD out - FR",
+        "mode": "link",
+        "links": [],
+        "x": 1005,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "91eaf749481f2595",
+        "type": "influxdb out",
+        "z": "c09725236d321738",
+        "g": "4a2b0ce3e2805ba8",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "VPD_FruitRear_SCD2",
+        "measurement": "VPD_FruitRear_SCD2",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1080,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "d214b298a01df2e8",
+        "type": "influxdb out",
+        "z": "c09725236d321738",
+        "g": "ec638fb090759db4",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "VPD_Incub_EZO3",
+        "measurement": "VPD_Incub_EZO3",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1030,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

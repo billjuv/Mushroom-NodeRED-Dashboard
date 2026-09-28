@@ -1,0 +1,1809 @@
+[
+    {
+        "id": "fdc8972ceb615cb4",
+        "type": "tab",
+        "label": "Watchdogs",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "hum_alert_group",
+        "type": "group",
+        "z": "fdc8972ceb615cb4",
+        "name": "Humidity Threshold Alerts",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "hum_scd1_in",
+            "hum_get_thresholds",
+            "hum_check_high",
+            "hum_check_low",
+            "hum_high_notify",
+            "hum_low_notify",
+            "hum_high_threshold_in",
+            "hum_low_threshold_in",
+            "hum_override_in",
+            "hum_store_high",
+            "hum_store_low",
+            "hum_store_override",
+            "c1e0cffa16ff1f83",
+            "a40ddc1db180419f",
+            "379a53fed6ccd987",
+            "18c477314d29be9e",
+            "63bc1940a1d2b2b0",
+            "dc3f776383f20303",
+            "fe48384369bb319f",
+            "af3653586f3892d8"
+        ],
+        "x": 94,
+        "y": 579,
+        "w": 1392,
+        "h": 342
+    },
+    {
+        "id": "133ec70b3595643c",
+        "type": "group",
+        "z": "fdc8972ceb615cb4",
+        "name": "Alert Delay Controls",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f828f5efb05b5c32",
+            "2a8f38a3516f5740",
+            "71968d570b22a398",
+            "4547bb9c26106e40",
+            "d5604cc25cce4099",
+            "14e064651d1b9f64",
+            "0d6d795c00bf14cf",
+            "3077f4a993440567",
+            "108e4c267b925ebd",
+            "1fb6ae89c76e143c",
+            "f131ff0eb7e37d93",
+            "e92924a1902839b0",
+            "6742a83dded8de88",
+            "e3de8471ad708c44",
+            "2cc4d103df1b8473",
+            "221aef4c26c699ec",
+            "08bf6a040ea1c378",
+            "b6b1802450b02f1d",
+            "bb3249653fc7bfe2",
+            "026fd6b455bc447a",
+            "69b08ec68489c66f",
+            "c2f79e7953110e27",
+            "f01d8b199ceb943b"
+        ],
+        "x": 204,
+        "y": 999,
+        "w": 1062,
+        "h": 462
+    },
+    {
+        "id": "5717cf91fddb15a7",
+        "type": "group",
+        "z": "fdc8972ceb615cb4",
+        "name": "SCD1 Heartbeat Watchdog + EZO1 Fallback",
+        "style": {
+            "label": true,
+            "color": "#a4a4a4",
+            "bgcolor": "#1f2937"
+        },
+        "nodes": [
+            "10b5185c8e991ca9",
+            "a383f01dfab00ebd",
+            "78561e7c38185ccb",
+            "1604ad10a260b398",
+            "0f32c22c70f79a26",
+            "e90e8f46ef0292a0",
+            "6be9e206db63bb61",
+            "9c4722f7273fa384",
+            "5f64b7f14651d903",
+            "b2475fbf6aac38dc",
+            "ca86e217a141e5a7",
+            "a1eb8f6525d49c91",
+            "2f8ea647fd9a23de",
+            "fad55c55ba866b0b",
+            "cf6a6f166c5a69a0",
+            "82c7efed3b900d29",
+            "f813e53e11694aba",
+            "5f28a576395b413c",
+            "3bff978ac75c3db4"
+        ],
+        "x": 94,
+        "y": 99,
+        "w": 1412,
+        "h": 382
+    },
+    {
+        "id": "b6b1802450b02f1d",
+        "type": "junction",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "x": 1100,
+        "y": 1180,
+        "wires": [
+            [
+                "221aef4c26c699ec"
+            ]
+        ]
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "12606b49c66bd206",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "25610350729beff8",
+        "type": "ui-page",
+        "name": "MushRoom",
+        "ui": "b19902285c24f724",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "12606b49c66bd206",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "a2cc319da1341e36",
+        "type": "mqtt-broker",
+        "name": "MushRmPi - K1W1 (use)",
+        "broker": "192.168.1.109",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6fa4c09e7310b177",
+        "type": "remote-config",
+        "name": "MushRmPi",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/dashboard",
+        "instancehash": "YOUR_REMOTERED_INSTANCE_HASH",
+        "server": "nodered03.remote-red.com",
+        "region": "us"
+    },
+    {
+        "id": "0b367aa07343d6c4",
+        "type": "ui-group",
+        "name": "Alerts",
+        "page": "25610350729beff8",
+        "width": 6,
+        "height": 1,
+        "order": 13,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "0fa46f27d2a0a179",
+        "type": "remote-config",
+        "name": "HomePi5",
+        "host": "10.0.1.28",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/dashboard",
+        "instancehash": "YOUR_REMOTERED_INSTANCE_HASH",
+        "server": "nodered03.remote-red.com",
+        "region": "us"
+    },
+    {
+        "id": "hum_high_threshold_in",
+        "type": "mqtt in",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "highThreshold",
+        "topic": "MushControls/ExpelFan/highThreshold",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 620,
+        "wires": [
+            [
+                "hum_store_high"
+            ]
+        ]
+    },
+    {
+        "id": "hum_store_high",
+        "type": "change",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "store highThreshold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hum_highThreshold",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "hum_low_threshold_in",
+        "type": "mqtt in",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "lowThreshold",
+        "topic": "MushControls/ExpelFan/lowThreshold",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 680,
+        "wires": [
+            [
+                "hum_store_low"
+            ]
+        ]
+    },
+    {
+        "id": "hum_store_low",
+        "type": "change",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "store lowThreshold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hum_lowThreshold",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "hum_override_in",
+        "type": "mqtt in",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "overrideMode",
+        "topic": "MushControls/ExpelFan/overrideMode",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 740,
+        "wires": [
+            [
+                "hum_store_override"
+            ]
+        ]
+    },
+    {
+        "id": "hum_store_override",
+        "type": "change",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "store overrideMode",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hum_overrideMode",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "hum_scd1_in",
+        "type": "mqtt in",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "SCD1 /hum",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/hum",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 840,
+        "wires": [
+            [
+                "hum_get_thresholds"
+            ]
+        ]
+    },
+    {
+        "id": "hum_get_thresholds",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "Read thresholds + check override",
+        "func": "var hum = Number(msg.payload);\nvar highSet = Number(flow.get('hum_highThreshold')) || 90;\nvar lowSet  = Number(flow.get('hum_lowThreshold'))  || 70;\nvar override = Number(flow.get('hum_overrideMode')) || 0;\n\n// Alert thresholds are ±5% beyond setpoints\nvar alertHigh = highSet + 5;\nvar alertLow  = lowSet  - 5;\n\n// If override is active (1=OFF forced, 2=ON forced),\n// suppress alerts — operator is intentionally in control\nif (override !== 0) {\n    node.status({ fill:'yellow', shape:'dot',\n        text:'Override active (' + override + ') — alerts suppressed' });\n    return null;\n}\n\nnode.status({ fill:'blue', shape:'dot',\n    text:'RH:' + hum + ' AlertHi:' + alertHigh + ' AlertLo:' + alertLow });\n\nmsg.hum       = hum;\nmsg.alertHigh = alertHigh;\nmsg.alertLow  = alertLow;\nmsg.highSet   = highSet;\nmsg.lowSet    = lowSet;\n\n// Output 1: check high | Output 2: check low\nreturn [msg, msg];\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 840,
+        "wires": [
+            [
+                "hum_check_high"
+            ],
+            [
+                "hum_check_low"
+            ]
+        ]
+    },
+    {
+        "id": "hum_check_high",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "High threshold check",
+        "func": "var hum = msg.hum;\nvar alertHigh = msg.alertHigh;\n\nif (hum > alertHigh) {\n    if (!flow.get('hum_high_timing_started')) {\n        flow.set('hum_high_timing_started', Date.now());\n        node.status({\n            fill: 'yellow', shape: 'dot',\n            text: 'HIGH breach started: ' + hum + '% > ' + alertHigh + '%'\n        });\n    }\n    var elapsed = (Date.now() - flow.get('hum_high_timing_started')) / 60000;\n    var lastAlert = flow.get('hum_high_last_alert') || 0;\n    var minsSinceAlert = (Date.now() - lastAlert) / 60000;\n\n    // Fire if: 10 min elapsed AND (never alerted OR 5 min since last alert)\n    if (elapsed >= 10 && (lastAlert === 0 || minsSinceAlert >= 5)) {\n        flow.set('hum_high_last_alert', Date.now());\n        node.status({\n            fill: 'red', shape: 'dot',\n            text: 'ALERT: ' + hum + '% — ' + Math.round(elapsed) + ' min'\n        });\n        return msg;\n    }\n} else {\n    if (flow.get('hum_high_timing_started')) {\n        flow.set('hum_high_timing_started', null);\n        flow.set('hum_high_last_alert', 0);\n        node.status({ fill: 'green', shape: 'dot', text: 'Recovered: ' + hum + '%' });\n    }\n}\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 740,
+        "wires": [
+            [
+                "hum_high_notify"
+            ]
+        ]
+    },
+    {
+        "id": "hum_check_low",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "Low threshold check",
+        "func": "var hum = msg.hum;\nvar alertLow = msg.alertLow;\n\nif (hum < alertLow) {\n    if (!flow.get('hum_low_timing_started')) {\n        flow.set('hum_low_timing_started', Date.now());\n        node.status({\n            fill: 'yellow', shape: 'dot',\n            text: 'LOW breach started: ' + hum + '% < ' + alertLow + '%'\n        });\n    }\n    var elapsed = (Date.now() - flow.get('hum_low_timing_started')) / 60000;\n    var lastAlert = flow.get('hum_low_last_alert') || 0;\n    var minsSinceAlert = (Date.now() - lastAlert) / 60000;\n\n    if (elapsed >= 10 && (lastAlert === 0 || minsSinceAlert >= 5)) {\n        flow.set('hum_low_last_alert', Date.now());\n        node.status({\n            fill: 'red', shape: 'dot',\n            text: 'ALERT: ' + hum + '% — ' + Math.round(elapsed) + ' min'\n        });\n        return msg;\n    }\n} else {\n    if (flow.get('hum_low_timing_started')) {\n        flow.set('hum_low_timing_started', null);\n        flow.set('hum_low_last_alert', 0);\n        node.status({ fill: 'green', shape: 'dot', text: 'Recovered: ' + hum + '%' });\n    }\n}\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 880,
+        "wires": [
+            [
+                "hum_low_notify"
+            ]
+        ]
+    },
+    {
+        "id": "hum_high_notify",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "Build HIGH alert",
+        "func": "var highSet = msg.highSet || Number(flow.get('hum_highThreshold')) || 90;\nvar alertHigh = msg.alertHigh || (highSet + 5);\nmsg.payload = {\n    title: '⚠️ MushRm Humidity HIGH',\n    body: 'Fruiting Front: ' + msg.hum + '% for 10+ min (setpoint ' + highSet + '%, alert at ' + alertHigh + '%). Check humidifier/fan.'\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 740,
+        "wires": [
+            [
+                "379a53fed6ccd987",
+                "dc3f776383f20303"
+            ]
+        ]
+    },
+    {
+        "id": "hum_low_notify",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "Build LOW alert",
+        "func": "var lowSet = msg.lowSet || Number(flow.get('hum_lowThreshold')) || 70;\nvar alertLow = msg.alertLow || (lowSet - 5);\nmsg.payload = {\n    title: '⚠️ MushRm Humidity LOW',\n    body: 'Fruiting Front: ' + msg.hum + '% for 10+ min (setpoint ' + lowSet + '%, alert at ' + alertLow + '%). Check humidifier/fan.'\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 880,
+        "wires": [
+            [
+                "fe48384369bb319f"
+            ]
+        ]
+    },
+    {
+        "id": "c1e0cffa16ff1f83",
+        "type": "remote-notification",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "confignode": "6fa4c09e7310b177",
+        "name": "Fruiting High Humidity Alert",
+        "notificationTitle": "payload.title",
+        "notificationTitleType": "msg",
+        "notificationBody": "payload.body",
+        "notificationBodyType": "msg",
+        "notificationSound": "dudeldidudel",
+        "notificationSoundComputed": "payload.sound",
+        "notificationSoundComputedType": "msg",
+        "output": 1,
+        "x": 1320,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a40ddc1db180419f",
+        "type": "remote-notification",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "confignode": "6fa4c09e7310b177",
+        "name": "Fruiting Low Humidity Alert",
+        "notificationTitle": "payload.title",
+        "notificationTitleType": "msg",
+        "notificationBody": "payload.body",
+        "notificationBodyType": "msg",
+        "notificationSound": "dudeldidudel",
+        "notificationSoundComputed": "payload.sound",
+        "notificationSoundComputedType": "msg",
+        "output": 1,
+        "x": 1340,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "379a53fed6ccd987",
+        "type": "debug",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "18c477314d29be9e",
+        "type": "inject",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 740,
+        "y": 700,
+        "wires": [
+            [
+                "hum_high_notify"
+            ]
+        ]
+    },
+    {
+        "id": "63bc1940a1d2b2b0",
+        "type": "inject",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 840,
+        "y": 840,
+        "wires": [
+            [
+                "hum_low_notify"
+            ]
+        ]
+    },
+    {
+        "id": "af3653586f3892d8",
+        "type": "link in",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "Humidity Threshold Alerts",
+        "links": [
+            "bb3249653fc7bfe2"
+        ],
+        "x": 1005,
+        "y": 820,
+        "wires": [
+            [
+                "dc3f776383f20303",
+                "fe48384369bb319f"
+            ]
+        ]
+    },
+    {
+        "id": "f828f5efb05b5c32",
+        "type": "ui-number-input",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "group": "0b367aa07343d6c4",
+        "name": "Snooze Duration",
+        "label": "Snooze Duration (min.)",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "480",
+        "step": "10",
+        "tooltip": "",
+        "delay": "0",
+        "passthru": false,
+        "sendOnDelay": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 330,
+        "y": 1080,
+        "wires": [
+            [
+                "2a8f38a3516f5740"
+            ]
+        ]
+    },
+    {
+        "id": "2a8f38a3516f5740",
+        "type": "change",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "Store snooze duration",
+        "rules": [
+            {
+                "t": "set",
+                "p": "snooze_duration",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71968d570b22a398",
+        "type": "ui-button",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "group": "0b367aa07343d6c4",
+        "name": "Snooze Button",
+        "label": "Snooze Alerts",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#ff8400",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "snooze",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 330,
+        "y": 1140,
+        "wires": [
+            [
+                "d5604cc25cce4099"
+            ]
+        ]
+    },
+    {
+        "id": "4547bb9c26106e40",
+        "type": "ui-button",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "group": "0b367aa07343d6c4",
+        "name": "Cancel Snooze",
+        "label": "Cancel Snooze",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#737373",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "cancel",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "yellow",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 330,
+        "y": 1200,
+        "wires": [
+            [
+                "14e064651d1b9f64"
+            ]
+        ]
+    },
+    {
+        "id": "d5604cc25cce4099",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "Activate snooze",
+        "func": "var mins = Number(flow.get('snooze_duration')) || 30;\nflow.set('snooze_active', true);\nflow.set('snooze_until', Date.now() + (mins * 60000));\nnode.warn('Snooze activated for ' + mins + ' min');\n\n// Send close to whichever gates have their switch ON\nvar msgs = [null, null];\nif (flow.get('hum_alert_enabled', 'file'))  msgs[0] = { topic: 'control', payload: 'close' };\nif (flow.get('scd1_alert_enabled', 'file')) msgs[1] = { topic: 'control', payload: 'close' };\nreturn msgs;\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1140,
+        "wires": [
+            [
+                "bb3249653fc7bfe2"
+            ],
+            [
+                "b6b1802450b02f1d"
+            ]
+        ]
+    },
+    {
+        "id": "14e064651d1b9f64",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "Cancel snooze",
+        "func": "flow.set('snooze_active', false);\nflow.set('snooze_until', 0);\nnode.warn('Snooze cancelled');\n\n// Reopen only gates that have their switch ON\nvar msgs = [null, null];\nif (flow.get('hum_alert_enabled', 'file'))  msgs[0] = { topic: 'control', payload: 'open' };\nif (flow.get('scd1_alert_enabled', 'file')) msgs[1] = { topic: 'control', payload: 'open' };\nreturn msgs;\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1200,
+        "wires": [
+            [
+                "bb3249653fc7bfe2"
+            ],
+            [
+                "b6b1802450b02f1d"
+            ]
+        ]
+    },
+    {
+        "id": "0d6d795c00bf14cf",
+        "type": "inject",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "Check every 10 sec.",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 1280,
+        "wires": [
+            [
+                "3077f4a993440567"
+            ]
+        ]
+    },
+    {
+        "id": "3077f4a993440567",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "Auto-expire + LED update",
+        "func": "var snoozeActive = flow.get('snooze_active') || false;\nvar snoozeUntil = flow.get('snooze_until') || 0;\n\n// Auto-expire\nif (snoozeActive && Date.now() > snoozeUntil) {\n    flow.set('snooze_active', false);\n    flow.set('snooze_until', 0);\n    snoozeActive = false;\n    node.warn('Snooze expired — reopening enabled gates');\n\n    // Reopen only gates with switch ON\n    var reopenMsgs = [null, null];\n    if (flow.get('hum_alert_enabled', 'file'))  reopenMsgs[0] = { topic: 'control', payload: 'open' };\n    if (flow.get('scd1_alert_enabled', 'file')) reopenMsgs[1] = { topic: 'control', payload: 'open' };\n    node.send(reopenMsgs);\n}\n\nvar minsLeft = snoozeActive ? Math.ceil((snoozeUntil - Date.now()) / 60000) : 0;\n\nnode.status({\n    fill: snoozeActive ? 'yellow' : 'green',\n    shape: 'dot',\n    text: snoozeActive ? 'Snoozed: ' + minsLeft + ' min left' : 'No snooze active'\n});\n\n// Output 3: snooze LED update only\nreturn [null, null, { payload: snoozeActive ? 'ON' : 'OFF' }];\n",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1280,
+        "wires": [
+            [
+                "bb3249653fc7bfe2"
+            ],
+            [
+                "b6b1802450b02f1d"
+            ],
+            [
+                "108e4c267b925ebd"
+            ]
+        ]
+    },
+    {
+        "id": "108e4c267b925ebd",
+        "type": "ui-led",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "Snooze Active LED",
+        "group": "0b367aa07343d6c4",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "label": "Alerts Snoozed",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "ON",
+                "valueType": "str",
+                "color": "#ff8400"
+            },
+            {
+                "value": "OFF",
+                "valueType": "str",
+                "color": "#919191"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 870,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "1fb6ae89c76e143c",
+        "type": "ui-switch",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "Humidity Alert Enable",
+        "label": "Fruiting Humidity Alerts ",
+        "group": "0b367aa07343d6c4",
+        "order": 7,
+        "width": "4",
+        "height": "1",
+        "passthru": true,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "layout": "row-spread-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 330,
+        "y": 1360,
+        "wires": [
+            [
+                "f131ff0eb7e37d93"
+            ]
+        ]
+    },
+    {
+        "id": "f131ff0eb7e37d93",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "Hum gate open/close",
+        "func": "var enabled = msg.payload;\nflow.set('hum_alert_enabled', enabled, 'file');\n\n// Send open/close directly to humidity gate\nmsg.topic = 'control';\nmsg.payload = enabled ? 'open' : 'close';\n\n// Also update LED\nvar ledMsg = { payload: enabled ? 'ON' : 'OFF' };\nreturn [msg, ledMsg];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1360,
+        "wires": [
+            [
+                "bb3249653fc7bfe2",
+                "f01d8b199ceb943b"
+            ],
+            [
+                "e92924a1902839b0"
+            ]
+        ]
+    },
+    {
+        "id": "e92924a1902839b0",
+        "type": "ui-led",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "Humidity Alert LED",
+        "group": "0b367aa07343d6c4",
+        "order": 8,
+        "width": "1",
+        "height": "1",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "ON",
+                "valueType": "str",
+                "color": "#00ff00"
+            },
+            {
+                "value": "OFF",
+                "valueType": "str",
+                "color": "#ff0000"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showBorder": true,
+        "showGlow": false,
+        "x": 890,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "6742a83dded8de88",
+        "type": "ui-switch",
+        "z": "fdc8972ceb615cb4",
+        "d": true,
+        "g": "133ec70b3595643c",
+        "name": "SCD1 Alert Enable",
+        "label": "(Unused at this time)",
+        "group": "0b367aa07343d6c4",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "layout": "",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 330,
+        "y": 1420,
+        "wires": [
+            [
+                "e3de8471ad708c44"
+            ]
+        ]
+    },
+    {
+        "id": "e3de8471ad708c44",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "d": true,
+        "g": "133ec70b3595643c",
+        "name": "SCD1 gate open/close",
+        "func": "var enabled = msg.payload;\nflow.set('scd1_alert_enabled', enabled, 'file');\n\n// Send open/close directly to SCD1 gate\nmsg.topic = 'control';\nmsg.payload = enabled ? 'open' : 'close';\n\n// Also update LED\nvar ledMsg = { payload: enabled ? 'ON' : 'OFF' };\nreturn [msg, ledMsg];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1420,
+        "wires": [
+            [
+                "b6b1802450b02f1d"
+            ],
+            [
+                "2cc4d103df1b8473"
+            ]
+        ]
+    },
+    {
+        "id": "2cc4d103df1b8473",
+        "type": "ui-led",
+        "z": "fdc8972ceb615cb4",
+        "d": true,
+        "g": "133ec70b3595643c",
+        "name": "SCD1 Alert LED - SCD1 Watchdog Alerts",
+        "group": "0b367aa07343d6c4",
+        "order": 10,
+        "width": "3",
+        "height": "1",
+        "label": "Spare",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "ON",
+                "valueType": "str",
+                "color": "#00ff00"
+            },
+            {
+                "value": "OFF",
+                "valueType": "str",
+                "color": "#ff0000"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showBorder": true,
+        "showGlow": false,
+        "x": 970,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "221aef4c26c699ec",
+        "type": "link out",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "→ SCD1 Gate",
+        "mode": "link",
+        "links": [],
+        "x": 1175,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "08bf6a040ea1c378",
+        "type": "inject",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "Check every 1 min",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 870,
+        "y": 1060,
+        "wires": [
+            [
+                "026fd6b455bc447a"
+            ]
+        ]
+    },
+    {
+        "id": "bb3249653fc7bfe2",
+        "type": "link out",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "→ Humidity Gate",
+        "mode": "link",
+        "links": [
+            "af3653586f3892d8"
+        ],
+        "x": 1145,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "026fd6b455bc447a",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "* Restore State from Context",
+        "func": "var humEnabled = flow.get('hum_alert_enabled', 'file');\nvar scd1Enabled = flow.get('scd1_alert_enabled', 'file');\n\n// Default to true if never set\nif (humEnabled === null || humEnabled === undefined) humEnabled = true;\nif (scd1Enabled === null || scd1Enabled === undefined) scd1Enabled = true;\n\nvar humMsg = { topic: 'control', payload: humEnabled ? 'open' : 'close' };\nvar scd1Msg = { topic: 'control', payload: scd1Enabled ? 'open' : 'close' };\n\nreturn [humMsg, scd1Msg];",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 1060,
+        "wires": [
+            [
+                "bb3249653fc7bfe2",
+                "221aef4c26c699ec"
+            ]
+        ]
+    },
+    {
+        "id": "69b08ec68489c66f",
+        "type": "ui-markdown",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "group": "0b367aa07343d6c4",
+        "name": "Instructions",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "content": "### Set Alert Delay (Max 4 hr.) OR Turn Off Entirely Below\n(LED status may take several seconds to change)",
+        "className": "",
+        "x": 630,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2f79e7953110e27",
+        "type": "ui-text",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "group": "0b367aa07343d6c4",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "Alert Controls",
+        "label": "Alert Controls",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 420,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "dc3f776383f20303",
+        "type": "gate",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "open",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": true,
+        "storeName": "file",
+        "x": 1110,
+        "y": 800,
+        "wires": [
+            [
+                "c1e0cffa16ff1f83"
+            ]
+        ]
+    },
+    {
+        "id": "fe48384369bb319f",
+        "type": "gate",
+        "z": "fdc8972ceb615cb4",
+        "g": "hum_alert_group",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "open",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": true,
+        "storeName": "file",
+        "x": 1130,
+        "y": 880,
+        "wires": [
+            [
+                "a40ddc1db180419f"
+            ]
+        ]
+    },
+    {
+        "id": "10b5185c8e991ca9",
+        "type": "mqtt in",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "SCD1 /hum",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/hum",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "a383f01dfab00ebd"
+            ]
+        ]
+    },
+    {
+        "id": "a383f01dfab00ebd",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "Update last seen + detect recovery",
+        "func": "var now = Date.now();\nvar wasInGap = flow.get('scd1_in_gap') || false;\n\n// Always update last seen\nflow.set('scd1_last_seen', now);\n\nif (wasInGap) {\n    // Sensor just came back — calculate outage duration\n    var gapStarted = flow.get('scd1_gap_started') || now;\n    var outageMin = Math.round((now - gapStarted) / 60000 * 10) / 10;\n\n    // Clear gap state\n    flow.set('scd1_in_gap', false);\n    flow.set('scd1_alarm_sent', false);\n    flow.set('scd1_gap_started', null);\n\n    msg.outageMinutes = outageMin;\n    msg.recoveryTime = new Date(now).toISOString();\n    node.warn('SCD1 recovered after ' + outageMin + ' min outage');\n    return msg;  // send to recovery logger\n}\n\n// Normal heartbeat — no output needed\nreturn null;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 160,
+        "wires": [
+            [
+                "b2475fbf6aac38dc",
+                "3bff978ac75c3db4"
+            ]
+        ]
+    },
+    {
+        "id": "78561e7c38185ccb",
+        "type": "inject",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "Check every 2 min",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "120",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "10",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 300,
+        "wires": [
+            [
+                "1604ad10a260b398"
+            ]
+        ]
+    },
+    {
+        "id": "1604ad10a260b398",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "Check gap + log every occurrence",
+        "func": "var lastSeen = flow.get('scd1_last_seen');\nvar now = Date.now();\n\nif (!lastSeen) {\n    node.warn('SCD1 watchdog: no baseline yet, skipping');\n    return null;\n}\n\nvar gapMs = now - lastSeen;\nvar gapMin = Math.round(gapMs / 60000 * 10) / 10;\n\nif (gapMin < 2) {\n    return null;\n}\n\nvar alreadyInGap = flow.get('scd1_in_gap') || false;\nif (!alreadyInGap) {\n    flow.set('scd1_in_gap', true);\n    flow.set('scd1_gap_started', lastSeen);\n}\n\nmsg.gapMinutes = gapMin;\nmsg.lastSeen = new Date(lastSeen).toISOString();\n\nvar alarmSent = flow.get('scd1_alarm_sent') || false;\nif (gapMin >= 10 && !alarmSent) {\n    return [msg, msg];\n} else {\n    return [msg, null];\n}\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 240,
+        "wires": [
+            [
+                "6be9e206db63bb61",
+                "2f8ea647fd9a23de"
+            ],
+            [
+                "0f32c22c70f79a26"
+            ]
+        ]
+    },
+    {
+        "id": "0f32c22c70f79a26",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "Suppress repeat notifications",
+        "func": "flow.set('scd1_alarm_sent', true);\nnode.warn('SCD1 ALARM: gap of ' + msg.gapMinutes + ' min — sending RemoteRED notification');\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 320,
+        "wires": [
+            [
+                "e90e8f46ef0292a0",
+                "5f28a576395b413c"
+            ]
+        ]
+    },
+    {
+        "id": "e90e8f46ef0292a0",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "Build SCD1 RemoteRED notification",
+        "func": "msg.payload = {\n    title: '⚠️ MushRm SCD1 Sensor Lost',\n    body: 'Fruiting Front SCD1 has not reported for ' + msg.gapMinutes + ' min. Last seen: ' + msg.lastSeen + '. EZO1 fallback now active. Check LoRa link / XIAO unit.'\n};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 320,
+        "wires": [
+            [
+                "5f64b7f14651d903"
+            ]
+        ]
+    },
+    {
+        "id": "6be9e206db63bb61",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "Build dropout InfluxDB write",
+        "func": "var gapMin = msg.gapMinutes;\nvar line = 'sensor_watchdog,sensor=SCD1_FruitingFront,location=fruiting_front gap_minutes=' + gapMin + ',event=\"dropout\"';\nmsg.payload = line;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 240,
+        "wires": [
+            [
+                "ca86e217a141e5a7"
+            ]
+        ]
+    },
+    {
+        "id": "9c4722f7273fa384",
+        "type": "http request",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "Write recovery to InfluxDB",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://MushRmPi.local:8086/write?db=mushroom_data&precision=s",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "Content-Type",
+                "valueType": "other",
+                "valueValue": "text/plain"
+            }
+        ],
+        "x": 1150,
+        "y": 160,
+        "wires": [
+            [
+                "fad55c55ba866b0b"
+            ]
+        ]
+    },
+    {
+        "id": "5f64b7f14651d903",
+        "type": "remote-notification",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "confignode": "0fa46f27d2a0a179",
+        "name": "SCD1 Alert — RemoteRED to HomePi5",
+        "notificationTitle": "payload.title",
+        "notificationTitleType": "msg",
+        "notificationBody": "payload.body",
+        "notificationBodyType": "msg",
+        "notificationSound": "default",
+        "notificationSoundComputed": "payload.sound",
+        "notificationSoundComputedType": "msg",
+        "output": 1,
+        "x": 1270,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b2475fbf6aac38dc",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "Build recovery InfluxDB write",
+        "func": "var outageMin = msg.outageMinutes;\nvar line = 'sensor_watchdog,sensor=SCD1_FruitingFront,location=fruiting_front outage_minutes=' + outageMin + ',event=\"recovery\"';\nmsg.payload = line;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 160,
+        "wires": [
+            [
+                "9c4722f7273fa384"
+            ]
+        ]
+    },
+    {
+        "id": "ca86e217a141e5a7",
+        "type": "http request",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "Write dropout to InfluxDB",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://MushRmPi.local:8086/write?db=mushroom_data&precision=s",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "Content-Type",
+                "valueType": "other",
+                "valueValue": "text/plain"
+            }
+        ],
+        "x": 1130,
+        "y": 240,
+        "wires": [
+            [
+                "a1eb8f6525d49c91"
+            ]
+        ]
+    },
+    {
+        "id": "a1eb8f6525d49c91",
+        "type": "debug",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "2f8ea647fd9a23de",
+        "type": "debug",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "fad55c55ba866b0b",
+        "type": "debug",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1360,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "cf6a6f166c5a69a0",
+        "type": "mqtt in",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "EZO1 /hum fallback",
+        "topic": "ezo32-box1/sensor/ezo_humidity/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 440,
+        "wires": [
+            [
+                "82c7efed3b900d29"
+            ]
+        ]
+    },
+    {
+        "id": "82c7efed3b900d29",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "EZO1 fallback gate",
+        "func": "// Only pass through when SCD1 is in a gap\nvar inGap = flow.get('scd1_in_gap') || false;\n\nif (!inGap) {\n    node.status({ fill:'grey', shape:'ring', text:'Standby' });\n    return null;\n}\n\n// Convert payload to rounded number matching SCD1 format\nmsg.payload = Math.round(Number(msg.payload) * 100) / 100;\nmsg.source = 'EZO1_fallback';\n\nnode.status({ fill:'yellow', shape:'dot', text:'ACTIVE — feeding as SCD1 backup: ' + msg.payload + '%' });\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 440,
+        "wires": [
+            [
+                "f813e53e11694aba"
+            ]
+        ]
+    },
+    {
+        "id": "f813e53e11694aba",
+        "type": "link out",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "→ XIAO_1/Ft_F - Hum (EZO1 fallback)",
+        "mode": "link",
+        "links": [],
+        "x": 665,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "5f28a576395b413c",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "Build EZO1 fallback active notification",
+        "func": "msg.payload = {\n    title: '⚠️ MushRm EZO1 Fallback Active',\n    body: 'SCD1 offline — EZO1 is now feeding humidity control. Values may differ slightly. Outage started: ' + msg.lastSeen\n};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 380,
+        "wires": [
+            [
+                "b091cc8491cb9656"
+            ]
+        ]
+    },
+    {
+        "id": "b091cc8491cb9656",
+        "type": "remote-notification",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "confignode": "0fa46f27d2a0a179",
+        "name": "EZO1 Fallback Active — RemoteRED",
+        "notificationTitle": "payload.title",
+        "notificationTitleType": "msg",
+        "notificationBody": "payload.body",
+        "notificationBodyType": "msg",
+        "notificationSound": "default",
+        "notificationSoundComputed": "payload.sound",
+        "notificationSoundComputedType": "msg",
+        "output": 1,
+        "x": 1270,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3bff978ac75c3db4",
+        "type": "function",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "name": "Build SCD1 recovery notification",
+        "func": "msg.payload = {\n    title: '✅ MushRm SCD1 Restored',\n    body: 'SCD1 is back online after ' + msg.outageMinutes + ' min. EZO1 fallback deactivated. Humidity control restored to SCD1.'\n};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 440,
+        "wires": [
+            [
+                "1d18ab4cdc9034a0"
+            ]
+        ]
+    },
+    {
+        "id": "1d18ab4cdc9034a0",
+        "type": "remote-notification",
+        "z": "fdc8972ceb615cb4",
+        "g": "5717cf91fddb15a7",
+        "confignode": "0fa46f27d2a0a179",
+        "name": "SCD1 Recovered — RemoteRED to HomePi5",
+        "notificationTitle": "payload.title",
+        "notificationTitleType": "msg",
+        "notificationBody": "payload.body",
+        "notificationBodyType": "msg",
+        "notificationSound": "default",
+        "notificationSoundComputed": "payload.sound",
+        "notificationSoundComputedType": "msg",
+        "output": 1,
+        "x": 1280,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f01d8b199ceb943b",
+        "type": "debug",
+        "z": "fdc8972ceb615cb4",
+        "g": "133ec70b3595643c",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

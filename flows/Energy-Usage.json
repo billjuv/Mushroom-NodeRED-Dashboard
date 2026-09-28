@@ -1,0 +1,1475 @@
+[
+    {
+        "id": "d0b97582d7b0e17a",
+        "type": "tab",
+        "label": "Energy Usage",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "12606b49c66bd206",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "a0e4e8c6e6df9adf",
+        "type": "mqtt-broker",
+        "name": "MushRmPi- (switch from)",
+        "broker": "192.168.1.109",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "25610350729beff8",
+        "type": "ui-page",
+        "name": "MushRoom",
+        "ui": "b19902285c24f724",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "12606b49c66bd206",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "a2cc319da1341e36",
+        "type": "mqtt-broker",
+        "name": "MushRmPi - K1W1 (use)",
+        "broker": "192.168.1.109",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "1eaf3a9ecf6a7e6b",
+        "type": "ui-group",
+        "name": "Energy Usage",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 8,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e5d695bf95ae6c6c",
+        "type": "influxdb",
+        "hostname": "MushRmPi.local",
+        "port": 8086,
+        "protocol": "http",
+        "database": "mushroom_data",
+        "name": "InfluxDB 1.x - mushroom_data",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "275e95a42cf38286",
+        "type": "mqtt in",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "topic": "shellies/ShellyEm/emeter/0/energy",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 420,
+        "wires": [
+            [
+                "a23cb9439d4e80a1"
+            ]
+        ]
+    },
+    {
+        "id": "0afb79bc464c7183",
+        "type": "mqtt in",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "topic": "shellies/ShellyEm/emeter/1/energy",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 580,
+        "wires": [
+            [
+                "8fe54dc6bb68518a"
+            ]
+        ]
+    },
+    {
+        "id": "3276abb8e406dba8",
+        "type": "debug",
+        "z": "d0b97582d7b0e17a",
+        "name": "Total AC energy (Wm)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "17b66f6751656e7a",
+        "type": "debug",
+        "z": "d0b97582d7b0e17a",
+        "name": "AC energy 0",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e00dcf43d3832dc0",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "topic",
+                "pt": "msg",
+                "from": "shellies/ShellyEm/emeter/0/power",
+                "fromt": "str",
+                "to": "val1",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "val1",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 460,
+        "wires": [
+            [
+                "17b66f6751656e7a",
+                "d7adb57fda848f21"
+            ]
+        ]
+    },
+    {
+        "id": "4540de1faa488bd4",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "topic",
+                "pt": "msg",
+                "from": "shellies/ShellyEm/emeter/1/power",
+                "fromt": "str",
+                "to": "val2",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "val2",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 520,
+        "wires": [
+            [
+                "da352a09ed08ba8d",
+                "d7adb57fda848f21"
+            ]
+        ]
+    },
+    {
+        "id": "da352a09ed08ba8d",
+        "type": "debug",
+        "z": "d0b97582d7b0e17a",
+        "name": "AC energy 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "d7adb57fda848f21",
+        "type": "join",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": true,
+        "timeout": "5",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 710,
+        "y": 520,
+        "wires": [
+            [
+                "b5f1e4d7b00350b4"
+            ]
+        ]
+    },
+    {
+        "id": "b5f1e4d7b00350b4",
+        "type": "function",
+        "z": "d0b97582d7b0e17a",
+        "name": "add energy",
+        "func": "//var phase1_power = msg.val1;\n//var phase2_power = msg.val2;\nvar energy = msg.val1 + msg.val2;\n\nmsg.payload = energy;\n\n//msg.val = (msg.val1 + msg.val2)\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 460,
+        "wires": [
+            [
+                "473d20908b46580a"
+            ]
+        ]
+    },
+    {
+        "id": "d2648f9fa659b473",
+        "type": "mqtt out",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "topic": "shellies/ShellyEm/emeter/combined_energy_Wm",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1290,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "82e04d598e47bf4c",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "total_energy",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "total_energy",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 520,
+        "wires": [
+            [
+                "6d6ac86f7b78156e"
+            ]
+        ]
+    },
+    {
+        "id": "55c50ce7d58510ab",
+        "type": "mqtt in",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "topic": "shellies/ShellyEm/emeter/0/power",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 740,
+        "wires": [
+            [
+                "8eab62afecb1db9d"
+            ]
+        ]
+    },
+    {
+        "id": "ed89bc50d8d72815",
+        "type": "mqtt in",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "topic": "shellies/ShellyEm/emeter/1/power",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 920,
+        "wires": [
+            [
+                "bda55816d2c9d596"
+            ]
+        ]
+    },
+    {
+        "id": "676a239c5d131493",
+        "type": "debug",
+        "z": "d0b97582d7b0e17a",
+        "name": "Total AC watts",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "d1152d546fa8cf73",
+        "type": "debug",
+        "z": "d0b97582d7b0e17a",
+        "name": "AC watts 0",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "480824c75b109037",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "topic",
+                "pt": "msg",
+                "from": "shellies/ShellyEm/emeter/0/power",
+                "fromt": "str",
+                "to": "val1",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "val1",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 800,
+        "wires": [
+            [
+                "d1152d546fa8cf73",
+                "4bfb755d8345572d"
+            ]
+        ]
+    },
+    {
+        "id": "75af788afb1736e7",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "topic",
+                "pt": "msg",
+                "from": "shellies/ShellyEm/emeter/1/power",
+                "fromt": "str",
+                "to": "val2",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "val2",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 860,
+        "wires": [
+            [
+                "f29ad122e6776a68",
+                "4bfb755d8345572d"
+            ]
+        ]
+    },
+    {
+        "id": "f29ad122e6776a68",
+        "type": "debug",
+        "z": "d0b97582d7b0e17a",
+        "name": "AC watts 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "4bfb755d8345572d",
+        "type": "join",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": true,
+        "timeout": "5",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 650,
+        "y": 860,
+        "wires": [
+            [
+                "60ab8543b2d19739"
+            ]
+        ]
+    },
+    {
+        "id": "60ab8543b2d19739",
+        "type": "function",
+        "z": "d0b97582d7b0e17a",
+        "name": "add total_power",
+        "func": "//var phase1_power = msg.val1;\n//var phase2_power = msg.val2;\nvar total_power = msg.val1 + msg.val2;\n\nmsg.payload = total_power;\n\n//msg.val = (msg.val1 + msg.val2)\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 780,
+        "wires": [
+            [
+                "75069f7c8ae1ffb7"
+            ]
+        ]
+    },
+    {
+        "id": "e727be32434abfb8",
+        "type": "mqtt out",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "topic": "shellies/ShellyEm/emeter/combined_power_W",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1280,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "529aca2329e1b8d2",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "total_power",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "total_power",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 840,
+        "wires": [
+            [
+                "fc2d935da0f9fa10"
+            ]
+        ]
+    },
+    {
+        "id": "fc2d935da0f9fa10",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 900,
+        "wires": [
+            [
+                "e727be32434abfb8",
+                "676a239c5d131493",
+                "b93cf38ef2f36e43",
+                "51d0a8974eed8b37",
+                "baee72e152260bab"
+            ]
+        ]
+    },
+    {
+        "id": "6d6ac86f7b78156e",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 580,
+        "wires": [
+            [
+                "d2648f9fa659b473",
+                "3276abb8e406dba8",
+                "70d740cf52f6f623"
+            ]
+        ]
+    },
+    {
+        "id": "b93cf38ef2f36e43",
+        "type": "ui-gauge",
+        "z": "d0b97582d7b0e17a",
+        "name": "Current Power Usage",
+        "group": "1eaf3a9ecf6a7e6b",
+        "order": 2,
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Current Power",
+        "units": "Watts",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            }
+        ],
+        "min": 0,
+        "max": "14000",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1200,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b7f93df6180e7ba",
+        "type": "mqtt in",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "topic": "shellies/ShellyEm/emeter/0/total",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "cad1a503285b70b5"
+            ]
+        ]
+    },
+    {
+        "id": "ee6e0cc2dfb9fabd",
+        "type": "mqtt in",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "topic": "shellies/ShellyEm/emeter/1/total",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 260,
+        "wires": [
+            [
+                "7a73da0ae4061ec9"
+            ]
+        ]
+    },
+    {
+        "id": "ff51ca6e3e3b9acd",
+        "type": "debug",
+        "z": "d0b97582d7b0e17a",
+        "name": "Total total  (AC kWh)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1250,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b9f77cb5438e969e",
+        "type": "debug",
+        "z": "d0b97582d7b0e17a",
+        "name": "AC Total 0",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "609e533624245d68",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "topic",
+                "pt": "msg",
+                "from": "shellies/ShellyEm/emeter/0/power",
+                "fromt": "str",
+                "to": "val1",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "val1",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 160,
+        "wires": [
+            [
+                "b9f77cb5438e969e",
+                "d5c9af23f172496a"
+            ]
+        ]
+    },
+    {
+        "id": "77f2a3881a95878b",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "topic",
+                "pt": "msg",
+                "from": "shellies/ShellyEm/emeter/1/power",
+                "fromt": "str",
+                "to": "val2",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "val2",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 200,
+        "wires": [
+            [
+                "d75069f3d1fcf4ed",
+                "d5c9af23f172496a"
+            ]
+        ]
+    },
+    {
+        "id": "d75069f3d1fcf4ed",
+        "type": "debug",
+        "z": "d0b97582d7b0e17a",
+        "name": "AC Total 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "d5c9af23f172496a",
+        "type": "join",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": true,
+        "timeout": "5",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 670,
+        "y": 200,
+        "wires": [
+            [
+                "f039ddc300b2fdbf"
+            ]
+        ]
+    },
+    {
+        "id": "f039ddc300b2fdbf",
+        "type": "function",
+        "z": "d0b97582d7b0e17a",
+        "name": "add total_energy (kWh)",
+        "func": "//var phase1_power = msg.val1;\n//var phase2_power = msg.val2;\nvar total_energy = (msg.val1 + msg.val2)/1000;\n\nmsg.payload = total_energy;\n\n//msg.val = (msg.val1 + msg.val2)\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 140,
+        "wires": [
+            [
+                "3e23dd21a58bdf52"
+            ]
+        ]
+    },
+    {
+        "id": "6e38e1153a679027",
+        "type": "mqtt out",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "topic": "shellies/ShellyEm/emeter/total_kWh",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1330,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "d6ef15a06da29124",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "kWh_total_energy",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "kWh_total_energy",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 200,
+        "wires": [
+            [
+                "a1ff83cba6927059"
+            ]
+        ]
+    },
+    {
+        "id": "a1ff83cba6927059",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 260,
+        "wires": [
+            [
+                "ff51ca6e3e3b9acd",
+                "6e38e1153a679027",
+                "2bd913de0ec1da3a",
+                "6ff818da86738b9f"
+            ]
+        ]
+    },
+    {
+        "id": "ace87dac4999f058",
+        "type": "ui-chart",
+        "z": "d0b97582d7b0e17a",
+        "group": "1eaf3a9ecf6a7e6b",
+        "name": "",
+        "label": "Total Power Usage (W) (24 hr.)",
+        "order": 4,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "HH:mm",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "Watts",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "false",
+        "pointRadius": "1",
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "86400",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "4",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1370,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51d0a8974eed8b37",
+        "type": "change",
+        "z": "d0b97582d7b0e17a",
+        "name": "Set Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Total Watts",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 800,
+        "wires": [
+            [
+                "ace87dac4999f058"
+            ]
+        ]
+    },
+    {
+        "id": "cad1a503285b70b5",
+        "type": "delay",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 260,
+        "y": 160,
+        "wires": [
+            [
+                "609e533624245d68"
+            ]
+        ]
+    },
+    {
+        "id": "7a73da0ae4061ec9",
+        "type": "delay",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 260,
+        "y": 200,
+        "wires": [
+            [
+                "77f2a3881a95878b"
+            ]
+        ]
+    },
+    {
+        "id": "a23cb9439d4e80a1",
+        "type": "delay",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 260,
+        "y": 460,
+        "wires": [
+            [
+                "e00dcf43d3832dc0"
+            ]
+        ]
+    },
+    {
+        "id": "8fe54dc6bb68518a",
+        "type": "delay",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 260,
+        "y": 520,
+        "wires": [
+            [
+                "4540de1faa488bd4"
+            ]
+        ]
+    },
+    {
+        "id": "8eab62afecb1db9d",
+        "type": "delay",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 240,
+        "y": 800,
+        "wires": [
+            [
+                "480824c75b109037"
+            ]
+        ]
+    },
+    {
+        "id": "bda55816d2c9d596",
+        "type": "delay",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 240,
+        "y": 860,
+        "wires": [
+            [
+                "75af788afb1736e7"
+            ]
+        ]
+    },
+    {
+        "id": "2bd913de0ec1da3a",
+        "type": "influxdb out",
+        "z": "d0b97582d7b0e17a",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "emeter/total_kWh",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1380,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "70d740cf52f6f623",
+        "type": "influxdb out",
+        "z": "d0b97582d7b0e17a",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "emeter/combined_energy",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1330,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "baee72e152260bab",
+        "type": "influxdb out",
+        "z": "d0b97582d7b0e17a",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "emeter/combined_power",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1330,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "3e23dd21a58bdf52",
+        "type": "rbe",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 990,
+        "y": 140,
+        "wires": [
+            [
+                "d6ef15a06da29124"
+            ]
+        ]
+    },
+    {
+        "id": "473d20908b46580a",
+        "type": "rbe",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 870,
+        "y": 460,
+        "wires": [
+            [
+                "82e04d598e47bf4c"
+            ]
+        ]
+    },
+    {
+        "id": "75069f7c8ae1ffb7",
+        "type": "rbe",
+        "z": "d0b97582d7b0e17a",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 870,
+        "y": 780,
+        "wires": [
+            [
+                "529aca2329e1b8d2"
+            ]
+        ]
+    },
+    {
+        "id": "6ff818da86738b9f",
+        "type": "ui-text",
+        "z": "d0b97582d7b0e17a",
+        "group": "1eaf3a9ecf6a7e6b",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "name": "Total kWh Used -",
+        "label": "Total kWh Used",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1270,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

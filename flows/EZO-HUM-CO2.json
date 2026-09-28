@@ -1,0 +1,2163 @@
+[
+    {
+        "id": "39f30bf4a672e89c",
+        "type": "tab",
+        "label": "EZO-HUM-CO2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a8a91d2a53d4093d",
+        "type": "group",
+        "z": "39f30bf4a672e89c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0d9c4ed31bfddd80",
+            "defb3836bd929fe4",
+            "f9a94d0dae02b561",
+            "7f97c081f9bf38d5",
+            "7198050aac012139",
+            "774532485ac87e0f",
+            "f5388fb99b297b25",
+            "eba48c5efd97d0e5",
+            "eaef73c76dfc9c79",
+            "e5614363aca9713c",
+            "976ff00a990000f5",
+            "25bf5c15251ddf4d",
+            "99f2377fdce0734a",
+            "e2473d2b61404af8",
+            "30e3c6646a9c5619",
+            "67ffefdc109f7ed0",
+            "71f68d7634eec602",
+            "7c9526b32b2557b0",
+            "cec3ec28ca07b107",
+            "059ddf119210e42c",
+            "f4407b079889f5d0"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 1112,
+        "h": 522
+    },
+    {
+        "id": "1136f52b31a8aeeb",
+        "type": "group",
+        "z": "39f30bf4a672e89c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a03852a9e2faa0f5",
+            "a3e0cc0a9da6a3d7",
+            "9619109a32c8ce81",
+            "2355253f103ab0a7",
+            "e7f98952b28e6185",
+            "6f776f4adba769f0",
+            "e91a52f0a55d75e2",
+            "ec809938bf59a560",
+            "1bd6a78bace6574f",
+            "d354422505ffdcb8",
+            "cf7ce78fb0688a2f",
+            "c1419b78f45867d8",
+            "49371624dec702ae",
+            "d9af4da70dfc574f",
+            "0956ade36815577c",
+            "641bef2f07f3efa4",
+            "a281b0a9d3897718",
+            "df6272f657b91325",
+            "77f79e4bab0c322a",
+            "9a6d5d760ca8ac5c",
+            "1f4fe1d98d13f172"
+        ],
+        "x": 34,
+        "y": 599,
+        "w": 1092,
+        "h": 542
+    },
+    {
+        "id": "0b6f9dd3cd457b14",
+        "type": "group",
+        "z": "39f30bf4a672e89c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3ad3824173191ba1",
+            "392fd4f4c69fdc07",
+            "cf5cc285576236a8",
+            "2b7c843029300ed7",
+            "db26da0e7e0cc8af",
+            "5b94bd2b40a96890",
+            "9a02b68ca26090bf",
+            "7ca00aa746795f2e",
+            "739f0758f214028c",
+            "7b3c9e2482f2065f",
+            "16ab2201d21c2f55",
+            "73030d695c5a6c2c",
+            "b19ce5095a9a5752",
+            "13fc3022b2c038e1",
+            "b4fbefac42c86ab6",
+            "717f9b108fe54130",
+            "5c858a922922f75c",
+            "9edb37e42f985c84",
+            "ede3e4b3e961b6d9",
+            "c73c34bc440d51c5",
+            "1dea5288b9d0f9c2"
+        ],
+        "x": 34,
+        "y": 1159,
+        "w": 1172,
+        "h": 442
+    },
+    {
+        "id": "4e2e203bd61379b3",
+        "type": "group",
+        "z": "39f30bf4a672e89c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "731deb0d8fb51cb6",
+            "d5bb17084e27136f",
+            "1b93027599981a86",
+            "753742d22d99a3bc",
+            "2b8248a00c60ffad",
+            "50093226a6b00def",
+            "24bdae2504a3fb72",
+            "8f5f850ccd9c7536",
+            "3a46dbd1c0ca31c3",
+            "9149b29b21d306e9",
+            "8cc65526bd90c724",
+            "59f6e79c7749fd4d",
+            "d53e3bc0313a5e1b",
+            "9b1e802a548c9a3a",
+            "9dec54076ac91e6f",
+            "f8683abfbdc7659e",
+            "a9eb6c2b301e3c2a",
+            "79b11fb2cf4fbb9b",
+            "0f6fb85da363c405",
+            "5d20a58048f66b6e",
+            "d37b4f98704e2124"
+        ],
+        "x": 54,
+        "y": 1639,
+        "w": 972,
+        "h": 462
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "12606b49c66bd206",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "a0e4e8c6e6df9adf",
+        "type": "mqtt-broker",
+        "name": "MushRmPi- (switch from)",
+        "broker": "192.168.1.109",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "25610350729beff8",
+        "type": "ui-page",
+        "name": "MushRoom",
+        "ui": "b19902285c24f724",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "12606b49c66bd206",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "a2cc319da1341e36",
+        "type": "mqtt-broker",
+        "name": "MushRmPi - K1W1 (use)",
+        "broker": "192.168.1.109",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "babd6b15fe74bba2",
+        "type": "ui-group",
+        "d": true,
+        "name": "Fruiting Front EZO1-HUM",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 10,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "4f05a17be0ea0119",
+        "type": "ui-group",
+        "d": true,
+        "name": "Fruiting Rear - EZO2-HUM",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 11,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a6bd0992df1d3a58",
+        "type": "ui-group",
+        "d": true,
+        "name": "Incubation - EZO-HUM Box",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 12,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e5d695bf95ae6c6c",
+        "type": "influxdb",
+        "hostname": "MushRmPi.local",
+        "port": 8086,
+        "protocol": "http",
+        "database": "mushroom_data",
+        "name": "InfluxDB 1.x - mushroom_data",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "0d9c4ed31bfddd80",
+        "type": "debug",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "debug 395",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "defb3836bd929fe4",
+        "type": "debug",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "debug 396",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f9a94d0dae02b561",
+        "type": "debug",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "debug 397",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "7f97c081f9bf38d5",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "Set CarbonDioxide Payload",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.EZO-1.CarbonDioxide",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 160,
+        "wires": [
+            [
+                "0d9c4ed31bfddd80",
+                "f5388fb99b297b25",
+                "059ddf119210e42c"
+            ]
+        ]
+    },
+    {
+        "id": "7198050aac012139",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "EZO32-Box1-TempF out",
+        "mode": "link",
+        "links": [
+            "9149b29b21d306e9"
+        ],
+        "x": 865,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "774532485ac87e0f",
+        "type": "comment",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "ESP32 - ezo32-box1",
+        "info": "",
+        "x": 410,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "f5388fb99b297b25",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "EZO32-Box1-CO2 out",
+        "mode": "link",
+        "links": [],
+        "x": 765,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "eba48c5efd97d0e5",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "EZO32-Box1-Humidity 0ut",
+        "mode": "link",
+        "links": [
+            "3a46dbd1c0ca31c3"
+        ],
+        "x": 735,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "eaef73c76dfc9c79",
+        "type": "mqtt in",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "",
+        "topic": "ezo32-box1/sensor/ezo-co2/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 160,
+        "wires": [
+            [
+                "7f97c081f9bf38d5"
+            ]
+        ]
+    },
+    {
+        "id": "e5614363aca9713c",
+        "type": "mqtt in",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "",
+        "topic": "ezo32-box1/sensor/ezo_humidity/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 240,
+        "wires": [
+            [
+                "30e3c6646a9c5619"
+            ]
+        ]
+    },
+    {
+        "id": "976ff00a990000f5",
+        "type": "mqtt in",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "",
+        "topic": "ezo32-box1/sensor/ezo_temperature/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 340,
+        "wires": [
+            [
+                "e2473d2b61404af8",
+                "7c9526b32b2557b0"
+            ]
+        ]
+    },
+    {
+        "id": "25bf5c15251ddf4d",
+        "type": "comment",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "EZO Box1 - Fruiting Front",
+        "info": "",
+        "x": 190,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a03852a9e2faa0f5",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "C to F",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round((payload*9/5+32), 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 1060,
+        "wires": [
+            [
+                "df6272f657b91325",
+                "1f4fe1d98d13f172"
+            ]
+        ]
+    },
+    {
+        "id": "a3e0cc0a9da6a3d7",
+        "type": "debug",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "Box 2 Hum",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "9619109a32c8ce81",
+        "type": "debug",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "Box 2 TempF",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "2355253f103ab0a7",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "Set CarbonDioxide Payload",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.EZO-1.CarbonDioxide",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 720,
+        "wires": [
+            [
+                "e91a52f0a55d75e2",
+                "a281b0a9d3897718",
+                "9a6d5d760ca8ac5c"
+            ]
+        ]
+    },
+    {
+        "id": "e7f98952b28e6185",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "EZO32-Box2-TempF out",
+        "mode": "link",
+        "links": [
+            "24bdae2504a3fb72"
+        ],
+        "x": 775,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "6f776f4adba769f0",
+        "type": "comment",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "ESP32 - ezo32-box2",
+        "info": "",
+        "x": 190,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "e91a52f0a55d75e2",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "EZO32-Box2-CO2 out",
+        "mode": "link",
+        "links": [],
+        "x": 745,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "ec809938bf59a560",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "EZO32-Box2-Humidity 0ut",
+        "mode": "link",
+        "links": [
+            "2b8248a00c60ffad"
+        ],
+        "x": 745,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "1bd6a78bace6574f",
+        "type": "mqtt in",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "",
+        "topic": "ezo32-box2/sensor/ezo-co2/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 720,
+        "wires": [
+            [
+                "2355253f103ab0a7"
+            ]
+        ]
+    },
+    {
+        "id": "d354422505ffdcb8",
+        "type": "mqtt in",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "",
+        "topic": "ezo32-box2/sensor/ezo_humidity/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 800,
+        "wires": [
+            [
+                "49371624dec702ae"
+            ]
+        ]
+    },
+    {
+        "id": "cf7ce78fb0688a2f",
+        "type": "mqtt in",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "",
+        "topic": "ezo32-box2/sensor/ezo_temperature/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 1060,
+        "wires": [
+            [
+                "641bef2f07f3efa4",
+                "a03852a9e2faa0f5"
+            ]
+        ]
+    },
+    {
+        "id": "c1419b78f45867d8",
+        "type": "comment",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "New Box 2 Fruiting Rear",
+        "info": "",
+        "x": 210,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "3ad3824173191ba1",
+        "type": "debug",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "debug 401",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "392fd4f4c69fdc07",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "C to F",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round((payload*9/5+32), 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 1500,
+        "wires": [
+            [
+                "c73c34bc440d51c5",
+                "9edb37e42f985c84"
+            ]
+        ]
+    },
+    {
+        "id": "cf5cc285576236a8",
+        "type": "debug",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "debug 402",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "2b7c843029300ed7",
+        "type": "debug",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "debug 403",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "db26da0e7e0cc8af",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "Set CarbonDioxide Payload",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.EZO-1.CarbonDioxide",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 1240,
+        "wires": [
+            [
+                "3ad3824173191ba1",
+                "7ca00aa746795f2e",
+                "ede3e4b3e961b6d9"
+            ]
+        ]
+    },
+    {
+        "id": "5b94bd2b40a96890",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "EZO32-Box3-TempF out",
+        "mode": "link",
+        "links": [],
+        "x": 815,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "9a02b68ca26090bf",
+        "type": "comment",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "ESP32 - ezo32-box3",
+        "info": "",
+        "x": 210,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "7ca00aa746795f2e",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "EZO32-Box3-CO2 out",
+        "mode": "link",
+        "links": [],
+        "x": 775,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "739f0758f214028c",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "EZO32-Box3-Humidity 0ut",
+        "mode": "link",
+        "links": [],
+        "x": 775,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "7b3c9e2482f2065f",
+        "type": "mqtt in",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "",
+        "topic": "ezo32-box3/sensor/ezo-co2/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 1240,
+        "wires": [
+            [
+                "db26da0e7e0cc8af"
+            ]
+        ]
+    },
+    {
+        "id": "16ab2201d21c2f55",
+        "type": "mqtt in",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "",
+        "topic": "ezo32-box3/sensor/ezo_humidity/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 1300,
+        "wires": [
+            [
+                "13fc3022b2c038e1"
+            ]
+        ]
+    },
+    {
+        "id": "73030d695c5a6c2c",
+        "type": "mqtt in",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "",
+        "topic": "ezo32-box3/sensor/ezo_temperature/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 1440,
+        "wires": [
+            [
+                "392fd4f4c69fdc07",
+                "5c858a922922f75c"
+            ]
+        ]
+    },
+    {
+        "id": "b19ce5095a9a5752",
+        "type": "comment",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "Incubation EZO3",
+        "info": "",
+        "x": 400,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "731deb0d8fb51cb6",
+        "type": "mqtt in",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "",
+        "topic": "EZO-HUM/InBox/Humid",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 1740,
+        "wires": [
+            [
+                "d5bb17084e27136f",
+                "79b11fb2cf4fbb9b"
+            ]
+        ]
+    },
+    {
+        "id": "d5bb17084e27136f",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "EZO-HUM/InBox/Humid",
+        "mode": "link",
+        "links": [
+            "d53e3bc0313a5e1b"
+        ],
+        "x": 425,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "1b93027599981a86",
+        "type": "mqtt in",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "",
+        "topic": "EZO-HUM/InBox/Temp",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 1860,
+        "wires": [
+            [
+                "753742d22d99a3bc"
+            ]
+        ]
+    },
+    {
+        "id": "753742d22d99a3bc",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "EZO-HUM/InBox/TempC",
+        "mode": "link",
+        "links": [
+            "9b1e802a548c9a3a"
+        ],
+        "x": 425,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "2b8248a00c60ffad",
+        "type": "link in",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "EZO2-Humidity Guage",
+        "links": [
+            "ec809938bf59a560"
+        ],
+        "x": 665,
+        "y": 1860,
+        "wires": [
+            [
+                "50093226a6b00def"
+            ]
+        ]
+    },
+    {
+        "id": "50093226a6b00def",
+        "type": "ui-gauge",
+        "z": "39f30bf4a672e89c",
+        "d": true,
+        "g": "4e2e203bd61379b3",
+        "name": "EZO2 - Humidity (rear)",
+        "group": "4f05a17be0ea0119",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Humidity",
+        "alwaysShowTitle": false,
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#00f5f5",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 840,
+        "y": 1860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24bdae2504a3fb72",
+        "type": "link in",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "EZO1-Temp Guage",
+        "links": [
+            "e7f98952b28e6185"
+        ],
+        "x": 665,
+        "y": 1900,
+        "wires": [
+            [
+                "8f5f850ccd9c7536"
+            ]
+        ]
+    },
+    {
+        "id": "8f5f850ccd9c7536",
+        "type": "ui-gauge",
+        "z": "39f30bf4a672e89c",
+        "d": true,
+        "g": "4e2e203bd61379b3",
+        "name": "EZO2 - Temp",
+        "group": "4f05a17be0ea0119",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temp",
+        "alwaysShowTitle": false,
+        "units": "F",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "80",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 810,
+        "y": 1900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3a46dbd1c0ca31c3",
+        "type": "link in",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "EZO1-Humidity Guage",
+        "links": [
+            "eba48c5efd97d0e5"
+        ],
+        "x": 655,
+        "y": 1740,
+        "wires": [
+            [
+                "8cc65526bd90c724"
+            ]
+        ]
+    },
+    {
+        "id": "9149b29b21d306e9",
+        "type": "link in",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "EZO1-Temp Guage",
+        "links": [
+            "7198050aac012139"
+        ],
+        "x": 655,
+        "y": 1780,
+        "wires": [
+            [
+                "59f6e79c7749fd4d"
+            ]
+        ]
+    },
+    {
+        "id": "8cc65526bd90c724",
+        "type": "ui-gauge",
+        "z": "39f30bf4a672e89c",
+        "d": true,
+        "g": "4e2e203bd61379b3",
+        "name": "EZO1 - Humidity (front)",
+        "group": "babd6b15fe74bba2",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Humidity",
+        "alwaysShowTitle": false,
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#00f5f5",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 850,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "59f6e79c7749fd4d",
+        "type": "ui-gauge",
+        "z": "39f30bf4a672e89c",
+        "d": true,
+        "g": "4e2e203bd61379b3",
+        "name": "EZO1 - Temp",
+        "group": "babd6b15fe74bba2",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temp",
+        "alwaysShowTitle": false,
+        "units": "F",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "80",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 810,
+        "y": 1780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d53e3bc0313a5e1b",
+        "type": "link in",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "EZO3-Humidity Guage",
+        "links": [
+            "d5bb17084e27136f"
+        ],
+        "x": 665,
+        "y": 1980,
+        "wires": [
+            [
+                "f8683abfbdc7659e"
+            ]
+        ]
+    },
+    {
+        "id": "9b1e802a548c9a3a",
+        "type": "link in",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "EZO3-Temp Guage",
+        "links": [
+            "753742d22d99a3bc"
+        ],
+        "x": 665,
+        "y": 2020,
+        "wires": [
+            [
+                "0f6fb85da363c405"
+            ]
+        ]
+    },
+    {
+        "id": "9dec54076ac91e6f",
+        "type": "ui-gauge",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "EZO3 - Temp",
+        "group": "a6bd0992df1d3a58",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temp",
+        "alwaysShowTitle": false,
+        "units": "F",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "80",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 930,
+        "y": 2020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f8683abfbdc7659e",
+        "type": "ui-gauge",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "EZO3 - Humidity (incub)",
+        "group": "a6bd0992df1d3a58",
+        "order": 2,
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Humidity",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#00f5f5"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 850,
+        "y": 1980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99f2377fdce0734a",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "temperature",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "x": 640,
+        "y": 420,
+        "wires": [
+            [
+                "7198050aac012139",
+                "f9a94d0dae02b561",
+                "67ffefdc109f7ed0"
+            ]
+        ]
+    },
+    {
+        "id": "e2473d2b61404af8",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "C to F",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round((payload*9/5+32), 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 460,
+        "wires": [
+            [
+                "99f2377fdce0734a",
+                "cec3ec28ca07b107"
+            ]
+        ]
+    },
+    {
+        "id": "30e3c6646a9c5619",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "humidity",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "x": 530,
+        "y": 300,
+        "wires": [
+            [
+                "eba48c5efd97d0e5",
+                "defb3836bd929fe4",
+                "67ffefdc109f7ed0",
+                "f4407b079889f5d0"
+            ]
+        ]
+    },
+    {
+        "id": "67ffefdc109f7ed0",
+        "type": "join",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "Join temp + humidity",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 630,
+        "y": 360,
+        "wires": [
+            [
+                "71f68d7634eec602"
+            ]
+        ]
+    },
+    {
+        "id": "71f68d7634eec602",
+        "type": "mqtt out",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "",
+        "topic": "ezo32-box1/sensor/combined/state",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 940,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "49371624dec702ae",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "humidity",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "x": 490,
+        "y": 800,
+        "wires": [
+            [
+                "d9af4da70dfc574f",
+                "a3e0cc0a9da6a3d7",
+                "ec809938bf59a560",
+                "77f79e4bab0c322a"
+            ]
+        ]
+    },
+    {
+        "id": "d9af4da70dfc574f",
+        "type": "join",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "Join temp + humidity",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 550,
+        "y": 900,
+        "wires": [
+            [
+                "0956ade36815577c"
+            ]
+        ]
+    },
+    {
+        "id": "0956ade36815577c",
+        "type": "mqtt out",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "",
+        "topic": "ezo32-box2/sensor/combined/state",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 950,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "13fc3022b2c038e1",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "humidity",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "x": 430,
+        "y": 1380,
+        "wires": [
+            [
+                "b4fbefac42c86ab6",
+                "739f0758f214028c",
+                "cf5cc285576236a8",
+                "1dea5288b9d0f9c2"
+            ]
+        ]
+    },
+    {
+        "id": "b4fbefac42c86ab6",
+        "type": "join",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "Join temp + humidity",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 690,
+        "y": 1420,
+        "wires": [
+            [
+                "717f9b108fe54130"
+            ]
+        ]
+    },
+    {
+        "id": "717f9b108fe54130",
+        "type": "mqtt out",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "",
+        "topic": "ezo32-box3/sensor/combined/state",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1010,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "7c9526b32b2557b0",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "name": "ezo-box1-tempC",
+        "mode": "link",
+        "links": [],
+        "x": 345,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "641bef2f07f3efa4",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "ezo-box2-tempC",
+        "mode": "link",
+        "links": [],
+        "x": 415,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "5c858a922922f75c",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "ezo-box3-tempC",
+        "mode": "link",
+        "links": [],
+        "x": 365,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "a281b0a9d3897718",
+        "type": "debug",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "Box 2 CO2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "cec3ec28ca07b107",
+        "type": "influxdb out",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "EZO1/Tempf",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 870,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "059ddf119210e42c",
+        "type": "influxdb out",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "EZO1/CO2",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 920,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "f4407b079889f5d0",
+        "type": "influxdb out",
+        "z": "39f30bf4a672e89c",
+        "g": "a8a91d2a53d4093d",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "EZO1/Humid",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 930,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "9a6d5d760ca8ac5c",
+        "type": "influxdb out",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "EZO2/CO2",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 920,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "77f79e4bab0c322a",
+        "type": "influxdb out",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "EZO2/Humid",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 910,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "df6272f657b91325",
+        "type": "influxdb out",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "EZO2/Tempf",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 910,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "1f4fe1d98d13f172",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "1136f52b31a8aeeb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "temperature",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "x": 560,
+        "y": 960,
+        "wires": [
+            [
+                "e7f98952b28e6185",
+                "9619109a32c8ce81",
+                "d9af4da70dfc574f"
+            ]
+        ]
+    },
+    {
+        "id": "ede3e4b3e961b6d9",
+        "type": "influxdb out",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "EZO3/CO2",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 980,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "1dea5288b9d0f9c2",
+        "type": "influxdb out",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "EZO3/Humid",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 990,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "9edb37e42f985c84",
+        "type": "influxdb out",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "EZO3/Tempf",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 990,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "c73c34bc440d51c5",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "0b6f9dd3cd457b14",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "temperature",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "x": 660,
+        "y": 1500,
+        "wires": [
+            [
+                "2b7c843029300ed7",
+                "b4fbefac42c86ab6",
+                "5b94bd2b40a96890"
+            ]
+        ]
+    },
+    {
+        "id": "a9eb6c2b301e3c2a",
+        "type": "influxdb out",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "EZO-HUM/InBox/TempF",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 330,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "79b11fb2cf4fbb9b",
+        "type": "influxdb out",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "EZO-HUM/InBox/Humid",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 350,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "0f6fb85da363c405",
+        "type": "change",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "C to F",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round((payload*9/5+32), 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 2020,
+        "wires": [
+            [
+                "9dec54076ac91e6f",
+                "5d20a58048f66b6e"
+            ]
+        ]
+    },
+    {
+        "id": "5d20a58048f66b6e",
+        "type": "link out",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "EZO-HUM/InBox/TempF",
+        "mode": "link",
+        "links": [],
+        "x": 865,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "d37b4f98704e2124",
+        "type": "comment",
+        "z": "39f30bf4a672e89c",
+        "g": "4e2e203bd61379b3",
+        "name": "Using direct connection to Mycodo Pi",
+        "info": "",
+        "x": 230,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

@@ -1,0 +1,706 @@
+[
+    {
+        "id": "9991a25bb74de0a9",
+        "type": "tab",
+        "label": "Energy Billing",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "24769cd12c56318c",
+        "type": "group",
+        "z": "9991a25bb74de0a9",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "78013cc3f2cbf60d",
+            "aac6cd04a886e8ad",
+            "ddb7fb3481183021",
+            "af9c7c092ce40be3",
+            "617fbece56a643f0",
+            "160f3ab6ea815bbe",
+            "352ab5ea78f4e075",
+            "98b323f4d3c50eec",
+            "81e4382e842c9c7d",
+            "e830187ed147add5",
+            "e59d5655471ae3bf",
+            "690b67f120fcda8b",
+            "a01ed8a4aa443542",
+            "1e652bd605e0a176",
+            "75f3d4b74d6f58e5",
+            "92f5d7f39b48c250",
+            "bd18458f42a8640b",
+            "32bb1bff5c7f5a1f",
+            "a11ceb8f91e3fd12",
+            "3df139d8488ceb68",
+            "de76ef053bd2ca41"
+        ],
+        "x": 64,
+        "y": 19,
+        "w": 842,
+        "h": 482
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "12606b49c66bd206",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "1876221c53289aab",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "8617adbe1910f496",
+        "type": "ui-page",
+        "name": "Energy Usage & Test Dashboard",
+        "ui": "b19902285c24f724",
+        "path": "/page3",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "1876221c53289aab",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 4,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "25610350729beff8",
+        "type": "ui-page",
+        "name": "MushRoom",
+        "ui": "b19902285c24f724",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "12606b49c66bd206",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "1eaf3a9ecf6a7e6b",
+        "type": "ui-group",
+        "name": "Energy Usage",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 8,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "8028d9f0a33ffdbe",
+        "type": "ui-group",
+        "name": "Energy Usage",
+        "page": "8617adbe1910f496",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "78013cc3f2cbf60d",
+        "type": "ui-dropdown",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "group": "8028d9f0a33ffdbe",
+        "name": "Range Selector",
+        "label": "Range",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "Today",
+                "value": "day",
+                "type": "str"
+            },
+            {
+                "label": "Week",
+                "value": "week",
+                "type": "str"
+            },
+            {
+                "label": "Month-to-Date",
+                "value": "month",
+                "type": "str"
+            },
+            {
+                "label": "Custom",
+                "value": "custom",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "range",
+        "topicType": "str",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "81e4382e842c9c7d"
+            ]
+        ]
+    },
+    {
+        "id": "aac6cd04a886e8ad",
+        "type": "ui-button",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "group": "8028d9f0a33ffdbe",
+        "name": "Apply",
+        "label": "Apply",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "75f3d4b74d6f58e5"
+            ]
+        ]
+    },
+    {
+        "id": "ddb7fb3481183021",
+        "type": "ui-text",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "group": "8028d9f0a33ffdbe",
+        "order": 6,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Energy Used",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "x": 610,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "af9c7c092ce40be3",
+        "type": "ui-text-input",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "group": "8028d9f0a33ffdbe",
+        "name": "Start Date",
+        "label": "Start (YYYY-MM-DD)",
+        "order": 3,
+        "width": "6",
+        "height": "1",
+        "topic": "start",
+        "topicType": "str",
+        "tooltip": "",
+        "delay": "",
+        "passthru": true,
+        "sendOnDelay": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 160,
+        "y": 140,
+        "wires": [
+            [
+                "e830187ed147add5"
+            ]
+        ]
+    },
+    {
+        "id": "617fbece56a643f0",
+        "type": "ui-text-input",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "group": "8028d9f0a33ffdbe",
+        "name": "Stop Date",
+        "label": "Stop (YYYY-MM-DD)",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "topic": "stop",
+        "topicType": "str",
+        "tooltip": "",
+        "delay": "",
+        "passthru": true,
+        "sendOnDelay": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "e59d5655471ae3bf"
+            ]
+        ]
+    },
+    {
+        "id": "160f3ab6ea815bbe",
+        "type": "debug",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "Build Date Range",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "352ab5ea78f4e075",
+        "type": "debug",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "Query Result",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "98b323f4d3c50eec",
+        "type": "debug",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "Calc. Usage",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "81e4382e842c9c7d",
+        "type": "function",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "Save Range",
+        "func": "flow.set('range', msg.payload);\n\n// Pre-fill custom dates if switching to Custom\nif(msg.payload === 'custom'){\n    const now = new Date();\n    const today = now.toISOString().split('T')[0];\n    flow.set('start', flow.get('start') || today);\n    flow.set('stop', flow.get('stop') || today);\n}\nreturn null;",
+        "outputs": 0,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "e830187ed147add5",
+        "type": "function",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "Save Start",
+        "func": "flow.set('start', msg.payload);\nreturn null;",
+        "outputs": 0,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e59d5655471ae3bf",
+        "type": "function",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "Save Stop",
+        "func": "flow.set('stop', msg.payload);\nreturn null;",
+        "outputs": 0,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "690b67f120fcda8b",
+        "type": "function",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "* Build InfluxQL Query",
+        "func": "const measurement = \"emeter/total_kWh\";\nconst field = \"value\";\n\nlet start = msg.start;\nlet stop = msg.stop;\n\nif (!start || !stop) {\n    node.error(\"Missing start or stop time\");\n    return null;\n}\n\nconst startNs = new Date(start).getTime() * 1000000;\nconst stopNs = new Date(stop).getTime() * 1000000;\n\nconst query = `SELECT FIRST(\"${field}\"), LAST(\"${field}\") FROM \"${measurement}\" WHERE time >= ${startNs} AND time <= ${stopNs}`;\n\nmsg.url = `http://localhost:8086/query?db=mushroom_data&q=${encodeURIComponent(query)}`;\n//msg.url = `http://10.0.1.209:8086/query?db=mushroom_data&q=${encodeURIComponent(query)}`;\n//msg.method = \"GET\";\n//msg.headers = { \"Content-Type\": \"application/json\" };\n\nnode.status({ fill: \"blue\", shape: \"dot\", text: \"Querying...\" });\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 280,
+        "wires": [
+            [
+                "92f5d7f39b48c250",
+                "3df139d8488ceb68"
+            ]
+        ]
+    },
+    {
+        "id": "a01ed8a4aa443542",
+        "type": "function",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "Calculate Usage (InfluxQL)",
+        "func": "// InfluxDB HTTP API returns:\n// {\"results\":[{\"series\":[{\"columns\":[\"time\",\"first\",\"last\"],\"values\":[[\"...\",firstVal,lastVal]]}]}]}\n\ntry {\n    const series = msg.payload.results[0].series[0];\n    const cols = series.columns;\n    const vals = series.values[0];\n\n    const firstIdx = cols.indexOf(\"first\");\n    const lastIdx = cols.indexOf(\"last\");\n\n    const firstValue = vals[firstIdx];\n    const lastValue = vals[lastIdx];\n\n    if (firstValue === null || lastValue === null) {\n        node.warn('Null values in result');\n        msg.payload = { usage_kWh: 0, error: 'Null data' };\n        return msg;\n    }\n\n    const usage = lastValue - firstValue;\n\n    msg.payload = { usage_kWh: usage, data_points: 2 };\n\n    node.status({ fill: \"green\", shape: \"dot\", text: `${usage.toFixed(2)} kWh` });\n\n} catch (e) {\n    node.error(\"Parse error: \" + e.message);\n    msg.payload = { usage_kWh: 0, error: 'Parse error' };\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 400,
+        "wires": [
+            [
+                "1e652bd605e0a176",
+                "98b323f4d3c50eec"
+            ]
+        ]
+    },
+    {
+        "id": "1e652bd605e0a176",
+        "type": "function",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "Format for Dashboard",
+        "func": "if (msg.payload.error) {\n    msg.payload = `Error: ${msg.payload.error}`;\n} else {\n    msg.payload = `Energy Used: ${msg.payload.usage_kWh.toFixed(2)} kWh`;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 460,
+        "wires": [
+            [
+                "ddb7fb3481183021"
+            ]
+        ]
+    },
+    {
+        "id": "75f3d4b74d6f58e5",
+        "type": "function",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "Build Date Range",
+        "func": "// Read saved values\nlet range = flow.get('range') || 'day';\nlet start = flow.get('start');\nlet stop = flow.get('stop');\nconst now = new Date();\n\n// Helper to convert local date → UTC ISO\nfunction toUTCISOString(date) {\n    const utc = new Date(date.getTime() - date.getTimezoneOffset() * 60000);\n    return utc.toISOString();\n}\n\nconst ONE_HOUR = 60 * 60 * 1000;\nlet localStart, localStop;\n\n// --- Determine local start/stop ---\nif (range === 'day') {\n    localStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());\n    localStop = new Date(now);\n}\nelse if (range === 'week') {\n    localStart = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 7);\n    localStop = new Date(now);\n}\nelse if (range === 'month') {\n    localStart = new Date(now.getFullYear(), now.getMonth(), 1);\n    localStop = new Date(now);\n}\nelse if (range === 'custom') {\n    if (!start || !stop) {\n        node.warn('Custom range missing, defaulting to today');\n        localStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());\n        localStop = new Date(now);\n    } else {\n        localStart = new Date(start);\n        localStop = new Date(stop);\n        localStop.setHours(23, 59, 59, 999);\n    }\n}\n\n// --- Add ±1 hour buffer and convert to UTC ---\nmsg.start = toUTCISOString(new Date(localStart.getTime() - ONE_HOUR));\nmsg.stop = toUTCISOString(new Date(localStop.getTime() + ONE_HOUR));\n\n// --- Show quick visual status ---\nnode.status({\n    fill: \"green\",\n    shape: \"dot\",\n    text: `Range: ${range} | ${localStart.toLocaleString()}–${localStop.toLocaleString()}`\n});\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 220,
+        "wires": [
+            [
+                "690b67f120fcda8b",
+                "160f3ab6ea815bbe"
+            ]
+        ]
+    },
+    {
+        "id": "92f5d7f39b48c250",
+        "type": "debug",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "InfluxQL Query",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "bd18458f42a8640b",
+        "type": "ui-text",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "group": "8028d9f0a33ffdbe",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Set dropdown to 'Custom' for below",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 670,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "32bb1bff5c7f5a1f",
+        "type": "comment",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "Energy Usage Page - InfluxDB 1.8",
+        "info": "",
+        "x": 230,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "a11ceb8f91e3fd12",
+        "type": "ui-text",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "group": "1eaf3a9ecf6a7e6b",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Energy Usage",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 660,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3df139d8488ceb68",
+        "type": "http request",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 290,
+        "y": 340,
+        "wires": [
+            [
+                "a01ed8a4aa443542",
+                "352ab5ea78f4e075"
+            ]
+        ]
+    },
+    {
+        "id": "de76ef053bd2ca41",
+        "type": "comment",
+        "z": "9991a25bb74de0a9",
+        "g": "24769cd12c56318c",
+        "name": "* Change IP address in \"Build InfluxQL Query\"",
+        "info": "",
+        "x": 710,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

@@ -1,0 +1,870 @@
+[
+    {
+        "id": "67a2983f73b432d0",
+        "type": "tab",
+        "label": "Pi Monitoring v2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "68812c464b03a01a",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "ea0f2677333bd9e8",
+        "type": "ui-page",
+        "name": "Control Panel",
+        "ui": "b19902285c24f724",
+        "path": "/page7",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "68812c464b03a01a",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 6,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "e25974b54b75cb30",
+        "type": "ui-group",
+        "name": "Pi Stats - Status / Controls",
+        "page": "ea0f2677333bd9e8",
+        "width": "12",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5fbb5259c9c324bd",
+        "type": "ui-button",
+        "z": "67a2983f73b432d0",
+        "group": "e25974b54b75cb30",
+        "name": "",
+        "label": "Reboot",
+        "order": 13,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "className": "",
+        "icon": "",
+        "iconPosition": "right",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 210,
+        "y": 280,
+        "wires": [
+            [
+                "6f605bc2a23d34b9"
+            ]
+        ]
+    },
+    {
+        "id": "6f605bc2a23d34b9",
+        "type": "exec",
+        "z": "67a2983f73b432d0",
+        "command": "sudo reboot",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "",
+        "timer": "",
+        "winHide": false,
+        "name": "Reboot",
+        "x": 450,
+        "y": 280,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "476e52067f272616",
+        "type": "ui-button",
+        "z": "67a2983f73b432d0",
+        "group": "e25974b54b75cb30",
+        "name": "",
+        "label": "Shutdown",
+        "order": 14,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "className": "",
+        "icon": "",
+        "iconPosition": "right",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "buttonColor": "red",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 220,
+        "y": 340,
+        "wires": [
+            [
+                "86179af6fd650caf"
+            ]
+        ]
+    },
+    {
+        "id": "86179af6fd650caf",
+        "type": "exec",
+        "z": "67a2983f73b432d0",
+        "command": "sudo shutdown -h now",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "",
+        "timer": "",
+        "name": "Shutdown",
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5dcd2b1a233d9def",
+        "type": "exec",
+        "z": "67a2983f73b432d0",
+        "command": "echo \"TEMP:$(vcgencmd measure_temp)\"; echo \"LOAD:$(cat /proc/loadavg)\"; echo \"CORES:$(nproc)\"; free -m | awk 'NR==2{print \"MEM_TOTAL:\"$2; print \"MEM_USED:\"$3; print \"MEM_FREE:\"$4; print \"MEM_SHARED:\"$5; print \"MEM_BUFFCACHE:\"$6; print \"MEM_AVAIL:\"$7} NR==3{print \"SWAP_TOTAL:\"$2; print \"SWAP_USED:\"$3; print \"SWAP_FREE:\"$4}'; echo \"DISK:$(df -h / | awk 'NR==2{print $5}')\"; echo \"UPTIME:$(cat /proc/uptime)\"; echo \"HOST:$(hostname)\"; echo \"IP:$(hostname -I)\"",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "",
+        "timer": "",
+        "winHide": false,
+        "name": "Collect Stats",
+        "x": 210,
+        "y": 180,
+        "wires": [
+            [
+                "272271c725be1fa8"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "272271c725be1fa8",
+        "type": "function",
+        "z": "67a2983f73b432d0",
+        "name": "Parse All Stats",
+        "func": "var lines = msg.payload.trim().split('\\n');\nvar raw = {};\nlines.forEach(function (line) {\n    var idx = line.indexOf(':');\n    if (idx === -1) return;\n    raw[line.substring(0, idx)] = line.substring(idx + 1).trim();\n});\n\nvar tempMatch = (raw.TEMP || '').match(/([\\d.]+)/);\nmsg.tempC = tempMatch ? parseFloat(tempMatch[1]) : null;\n\nvar loadParts = (raw.LOAD || '').split(' ');\nvar load1 = parseFloat(loadParts[0]) || 0;\nvar cores = parseInt(raw.CORES) || 1;\nmsg.loadPct = Math.round((load1 / cores) * 1000) / 10;\n\nvar memTotal = parseFloat(raw.MEM_TOTAL) || 0;\nvar memUsed = parseFloat(raw.MEM_USED) || 0;\nvar memFree = parseFloat(raw.MEM_FREE) || 0;\nvar memShared = parseFloat(raw.MEM_SHARED) || 0;\nvar memBuffCache = parseFloat(raw.MEM_BUFFCACHE) || 0;\nvar memAvailable = parseFloat(raw.MEM_AVAIL) || 0;\nvar swapTotal = parseFloat(raw.SWAP_TOTAL) || 0;\nvar swapUsed = parseFloat(raw.SWAP_USED) || 0;\nvar swapFree = parseFloat(raw.SWAP_FREE) || 0;\n\nmsg.memAvailableMiB = memAvailable;\nmsg.memAvailablePct = memTotal ? Math.round((memAvailable / memTotal) * 1000) / 10 : 0;\nmsg.swapUsedMiB = swapUsed;\n\nmsg.diskPct = parseInt(raw.DISK) || 0;\n\nvar totalSeconds = parseFloat((raw.UPTIME || '0').split(' ')[0]);\nvar days = Math.floor(totalSeconds / 86400);\nvar hours = Math.floor((totalSeconds % 86400) / 3600);\nvar minutes = Math.floor((totalSeconds % 3600) / 60);\nmsg.uptime = days + \"d \" + hours + \"h \" + minutes + \"m\";\n\nmsg.hostname = raw.HOST || 'unknown';\nmsg.ip = (raw.IP || '').trim();\nmsg.topic = \"status/\" + msg.hostname + \"/ip\";\n\nmsg.lastUpdated = new Date().toLocaleTimeString('en-US');\n\nmsg.payload = [\n    { Type: \"Memory\", Total: memTotal, Used: memUsed, Free: memFree, Shared: memShared, \"Buff/Cache\": memBuffCache, Available: memAvailable },\n    { Type: \"Swap\", Total: swapTotal, Used: swapUsed, Free: swapFree }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 180,
+        "wires": [
+            [
+                "e3f9e0e768c599bd",
+                "2f1e90a656e17f53",
+                "ec5a84e7c7032b45",
+                "49ea6c628e171118",
+                "6eb3d53d6e24ae70",
+                "731fda014bd81713",
+                "ba293da35daca365",
+                "e3af4f29573dfcfe",
+                "12b4f37a6301eda4",
+                "6348af502b9b2f2a",
+                "8b1374485252cffb",
+                "875098614dcdb688",
+                "1aacae33d31eb679"
+            ]
+        ]
+    },
+    {
+        "id": "e3f9e0e768c599bd",
+        "type": "ui-gauge",
+        "z": "67a2983f73b432d0",
+        "name": "CPU Temperature",
+        "group": "e25974b54b75cb30",
+        "order": 4,
+        "value": "tempC",
+        "valueType": "msg",
+        "width": "3",
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "CPU Temperature",
+        "alwaysShowTitle": false,
+        "units": "C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "55",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "75",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 840,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec5a84e7c7032b45",
+        "type": "ui-gauge",
+        "z": "67a2983f73b432d0",
+        "name": "CPU Load",
+        "group": "e25974b54b75cb30",
+        "order": 6,
+        "value": "loadPct",
+        "valueType": "msg",
+        "width": "3",
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "CPU Load",
+        "alwaysShowTitle": false,
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "65",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "85",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 820,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6eb3d53d6e24ae70",
+        "type": "ui-gauge",
+        "z": "67a2983f73b432d0",
+        "name": "Memory Available",
+        "group": "e25974b54b75cb30",
+        "order": 5,
+        "value": "memAvailablePct",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Memory Available",
+        "alwaysShowTitle": false,
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ff2600",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "20",
+                "color": "#fffb00",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#00f900",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 840,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e3af4f29573dfcfe",
+        "type": "ui-gauge",
+        "z": "67a2983f73b432d0",
+        "name": "Disk Space",
+        "group": "e25974b54b75cb30",
+        "order": 7,
+        "value": "diskPct",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Disk Space",
+        "alwaysShowTitle": false,
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#00f900",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "65",
+                "color": "#fffb00",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "80",
+                "color": "#ff2600",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 820,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f1e90a656e17f53",
+        "type": "ui-chart",
+        "z": "67a2983f73b432d0",
+        "group": "e25974b54b75cb30",
+        "name": "CPU Temperature",
+        "label": "CPU Temperature",
+        "order": 8,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "tempC",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "false",
+        "pointRadius": "1",
+        "showLegend": false,
+        "removeOlder": "6",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "12",
+        "height": "3",
+        "className": "",
+        "interpolation": "linear",
+        "x": 840,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "49ea6c628e171118",
+        "type": "ui-chart",
+        "z": "67a2983f73b432d0",
+        "group": "e25974b54b75cb30",
+        "name": "CPU Load%",
+        "label": "CPU Load%",
+        "order": 9,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "loadPct",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "false",
+        "pointRadius": "1",
+        "showLegend": false,
+        "removeOlder": "6",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "12",
+        "height": "3",
+        "className": "",
+        "interpolation": "linear",
+        "x": 830,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "731fda014bd81713",
+        "type": "ui-chart",
+        "z": "67a2983f73b432d0",
+        "group": "e25974b54b75cb30",
+        "name": "",
+        "label": "Memory Available (MiB)",
+        "order": 10,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "MiB",
+        "yAxisProperty": "memAvailableMiB",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "line",
+        "pointRadius": 1,
+        "showLegend": false,
+        "removeOlder": "6",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "12",
+        "height": "3",
+        "className": "",
+        "interpolation": "linear",
+        "x": 850,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ba293da35daca365",
+        "type": "ui-chart",
+        "z": "67a2983f73b432d0",
+        "group": "e25974b54b75cb30",
+        "name": "",
+        "label": "Swap Used (MiB)",
+        "order": 11,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "MiB",
+        "yAxisProperty": "swapUsedMiB",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "false",
+        "pointRadius": 1,
+        "showLegend": false,
+        "removeOlder": "6",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "12",
+        "height": "3",
+        "className": "",
+        "interpolation": "linear",
+        "x": 840,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "12b4f37a6301eda4",
+        "type": "ui-text",
+        "z": "67a2983f73b432d0",
+        "group": "e25974b54b75cb30",
+        "order": 1,
+        "width": "12",
+        "height": "1",
+        "name": "IP Address",
+        "label": "IP Address",
+        "format": "{{msg.ip}}",
+        "layout": "row-center",
+        "style": true,
+        "font": "Helvetica, sans-serif",
+        "fontSize": "18",
+        "color": "#0061ff",
+        "wrapText": false,
+        "className": "",
+        "value": "ip",
+        "valueType": "msg",
+        "x": 820,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "6348af502b9b2f2a",
+        "type": "ui-text",
+        "z": "67a2983f73b432d0",
+        "group": "e25974b54b75cb30",
+        "order": 3,
+        "width": "6",
+        "height": "1",
+        "name": "Uptime",
+        "label": "Uptime",
+        "format": "{{msg.uptime}}",
+        "layout": "row-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "uptime",
+        "valueType": "msg",
+        "x": 810,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "8b1374485252cffb",
+        "type": "ui-text",
+        "z": "67a2983f73b432d0",
+        "group": "e25974b54b75cb30",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "Last Updated",
+        "label": "Last Updated",
+        "format": "{{msg.lastUpdated}}",
+        "layout": "row-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "lastUpdated",
+        "valueType": "msg",
+        "x": 830,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "875098614dcdb688",
+        "type": "ui-table",
+        "z": "67a2983f73b432d0",
+        "group": "e25974b54b75cb30",
+        "name": "Memory/Swap Table",
+        "label": "",
+        "order": 12,
+        "width": "",
+        "height": "",
+        "maxrows": "",
+        "autocols": true,
+        "showSearch": false,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 850,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ad4024064fb5f1e6",
+        "type": "inject",
+        "z": "67a2983f73b432d0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "20",
+        "once": true,
+        "onceDelay": "2",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "5dcd2b1a233d9def"
+            ]
+        ]
+    },
+    {
+        "id": "1aacae33d31eb679",
+        "type": "debug",
+        "z": "67a2983f73b432d0",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

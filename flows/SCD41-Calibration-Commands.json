@@ -1,0 +1,5209 @@
+[
+    {
+        "id": "b7d254abc3d5f1ce",
+        "type": "tab",
+        "label": "SCD41 Calibration Commands",
+        "disabled": false,
+        "info": "Send temperature offset and altitude calibration commands to SCD41 sensors via LoRa"
+    },
+    {
+        "id": "9a857536ec022484",
+        "type": "group",
+        "z": "b7d254abc3d5f1ce",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e4873b347825fcba",
+            "f65d4eec90467284",
+            "a4a1ee2f4c40f1ca",
+            "644fb53815baa8f8",
+            "db4a8f12bd97c41f",
+            "7a68182729ccc7e1",
+            "29bcbbd2d7d7b0b9",
+            "6f1bb23485b15a10",
+            "b6ec686164f45d06",
+            "c4c7223d4c2b56f4",
+            "82259e7c5f275b6b",
+            "f6162f47ae4beb3c",
+            "6874c8f3eab667f6",
+            "2e83bea31003e9b5",
+            "5d37d190548c88a4",
+            "f5f7ec50a4e965ec",
+            "1d23f27fc209e5bb",
+            "525c9ec623e4462d",
+            "a3650c34bc63999c",
+            "46a492bbe7a05d3b",
+            "3def5dd599d2604f",
+            "af561cca4254419d",
+            "a1e874d2facb3e24",
+            "e54f56e8f81037cc",
+            "612ff6f567cf0421",
+            "14ea3791b957208a",
+            "5a12261c9a9f9405",
+            "28cd527cc1d9045c",
+            "023b2beee19de708",
+            "5f71314f9938129e",
+            "d7ea949645f9512c",
+            "581da303b81d078e",
+            "9236b228bd3d3aa3",
+            "13782af77d5f65b2"
+        ],
+        "x": 74,
+        "y": 19,
+        "w": 1372,
+        "h": 1108
+    },
+    {
+        "id": "a5633bd9e2fef232",
+        "type": "group",
+        "z": "b7d254abc3d5f1ce",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "32055b760500457f",
+            "a097dbd20dcfb68d",
+            "1b137e721a165ccd",
+            "2c162da443fe28c3",
+            "e429c25ca16d9922",
+            "a02812d0944b560b",
+            "f18ed0c5ab12b04e",
+            "de9b2f291fe40eb4",
+            "33182d233dabcfa6",
+            "96a709b4d23f19b3",
+            "3e319078e98d3e18",
+            "3997b4fcb2e8c434",
+            "a71a53013b6b91d0",
+            "d441a6035f7f1873",
+            "c2396cafe0d246ba",
+            "b3a7f5d3ae6dbbd9",
+            "884a30e293be2cfc",
+            "a47176208e5b4d36",
+            "ab49e58268284346",
+            "db8718029917b075",
+            "c5104cec9d7b1dc6",
+            "c350d0d4715a3c97",
+            "de49f12a37257cb1",
+            "d34c5c35a08a6b1b",
+            "d22201a07af0926b",
+            "a896fd414655a2c3",
+            "476ed58fbeda9c4e",
+            "2d6d7b7b4c4569a2",
+            "11599fa1d6f51392",
+            "cfc2c806230b1253",
+            "44591c1b6430e301",
+            "224ad28b85827924",
+            "58b04b2b653df1ed"
+        ],
+        "x": 54,
+        "y": 1179,
+        "w": 1332,
+        "h": 1128
+    },
+    {
+        "id": "8e40b6d19fdfb397",
+        "type": "group",
+        "z": "b7d254abc3d5f1ce",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2037d69962869699",
+            "e4f9da9cfe7b6d38",
+            "3b0227e30440403a",
+            "9afa4beeb5c668e9",
+            "50b87bbe656c64cf",
+            "af424643e314a226",
+            "7622f919bf582934",
+            "e1097fca44a7177c",
+            "79db3c536053c3f9",
+            "851208532bacab1e",
+            "4652382639b6afa1",
+            "c66c60a0f8f221ef",
+            "069688222877e0ba",
+            "7f244573c0912aeb",
+            "c943c58827e622d8",
+            "543ecc417d6fb8f9",
+            "f9abbabcd7cfbc4a",
+            "e57c207fa0e55c73",
+            "60b1aed60bba4d11",
+            "0b55f0100c9c8dcd",
+            "8b7b1c8f3837a23b",
+            "86b3ea8ebf18bab3",
+            "7c42899d0d4d869a",
+            "92c59508e6e0efc2",
+            "74df20fdec401b6b",
+            "495f3181ec6c2903",
+            "e163ef9a7df68a2f",
+            "e2cb876b0a0798da",
+            "81383a14e967cd47",
+            "eafca1b9080220ee",
+            "3e9b40d8bd71e5d6",
+            "45a95df140a53771",
+            "b29dac6fa366f26e"
+        ],
+        "x": 54,
+        "y": 2279,
+        "w": 1332,
+        "h": 1128
+    },
+    {
+        "id": "da2f71dceb86776b",
+        "type": "group",
+        "z": "b7d254abc3d5f1ce",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "baf977cfa7990d09",
+            "1df9b6497f12f1d1",
+            "8225bc65abd5b410",
+            "0afaa2d8fe787c6a",
+            "bdd9108033b026a4",
+            "26c6e8fda19b69a8",
+            "9f5c40d5d8d8f0b0",
+            "d0a1eae45478e138",
+            "da85ddfacf230741",
+            "51fa391b322cc098",
+            "debe1e33821728f1",
+            "61319f845ebb4dfb",
+            "fd5c23278ae5d6cb",
+            "84936bc1549a88d8",
+            "2dabded3534e6269",
+            "c9639853b1b3e138",
+            "2c5103da2e11c608",
+            "9b474177a8ea9541",
+            "42edd2fc9d9ef150",
+            "537a021747e9d068",
+            "51f09c70508ea361",
+            "c112e8bff73d8cc9",
+            "efd9ede6e61a81fb",
+            "3e53f9e07693a71c",
+            "3acca4c744c3b1b4",
+            "659071664f273f8a",
+            "45f930bed4009981",
+            "604af3c0bddc07ba",
+            "8f823c09efd9dce4",
+            "27c98e64a93886f4",
+            "5e86fc1bd393040c",
+            "04a7f21a22bfd216",
+            "98b59ebd50b4c944",
+            "6adfe1f419a028e7",
+            "29c10ee55d6d71dd",
+            "1452498499d12279",
+            "3d74c2914c4c64fd",
+            "b9cea0505691466c",
+            "d6162015a5673ac5",
+            "a4c132ecca284132",
+            "92704bb75db5c3a7"
+        ],
+        "x": 154,
+        "y": 3399,
+        "w": 972,
+        "h": 1402
+    },
+    {
+        "id": "d7ea949645f9512c",
+        "type": "group",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d532647604dfae28",
+            "c9a897b4d8e9eb2a",
+            "65bac582d1fd7cdb",
+            "bdc0ca343222c81b",
+            "fb6bfd22c26d56ca",
+            "3ca6711550577bed",
+            "eb6c77ba87cd5805",
+            "6a9490a963465224",
+            "f12fcdfd7d603649",
+            "86d2667dc15772d0",
+            "7df307a16360ecaa",
+            "f71897802895f65a",
+            "8df7898e92ebe1b5"
+        ],
+        "x": 234,
+        "y": 759,
+        "w": 932,
+        "h": 342
+    },
+    {
+        "id": "cfc2c806230b1253",
+        "type": "group",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3f728645ae949073",
+            "84556d0e4c5d0b65",
+            "9b509f98afeb35bc",
+            "7da8e591222c7720",
+            "297e16972ffaaa33",
+            "511210786cde469c",
+            "9c5645934af383dd",
+            "57a30aabfdb8d458",
+            "5b12a63807ec6fe5",
+            "5e052432eb04e674",
+            "03de6ad76220aca7",
+            "75308d7a7cd66a6e",
+            "b897b441fcf0a3cc"
+        ],
+        "x": 214,
+        "y": 1919,
+        "w": 872,
+        "h": 362
+    },
+    {
+        "id": "eafca1b9080220ee",
+        "type": "group",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9633e86eb227355c",
+            "0634c4052f0fa272",
+            "93aea3d1e9cb77cb",
+            "869e61f03da50426",
+            "99fdd73b1f5efb12",
+            "61e8d2b768739b5c",
+            "a5073b5764515ca2",
+            "0bd8d0957bc7f833",
+            "e765d84b12cea746",
+            "e2089f437d2ef1e1",
+            "e7675578f822074b",
+            "131676896e8b0046",
+            "5a88b7aeca1726ae"
+        ],
+        "x": 214,
+        "y": 3019,
+        "w": 872,
+        "h": 362
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "cbb09358a5c9450b",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "2px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "e9f46447c605b116",
+        "type": "ui-page",
+        "name": "New CO2/LoRa sensors ",
+        "ui": "b19902285c24f724",
+        "path": "/page2",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "cbb09358a5c9450b",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "10b2d55f217821a7",
+        "type": "ui-group",
+        "name": "SCD41 - LoRa XIAO 1",
+        "page": "e9f46447c605b116",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "12606b49c66bd206",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "25610350729beff8",
+        "type": "ui-page",
+        "name": "MushRoom",
+        "ui": "b19902285c24f724",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "12606b49c66bd206",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "a2cc319da1341e36",
+        "type": "mqtt-broker",
+        "name": "MushRmPi - K1W1 (use)",
+        "broker": "192.168.1.109",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c8646f9b073751c8",
+        "type": "ui-group",
+        "name": "CO2 Data / Alarm ",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 6,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e5d695bf95ae6c6c",
+        "type": "influxdb",
+        "hostname": "MushRmPi.local",
+        "port": 8086,
+        "protocol": "http",
+        "database": "mushroom_data",
+        "name": "InfluxDB 1.x - mushroom_data",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "2349ac6640923c2c",
+        "type": "ui-group",
+        "name": "SCD41 - LoRa XIAO_2",
+        "page": "e9f46447c605b116",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "56826214d9b731b9",
+        "type": "ui-page",
+        "name": "Sensor Calibration",
+        "ui": "b19902285c24f724",
+        "path": "/page8",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "cbb09358a5c9450b",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "cd19f647a7edb16a",
+        "type": "ui-group",
+        "name": "FRC Control / Status - LoRa XIAO 1 ",
+        "page": "56826214d9b731b9",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "98729947c317805e",
+        "type": "ui-group",
+        "name": "FRC Control / Status - LoRa XIAO 2",
+        "page": "56826214d9b731b9",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "f8b093ecf3ed179a",
+        "type": "ui-group",
+        "name": "SCD41 - LoRa XIAO_3",
+        "page": "e9f46447c605b116",
+        "width": 6,
+        "height": 1,
+        "order": 4,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "fc64da34e212793d",
+        "type": "ui-group",
+        "name": "FRC Control / Status - LoRa XIAO 3",
+        "page": "56826214d9b731b9",
+        "width": 6,
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "cal_ui_group",
+        "type": "ui-group",
+        "name": "SCD41 Temp/Altitude Calibration and OTA Trigger",
+        "page": "56826214d9b731b9",
+        "width": "6",
+        "height": "1",
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "36ecf8648121adcc",
+        "type": "ui-spacer",
+        "group": "cd19f647a7edb16a",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 17,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "cc1f0c8cfe96d603",
+        "type": "ui-spacer",
+        "group": "fc64da34e212793d",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 17,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "dc368aa52e4cfe9f",
+        "type": "ui-spacer",
+        "group": "fc64da34e212793d",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 18,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "8a9af5768e1f31e0",
+        "type": "ui-spacer",
+        "group": "fc64da34e212793d",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 19,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "891e4d6a677f3f7f",
+        "type": "ui-spacer",
+        "group": "cal_ui_group",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 2,
+        "width": "2",
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "e4873b347825fcba",
+        "type": "comment",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "=== FRC TEMPLATE: LoRa_XIAO_CO2_1_D893A8D4DB1C === DUPLICATE THIS GROUP FOR EACH NEW DEVICE",
+        "info": "THINGS TO CHANGE PER DEVICE (search for XIAO1 / 2C02A7D4DB1C):\n1. Device ID string in all function nodes and MQTT topics\n2. Sensor name label in ui-text header node\n3. Link-in node: re-link to correct CO2 live feed link-out\n4. All node IDs should be regenerated on import (Node-RED does this automatically)\n\nMQTT STATE TOPIC (retained):\n  OMGhome/NodeRed/frc/state/LoRa_XIAO_CO2_1_D893A8D4DB1C\n\nMQTT FRC COMMAND TOPIC (to OMG gateway - same for all devices):\n  OMGhome/OMG_ESP32_LORA/commands/MQTTtoLORA",
+        "x": 500,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f65d4eec90467284",
+        "type": "link in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "Live CO2 feed — XIAO1 [CHANGE LINK]",
+        "links": [],
+        "x": 285,
+        "y": 160,
+        "wires": [
+            [
+                "a4a1ee2f4c40f1ca"
+            ]
+        ]
+    },
+    {
+        "id": "a4a1ee2f4c40f1ca",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "Store live CO2 reading",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_1_D893A8D4DB1C\";\n// --------------------------------\n\nflow.set(`frc_current_co2.${DEVICE}`, Number(msg.payload));\nreturn msg;  // pass through to dashboard text node",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 160,
+        "wires": [
+            [
+                "644fb53815baa8f8"
+            ]
+        ]
+    },
+    {
+        "id": "644fb53815baa8f8",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "name": "XIAO 1 - Current CO2 ppm -1",
+        "label": "CO₂ Now",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 770,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "db4a8f12bd97c41f",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "XIAO 1 - Sensor: Fruiting Front CO₂",
+        "label": "Sensor: Fruiting Front CO₂",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 380,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "7a68182729ccc7e1",
+        "type": "ui-text-input",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "name": "XIAO 1 - Desired FRC ppm - 1",
+        "label": "Desired FRC ppm:",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "topic": "frc_ppm",
+        "topicType": "str",
+        "mode": "number",
+        "tooltip": "Typical outdoor ambient: 432 ppm",
+        "delay": "",
+        "passthru": false,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 280,
+        "y": 220,
+        "wires": [
+            [
+                "29bcbbd2d7d7b0b9"
+            ]
+        ]
+    },
+    {
+        "id": "29bcbbd2d7d7b0b9",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "Save desired ppm",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_1_D893A8D4DB1C\";\n// --------------------------------\n\nflow.set(`frc_desired_ppm.${DEVICE}`, Number(msg.payload));\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6f1bb23485b15a10",
+        "type": "ui-button",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "name": "XIAO 1 - Start FRC - 1",
+        "label": "Start FRC",
+        "order": 6,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "color": "#ffffff",
+        "bgcolor": "#0094ce",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "start_frc",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 220,
+        "y": 280,
+        "wires": [
+            [
+                "b6ec686164f45d06"
+            ]
+        ]
+    },
+    {
+        "id": "b6ec686164f45d06",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "Prep & Start Countdown",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_1_D893A8D4DB1C\";\n// --------------------------------\n\n// Clear any leftover abort flag\nflow.set(`frc_abort.${DEVICE}`, false);\n\n// Snapshot the desired ppm now (so changing the input mid-countdown has no effect)\nlet ppm = flow.get(`frc_desired_ppm.${DEVICE}`) || 432;\nflow.set(`frc_pending_ppm.${DEVICE}`, ppm);\n\n// Send \"start\" to countdown node\nmsg.payload = \"start\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 280,
+        "wires": [
+            [
+                "f6162f47ae4beb3c"
+            ]
+        ]
+    },
+    {
+        "id": "c4c7223d4c2b56f4",
+        "type": "ui-button",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "name": "XIAO 1 - Abort FRC - 1",
+        "label": "Abort FRC",
+        "order": 7,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "color": "#ffffff",
+        "bgcolor": "#ff2600",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "abort_frc",
+        "topicType": "str",
+        "buttonColor": "red",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 230,
+        "y": 340,
+        "wires": [
+            [
+                "82259e7c5f275b6b"
+            ]
+        ]
+    },
+    {
+        "id": "82259e7c5f275b6b",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "Abort Logic",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_1_D893A8D4DB1C\";\n// --------------------------------\n\nflow.set(`frc_abort.${DEVICE}`, true);\nmsg.payload = 0;  // stops the countdown node\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 340,
+        "wires": [
+            [
+                "f6162f47ae4beb3c"
+            ]
+        ]
+    },
+    {
+        "id": "f6162f47ae4beb3c",
+        "type": "countdown",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "10 min countdown",
+        "topic": "",
+        "payloadTimerStart": "start",
+        "payloadTimerStartType": "str",
+        "payloadTimerStop": "",
+        "payloadTimerStopType": "str",
+        "timer": "600",
+        "resetWhileRunning": true,
+        "outputOnReset": true,
+        "setTimeToNewWhileRunning": false,
+        "startCountdownOnControlMessage": false,
+        "x": 680,
+        "y": 310,
+        "wires": [
+            [],
+            [
+                "6874c8f3eab667f6",
+                "5d37d190548c88a4"
+            ]
+        ]
+    },
+    {
+        "id": "6874c8f3eab667f6",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "MM:SS formatter",
+        "func": "let totalSec = Number(msg.payload) || 0;\nlet minutes = Math.floor(totalSec / 60);\nlet seconds = totalSec % 60;\n\nmsg.payload = minutes > 0\n    ? `${minutes} min ${seconds.toString().padStart(2, '0')} sec`\n    : (totalSec === 0 ? \"--\" : `${seconds} sec`);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 280,
+        "wires": [
+            [
+                "2e83bea31003e9b5"
+            ]
+        ]
+    },
+    {
+        "id": "2e83bea31003e9b5",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "order": 8,
+        "width": "2",
+        "height": "1",
+        "name": "XIAO 1 - Countdown Display - 1",
+        "label": "Countdown:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1160,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "5d37d190548c88a4",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "Check Abort / Gate",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_1_D893A8D4DB1C\";\n// --------------------------------\n\n// Only fires when countdown reaches 0 (natural finish or abort)\nif (msg.payload !== 0) return null;\n\nlet aborted = flow.get(`frc_abort.${DEVICE}`) || false;\nflow.set(`frc_abort.${DEVICE}`, false);  // clear flag\n\nif (aborted) {\n    node.status({ fill: \"red\", shape: \"dot\", text: \"Aborted\" });\n    return null;  // block — do nothing on abort\n}\n\nnode.status({ fill: \"green\", shape: \"dot\", text: \"Completing FRC...\" });\nreturn msg;  // pass through to FRC completion logic",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 340,
+        "wires": [
+            [
+                "f5f7ec50a4e965ec"
+            ]
+        ]
+    },
+    {
+        "id": "f5f7ec50a4e965ec",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "Complete FRC — Build State & Outputs",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_1_D893A8D4DB1C\";\n// --------------------------------\n\n// Read values\nlet target  = flow.get(`frc_pending_ppm.${DEVICE}`) || 432;\nlet actual  = flow.get(`frc_current_co2.${DEVICE}`) || 0;\nlet offset  = actual - target;\nlet now     = new Date().toLocaleString(\"en-US\");\n\n// Read existing MQTT state to preserve interval_days\n// (We'll receive this via the MQTT state subscriber — stored in flow context)\nlet existing = flow.get(`frc_state.${DEVICE}`) || {};\nlet intervalDays = existing.interval_days || 7;\n\n// Build updated state object\nlet state = {\n    device:           DEVICE,\n    last_frc:         now,\n    last_frc_actual:  actual,\n    last_frc_target:  target,\n    last_frc_offset:  offset,\n    interval_days:    intervalDays\n};\n\n// ---- Output 1: MQTT state update (retained) ----\nlet mqttMsg = {\n    topic:   `MushLoRa/NodeRed/frc/state/${DEVICE}`,\n    payload: JSON.stringify(state),\n    retain:  true,\n    qos:     1\n};\n\n// ---- Output 2: FRC command to OMG gateway ----\nlet omgMsg = {\n    topic:   \"MushLoRa/OMG_LORA_MOAPA/commands/MQTTtoLORA\",\n    payload: JSON.stringify({\n        message: JSON.stringify({ target: DEVICE, frc: target })\n    })\n};\n\n// ---- Output 3: Dashboard immediate updates (prior reading, corrected to, offset) ----\n// Bundle all three in one pass — downstream function will split\nlet dashMsg = {\n    payload: {\n        prior:  actual,\n        target: target,\n        offset: offset,\n        now:    now\n    }\n};\n\nreturn [ mqttMsg, omgMsg, dashMsg ];",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 440,
+        "wires": [
+            [
+                "1d23f27fc209e5bb"
+            ],
+            [
+                "1d23f27fc209e5bb"
+            ],
+            [
+                "525c9ec623e4462d"
+            ]
+        ],
+        "outputLabels": [
+            "MQTT state (retained)",
+            "OMG FRC command",
+            "Dashboard values"
+        ]
+    },
+    {
+        "id": "1d23f27fc209e5bb",
+        "type": "mqtt out",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "MQTT Out (FRC)",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 910,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "525c9ec623e4462d",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "Split Dashboard Values",
+        "func": "let d = msg.payload;\nreturn [\n    { payload: d.prior  },\n    { payload: d.target },\n    { payload: d.offset }\n];",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 460,
+        "wires": [
+            [
+                "a3650c34bc63999c"
+            ],
+            [
+                "46a492bbe7a05d3b"
+            ],
+            [
+                "3def5dd599d2604f"
+            ]
+        ],
+        "outputLabels": [
+            "Prior Reading",
+            "Corrected To",
+            "Offset"
+        ]
+    },
+    {
+        "id": "a3650c34bc63999c",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "order": 11,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 1 - Prior Reading - 1",
+        "label": "Prior Reading:",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1190,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "46a492bbe7a05d3b",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 1 - Corrected To - 1",
+        "label": "Corrected To:",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1190,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "3def5dd599d2604f",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "order": 10,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 1 - Correction Offset -1 ",
+        "label": "Correction Offset:",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1200,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "af561cca4254419d",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "FRC State — XIAO1 [CHANGE TOPIC]",
+        "topic": "MushLoRa/NodeRed/frc/state/LoRa_XIAO_CO2_1_D893A8D4DB1C",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 290,
+        "y": 580,
+        "wires": [
+            [
+                "a1e874d2facb3e24"
+            ]
+        ]
+    },
+    {
+        "id": "a1e874d2facb3e24",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "Parse State & Calc Due",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_1_D893A8D4DB1C\";\n// --------------------------------\n\n// Parse payload (may arrive as object or JSON string)\nlet state = (typeof msg.payload === \"string\")\n    ? JSON.parse(msg.payload)\n    : msg.payload;\n\n// Store in flow context so Complete FRC can read interval_days\nflow.set(`frc_state.${DEVICE}`, state);\n\nlet prior       = state.last_frc_actual  ?? \"—\";\nlet offset      = state.last_frc_offset  ?? \"—\";\nlet timestamp   = state.last_frc         ?? \"—\";\nlet intervalDays = state.interval_days   ?? 14;\n\n// ---- Calculate days until next recal ----\nlet daysUntilDue;\nlet led = \"green\";\n\nif (timestamp && timestamp !== \"—\") {\n    let lastDate = new Date(timestamp);\n    if (!isNaN(lastDate.getTime())) {\n        let diffDays = (Date.now() - lastDate.getTime()) / (1000 * 60 * 60 * 24);\n        daysUntilDue = Math.round(intervalDays - diffDays);\n\n        if (daysUntilDue <= 0 && daysUntilDue > -3) {\n            led = \"yellow\";\n        } else if (daysUntilDue <= -3) {\n            led = \"red\";\n        } else {\n            led = \"green\";\n        }\n    }\n}\n\nif (daysUntilDue === undefined || isNaN(daysUntilDue)) {\n    daysUntilDue = \"—\";\n}\n\nreturn [\n    { payload: timestamp },   // output 1 - Last FRC Date/Time\n    { payload: daysUntilDue },  // output 2 - Days Until Next Recal\n    { payload: led }    // output 3 - LED color\n];",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 580,
+        "wires": [
+            [
+                "e54f56e8f81037cc",
+                "023b2beee19de708"
+            ],
+            [
+                "5a12261c9a9f9405"
+            ],
+            [
+                "28cd527cc1d9045c",
+                "5f71314f9938129e",
+                "9236b228bd3d3aa3"
+            ]
+        ],
+        "outputLabels": [
+            "Last FRC Date/Time",
+            "Days Until Recal",
+            "LED color"
+        ]
+    },
+    {
+        "id": "e54f56e8f81037cc",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "order": 12,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 1 - Last FRC Date/Time - 1",
+        "label": "Last FRC:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 980,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "612ff6f567cf0421",
+        "type": "ui-text-input",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "name": "XIAO 1 - Days Between FRC input - 1",
+        "label": "# Days Between FRC:",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "topic": "frc_interval",
+        "topicType": "str",
+        "mode": "number",
+        "tooltip": "Defaults to 14",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 290,
+        "y": 660,
+        "wires": [
+            [
+                "14ea3791b957208a"
+            ]
+        ]
+    },
+    {
+        "id": "14ea3791b957208a",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "Save Interval to MQTT State",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_1_D893A8D4DB1C\";\n// --------------------------------\n\nlet intervalDays = Number(msg.payload);\nif (isNaN(intervalDays) || intervalDays <= 0) return null;\n\n// Read current retained state so we don't overwrite other fields\nlet existing = flow.get(`frc_state.${DEVICE}`) || {};\n\n// Update interval_days only\nexisting.interval_days = intervalDays;\nexisting.device = DEVICE;  // ensure device field is present\n\n// Publish merged state back as retained\nmsg.topic = `MushLoRa/NodeRed/frc/state/${DEVICE}`;\nmsg.payload = JSON.stringify(existing);\nmsg.retain  = true;\nmsg.qos     = 1;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 660,
+        "wires": [
+            [
+                "1d23f27fc209e5bb"
+            ]
+        ]
+    },
+    {
+        "id": "32055b760500457f",
+        "type": "comment",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "=== FRC TEMPLATE:   LoRa_XIAO_CO2_2_B893A8D4DB1C === DUPLICATE THIS GROUP FOR EACH NEW DEVICE",
+        "info": "THINGS TO CHANGE PER DEVICE (search for XIAO1 / 2C02A7D4DB1C):\n1. Device ID string in all function nodes and MQTT topics\n2. Sensor name label in ui-text header node\n3. Link-in node: re-link to correct CO2 live feed link-out\n4. All node IDs should be regenerated on import (Node-RED does this automatically)\n\nMQTT STATE TOPIC (retained):\n  OMGhome/NodeRed/frc/state/LoRa_XIAO1_2C02A7D4DB1C\n\nMQTT FRC COMMAND TOPIC (to OMG gateway - same for all devices):\n  OMGhome/OMG_ESP32_LORA/commands/MQTTtoLORA\n",
+        "x": 480,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "a097dbd20dcfb68d",
+        "type": "link in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "Live CO2 feed — XIAO2 [CHANGE LINK]",
+        "links": [],
+        "x": 265,
+        "y": 1320,
+        "wires": [
+            [
+                "1b137e721a165ccd"
+            ]
+        ]
+    },
+    {
+        "id": "1b137e721a165ccd",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "Store live CO2 reading",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_2_B893A8D4DB1C\";\n// --------------------------------\n\nflow.set(`frc_current_co2.${DEVICE}`, Number(msg.payload));\nreturn msg;  // pass through to dashboard text node",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1320,
+        "wires": [
+            [
+                "2c162da443fe28c3"
+            ]
+        ]
+    },
+    {
+        "id": "2c162da443fe28c3",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "name": "XIAO 2 - Current CO2 ppm",
+        "label": "CO₂ Now",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 740,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "e429c25ca16d9922",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "XIAO 2 - Sensor: Fruiting Rear CO₂",
+        "label": "Sensor: Fruiting Rear CO₂",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 280,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "a02812d0944b560b",
+        "type": "ui-text-input",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "name": "XIAO 2 - Desired FRC ppm",
+        "label": "Desired FRC ppm:",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "topic": "frc_ppm",
+        "topicType": "str",
+        "mode": "number",
+        "tooltip": "Typical outdoor ambient: 432 ppm (default)",
+        "delay": "",
+        "passthru": false,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 220,
+        "y": 1380,
+        "wires": [
+            [
+                "f18ed0c5ab12b04e"
+            ]
+        ]
+    },
+    {
+        "id": "f18ed0c5ab12b04e",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "Save desired ppm",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_2_B893A8D4DB1C\";\n// --------------------------------\n\nflow.set(`frc_desired_ppm.${DEVICE}`, Number(msg.payload));\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de9b2f291fe40eb4",
+        "type": "ui-button",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "name": "XIAO 2 - Start FRC",
+        "label": "Start FRC",
+        "order": 6,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "color": "#ffffff",
+        "bgcolor": "#0094ce",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "start_frc",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 190,
+        "y": 1440,
+        "wires": [
+            [
+                "33182d233dabcfa6"
+            ]
+        ]
+    },
+    {
+        "id": "33182d233dabcfa6",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "Prep & Start Countdown",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_2_B893A8D4DB1C\";\n// --------------------------------\n\n// Clear any leftover abort flag\nflow.set(`frc_abort.${DEVICE}`, false);\n\n// Snapshot the desired ppm now (so changing the input mid-countdown has no effect)\nlet ppm = flow.get(`frc_desired_ppm.${DEVICE}`) || 432;\nflow.set(`frc_pending_ppm.${DEVICE}`, ppm);\n\n// Send \"start\" to countdown node\nmsg.payload = \"start\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 1440,
+        "wires": [
+            [
+                "3997b4fcb2e8c434"
+            ]
+        ]
+    },
+    {
+        "id": "96a709b4d23f19b3",
+        "type": "ui-button",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "name": "XIAO 2 - Abort FRC",
+        "label": "Abort FRC",
+        "order": 7,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "color": "#ffffff",
+        "bgcolor": "#ff2600",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "abort_frc",
+        "topicType": "str",
+        "buttonColor": "red",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 190,
+        "y": 1500,
+        "wires": [
+            [
+                "3e319078e98d3e18"
+            ]
+        ]
+    },
+    {
+        "id": "3e319078e98d3e18",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "Abort Logic",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_2_B893A8D4DB1C\";\n// --------------------------------\n\nflow.set(`frc_abort.${DEVICE}`, true);\nmsg.payload = 0;  // stops the countdown node\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 1500,
+        "wires": [
+            [
+                "3997b4fcb2e8c434"
+            ]
+        ]
+    },
+    {
+        "id": "3997b4fcb2e8c434",
+        "type": "countdown",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "10 min countdown",
+        "topic": "",
+        "payloadTimerStart": "start",
+        "payloadTimerStartType": "str",
+        "payloadTimerStop": "",
+        "payloadTimerStopType": "str",
+        "timer": "600",
+        "resetWhileRunning": true,
+        "outputOnReset": true,
+        "setTimeToNewWhileRunning": false,
+        "startCountdownOnControlMessage": false,
+        "x": 670,
+        "y": 1460,
+        "wires": [
+            [],
+            [
+                "a71a53013b6b91d0",
+                "c2396cafe0d246ba"
+            ]
+        ]
+    },
+    {
+        "id": "a71a53013b6b91d0",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "MM:SS formatter",
+        "func": "let totalSec = Number(msg.payload) || 0;\nlet minutes = Math.floor(totalSec / 60);\nlet seconds = totalSec % 60;\n\nmsg.payload = minutes > 0\n    ? `${minutes} min ${seconds.toString().padStart(2, '0')} sec`\n    : (totalSec === 0 ? \"--\" : `${seconds} sec`);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 1460,
+        "wires": [
+            [
+                "d441a6035f7f1873"
+            ]
+        ]
+    },
+    {
+        "id": "d441a6035f7f1873",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "order": 8,
+        "width": "2",
+        "height": "1",
+        "name": "XIAO 2 - Countdown Display",
+        "label": "Countdown:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1180,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "c2396cafe0d246ba",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "Check Abort / Gate",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_2_B893A8D4DB1C\";\n// --------------------------------\n\n// Only fires when countdown reaches 0 (natural finish or abort)\nif (msg.payload !== 0) return null;\n\nlet aborted = flow.get(`frc_abort.${DEVICE}`) || false;\nflow.set(`frc_abort.${DEVICE}`, false);  // clear flag\n\nif (aborted) {\n    node.status({ fill: \"red\", shape: \"dot\", text: \"Aborted\" });\n    return null;  // block — do nothing on abort\n}\n\nnode.status({ fill: \"green\", shape: \"dot\", text: \"Completing FRC...\" });\nreturn msg;  // pass through to FRC completion logic",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 1540,
+        "wires": [
+            [
+                "b3a7f5d3ae6dbbd9"
+            ]
+        ]
+    },
+    {
+        "id": "b3a7f5d3ae6dbbd9",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "Complete FRC — Build State & Outputs",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_2_B893A8D4DB1C\";\n// --------------------------------\n\n// Read values\nlet target  = flow.get(`frc_pending_ppm.${DEVICE}`) || 425;\nlet actual  = flow.get(`frc_current_co2.${DEVICE}`) || 0;\nlet offset  = actual - target;\nlet now     = new Date().toLocaleString(\"en-US\");\n\n// Read existing MQTT state to preserve interval_days\n// (We'll receive this via the MQTT state subscriber — stored in flow context)\nlet existing = flow.get(`frc_state.${DEVICE}`) || {};\nlet intervalDays = existing.interval_days || 14;\n\n// Build updated state object\nlet state = {\n    device:           DEVICE,\n    last_frc:         now,\n    last_frc_actual:  actual,\n    last_frc_target:  target,\n    last_frc_offset:  offset,\n    interval_days:    intervalDays\n};\n\n// ---- Output 1: MQTT state update (retained) ----\nlet mqttMsg = {\n    topic:   `MushLoRa/NodeRed/frc/state/${DEVICE}`,\n    payload: JSON.stringify(state),\n    retain:  true,\n    qos:     1\n};\n\n// ---- Output 2: FRC command to OMG gateway ----\nlet omgMsg = {\n    topic: \"MushLoRa/OMG_LORA_MOAPA/commands/MQTTtoLORA\",\n    payload: JSON.stringify({\n        message: JSON.stringify({ target: DEVICE, frc: target })\n    })\n};\n\n// ---- Output 3: Dashboard immediate updates (prior reading, corrected to, offset) ----\n// Bundle all three in one pass — downstream function will split\nlet dashMsg = {\n    payload: {\n        prior:  actual,\n        target: target,\n        offset: offset,\n        now:    now\n    }\n};\n\nreturn [ mqttMsg, omgMsg, dashMsg ];",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1620,
+        "wires": [
+            [
+                "884a30e293be2cfc"
+            ],
+            [
+                "884a30e293be2cfc"
+            ],
+            [
+                "a47176208e5b4d36"
+            ]
+        ],
+        "outputLabels": [
+            "MQTT state (retained)",
+            "OMG FRC command",
+            "Dashboard values"
+        ]
+    },
+    {
+        "id": "884a30e293be2cfc",
+        "type": "mqtt out",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "MQTT Out (FRC)",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 890,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "a47176208e5b4d36",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "Split Dashboard Values",
+        "func": "let d = msg.payload;\nreturn [\n    { payload: d.prior  },\n    { payload: d.target },\n    { payload: d.offset }\n];",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 1640,
+        "wires": [
+            [
+                "ab49e58268284346"
+            ],
+            [
+                "db8718029917b075"
+            ],
+            [
+                "c5104cec9d7b1dc6"
+            ]
+        ],
+        "outputLabels": [
+            "Prior Reading",
+            "Corrected To",
+            "Offset"
+        ]
+    },
+    {
+        "id": "ab49e58268284346",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "order": 11,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 2 - Prior Reading",
+        "label": "Prior Reading:",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1220,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "db8718029917b075",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 2 - Corrected To",
+        "label": "Corrected To:",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1220,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "c5104cec9d7b1dc6",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "order": 10,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 2 - Correction Offset",
+        "label": "Correction Offset:",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1240,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "c350d0d4715a3c97",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "FRC State — XIAO 2 [CHANGE TOPIC]",
+        "topic": "MushLoRa/NodeRed/frc/state/LoRa_XIAO_CO2_2_B893A8D4DB1C",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 270,
+        "y": 1740,
+        "wires": [
+            [
+                "de49f12a37257cb1"
+            ]
+        ]
+    },
+    {
+        "id": "de49f12a37257cb1",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "Parse State & Calc Due",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_2_B893A8D4DB1C\";\n// --------------------------------\n\n// Parse payload (may arrive as object or JSON string)\nlet state = (typeof msg.payload === \"string\")\n    ? JSON.parse(msg.payload)\n    : msg.payload;\n\n// Store in flow context so Complete FRC can read interval_days\nflow.set(`frc_state.${DEVICE}`, state);\n\nlet prior       = state.last_frc_actual  ?? \"—\";\nlet offset      = state.last_frc_offset  ?? \"—\";\nlet timestamp   = state.last_frc         ?? \"—\";\nlet intervalDays = state.interval_days   ?? 14;\n\n// ---- Calculate days until next recal ----\nlet daysUntilDue;\nlet led = \"green\";\n\nif (timestamp && timestamp !== \"—\") {\n    let lastDate = new Date(timestamp);\n    if (!isNaN(lastDate.getTime())) {\n        let diffDays = (Date.now() - lastDate.getTime()) / (1000 * 60 * 60 * 24);\n        daysUntilDue = Math.round(intervalDays - diffDays);\n\n        if (daysUntilDue <= 0 && daysUntilDue > -3) {\n            led = \"yellow\";\n        } else if (daysUntilDue <= -3) {\n            led = \"red\";\n        } else {\n            led = \"green\";\n        }\n    }\n}\n\nif (daysUntilDue === undefined || isNaN(daysUntilDue)) {\n    daysUntilDue = \"—\";\n}\n\nreturn [\n    { payload: timestamp },   // output 1 - Last FRC Date/Time\n    { payload: daysUntilDue },  // output 2 - Days Until Next Recal\n    { payload: led }    // output 3 - LED color\n];\n\n",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1740,
+        "wires": [
+            [
+                "d34c5c35a08a6b1b",
+                "44591c1b6430e301"
+            ],
+            [
+                "d22201a07af0926b"
+            ],
+            [
+                "a896fd414655a2c3",
+                "11599fa1d6f51392",
+                "58b04b2b653df1ed"
+            ]
+        ],
+        "outputLabels": [
+            "Last FRC Date/Time",
+            "Days Until Recal",
+            "LED color"
+        ]
+    },
+    {
+        "id": "d34c5c35a08a6b1b",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "order": 12,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 2 - Last FRC Date/Time",
+        "label": "Last FRC:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 950,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "d22201a07af0926b",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "order": 14,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 2 - Days Until Next Recal",
+        "label": "Days Until Next Recal:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 950,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "a896fd414655a2c3",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "XIAO 2 - FRC Due LED",
+        "group": "98729947c317805e",
+        "order": 13,
+        "width": "3",
+        "height": "1",
+        "label": "FRC Due?",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 930,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "476ed58fbeda9c4e",
+        "type": "ui-text-input",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "name": "XIAO 2 - Days Between FRC input",
+        "label": "# Days Between FRC:",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "topic": "frc_interval",
+        "topicType": "str",
+        "mode": "number",
+        "tooltip": "Defaults to 14",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 290,
+        "y": 1820,
+        "wires": [
+            [
+                "2d6d7b7b4c4569a2"
+            ]
+        ]
+    },
+    {
+        "id": "2d6d7b7b4c4569a2",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "Save Interval to MQTT State",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_2_B893A8D4DB1C\";\n// --------------------------------\n\nlet intervalDays = Number(msg.payload);\nif (isNaN(intervalDays) || intervalDays <= 0) return null;\n\n// Read current retained state so we don't overwrite other fields\nlet existing = flow.get(`frc_state.${DEVICE}`) || {};\n\n// Update interval_days only\nexisting.interval_days = intervalDays;\nexisting.device = DEVICE;  // ensure device field is present\n\n// Publish merged state back as retained\nmsg.topic = `MushLoRa/NodeRed/frc/state/${DEVICE}`;\nmsg.payload = JSON.stringify(existing);\nmsg.retain  = true;\nmsg.qos     = 1;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1820,
+        "wires": [
+            [
+                "884a30e293be2cfc"
+            ]
+        ]
+    },
+    {
+        "id": "5a12261c9a9f9405",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "order": 14,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 1 - Days Until Next Recal -1 ",
+        "label": "Days Until Next Recal:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 980,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "28cd527cc1d9045c",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "XIAO 1 - FRC Due LED - 1",
+        "group": "cd19f647a7edb16a",
+        "order": 13,
+        "width": "3",
+        "height": "1",
+        "label": "FRC Due?",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 960,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "d532647604dfae28",
+        "type": "comment",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "name": "=== WATCHDOG ADDON: Paste these nodes into your flow, then wire frc_wd_linkin_co2 to your existing CO2 link-out ===",
+        "info": "THINGS TO CHANGE PER DEVICE:\n1. DEVICE constant in both function nodes\n2. Link-in node: connect to correct CO2 link-out\n3. Add the two new ui nodes to your existing status ui-group\n\nThresholds:\n  Yellow = 5+ min no data\n  Red    = 10+ min no data\n  Green  = data received within last 5 min",
+        "x": 670,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "c9a897b4d8e9eb2a",
+        "type": "link in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "name": "Watchdog CO2 feed — XIAO1 [CHANGE LINK]",
+        "links": [],
+        "x": 385,
+        "y": 880,
+        "wires": [
+            [
+                "65bac582d1fd7cdb",
+                "6a9490a963465224"
+            ]
+        ]
+    },
+    {
+        "id": "65bac582d1fd7cdb",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "name": "Store Last Seen Timestamp",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_1_D893A8D4DB1C\";\n// --------------------------------\n\nflow.set(`watchdog_last_seen.${DEVICE}`, Date.now());\nreturn null;  // watchdog only — don't pass through",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bdc0ca343222c81b",
+        "type": "inject",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "name": "Check every 60 sec",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 5,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 400,
+        "y": 920,
+        "wires": [
+            [
+                "fb6bfd22c26d56ca"
+            ]
+        ]
+    },
+    {
+        "id": "fb6bfd22c26d56ca",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "name": "Watchdog Check",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_1_D893A8D4DB1C\";\n// --------------------------------\n\nconst YELLOW_MS = 5  * 60 * 1000;  // 5 min\nconst RED_MS    = 10 * 60 * 1000;  // 10 min\n\nlet lastSeen = flow.get(`watchdog_last_seen.${DEVICE}`);\nlet now = Date.now();\n\nlet led, statusText;\n\nif (!lastSeen) {\n    // Never received any data this session\n    led = \"red\";\n    statusText = \"No data received\";\n} else {\n    let ageMs  = now - lastSeen;\n    let ageMin = Math.floor(ageMs / 60000);\n    let ageSec = Math.floor((ageMs % 60000) / 1000);\n\n    if (ageMs < YELLOW_MS) {\n        led = \"green\";\n        statusText = ageMin > 0\n            ? `Last seen: ${ageMin} min ago`\n            : `Last seen: < 1 min ago`;\n\n \n    } else if (ageMs < RED_MS) {\n        led = \"yellow\";\n        statusText = `STALE — ${ageMin} min ago`;\n    } else {\n        led = \"red\";\n        statusText = `OFFLINE — ${ageMin} min ago`;\n    }\n}\n\nreturn [\n    { payload: led        },   // output 1 — LED color\n    { payload: statusText }    // output 2 — status text\n];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 920,
+        "wires": [
+            [
+                "3ca6711550577bed",
+                "86d2667dc15772d0",
+                "7df307a16360ecaa"
+            ],
+            [
+                "eb6c77ba87cd5805",
+                "f12fcdfd7d603649"
+            ]
+        ],
+        "outputLabels": [
+            "LED color",
+            "Status text"
+        ]
+    },
+    {
+        "id": "3ca6711550577bed",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "name": "XIAO 1 - Device Online LED - FRC",
+        "group": "cd19f647a7edb16a",
+        "order": 15,
+        "width": "2",
+        "height": "1",
+        "label": "Device Online",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 1000,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "eb6c77ba87cd5805",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "group": "cd19f647a7edb16a",
+        "order": 16,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 1 - Device Status Text - FRC",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 14,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1000,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "6a9490a963465224",
+        "type": "debug",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "name": "debug 401",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "f12fcdfd7d603649",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "group": "10b2d55f217821a7",
+        "order": 7,
+        "width": "5",
+        "height": "1",
+        "name": "XIAO 1 - Device Status Text - main",
+        "label": "XIAO_1 Online --",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 14,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1000,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "86d2667dc15772d0",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "name": "XIAO 1 - Device Online LED - main",
+        "group": "10b2d55f217821a7",
+        "order": 6,
+        "width": "1",
+        "height": "1",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 1000,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "023b2beee19de708",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "10b2d55f217821a7",
+        "order": 9,
+        "width": "5",
+        "height": "1",
+        "name": "XIAO 1 - Last FRC Date/Time - 1",
+        "label": "FRC Due?  - Last FRC:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 980,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "5f71314f9938129e",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "XIAO 1 - FRC Due? -- xiao1",
+        "group": "10b2d55f217821a7",
+        "order": 8,
+        "width": "1",
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 960,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "11599fa1d6f51392",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "XIAO 2 - FRC Due? -- xiao2",
+        "group": "2349ac6640923c2c",
+        "order": 8,
+        "width": "1",
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 940,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "3f728645ae949073",
+        "type": "comment",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "name": "=== WATCHDOG ADDON: Paste these nodes into your flow, then wire frc_wd_linkin_co2 to your existing CO2 link-out ===",
+        "info": "THINGS TO CHANGE PER DEVICE:\n1. DEVICE constant in both function nodes\n2. Link-in node: connect to correct CO2 link-out\n3. Add the two new ui nodes to your existing status ui-group\n\nThresholds:\n  Yellow = 5+ min no data\n  Red    = 10+ min no data\n  Green  = data received within last 5 min",
+        "x": 650,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "84556d0e4c5d0b65",
+        "type": "link in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "name": "Watchdog CO2 feed — XIAO2 [CHANGE LINK]",
+        "links": [],
+        "x": 365,
+        "y": 2040,
+        "wires": [
+            [
+                "9b509f98afeb35bc",
+                "57a30aabfdb8d458"
+            ]
+        ]
+    },
+    {
+        "id": "9b509f98afeb35bc",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "name": "Store Last Seen Timestamp",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_2_B893A8D4DB1C\";\n// --------------------------------\n\nflow.set(`watchdog_last_seen.${DEVICE}`, Date.now());\nreturn null;  // watchdog only — don't pass through",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7da8e591222c7720",
+        "type": "inject",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "name": "Check every 60 sec",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 5,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 380,
+        "y": 2100,
+        "wires": [
+            [
+                "297e16972ffaaa33"
+            ]
+        ]
+    },
+    {
+        "id": "297e16972ffaaa33",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "name": "Watchdog Check",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_2_B893A8D4DB1C\";\n// --------------------------------\n\nconst YELLOW_MS = 5  * 60 * 1000;  // 5 min\nconst RED_MS    = 10 * 60 * 1000;  // 10 min\n\nlet lastSeen = flow.get(`watchdog_last_seen.${DEVICE}`);\nlet now = Date.now();\n\nlet led, statusText;\n\nif (!lastSeen) {\n    // Never received any data this session\n    led = \"red\";\n    statusText = \"No data received\";\n} else {\n    let ageMs  = now - lastSeen;\n    let ageMin = Math.floor(ageMs / 60000);\n    let ageSec = Math.floor((ageMs % 60000) / 1000);\n\n    if (ageMs < YELLOW_MS) {\n        led = \"green\";\n        statusText = ageMin > 0\n            ? `Last seen: ${ageMin} min ago`\n            : `Last seen: < 1 min ago`;\n\n \n    } else if (ageMs < RED_MS) {\n        led = \"yellow\";\n        statusText = `STALE — ${ageMin} min ago`;\n    } else {\n        led = \"red\";\n        statusText = `OFFLINE — ${ageMin} min ago`;\n    }\n}\n\nreturn [\n    { payload: led        },   // output 1 — LED color\n    { payload: statusText }    // output 2 — status text\n];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 2100,
+        "wires": [
+            [
+                "511210786cde469c",
+                "5e052432eb04e674",
+                "03de6ad76220aca7"
+            ],
+            [
+                "9c5645934af383dd",
+                "5b12a63807ec6fe5"
+            ]
+        ],
+        "outputLabels": [
+            "LED color",
+            "Status text"
+        ]
+    },
+    {
+        "id": "511210786cde469c",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "name": "XIAO 2 - Device Online LED - FRC",
+        "group": "98729947c317805e",
+        "order": 15,
+        "width": "2",
+        "height": "1",
+        "label": "Device Online",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 920,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "9c5645934af383dd",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "group": "98729947c317805e",
+        "order": 16,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 2 - Device Status Text - FRC",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 14,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 920,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "57a30aabfdb8d458",
+        "type": "debug",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "name": "debug 402",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "5b12a63807ec6fe5",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "group": "2349ac6640923c2c",
+        "order": 7,
+        "width": "5",
+        "height": "1",
+        "name": "XIAO 2 - Device Status Text - main",
+        "label": "XIAO_2 Online --",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 14,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 920,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "5e052432eb04e674",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "name": "XIAO 2 - Device Online LED - main",
+        "group": "2349ac6640923c2c",
+        "order": 6,
+        "width": "1",
+        "height": "1",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 920,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "44591c1b6430e301",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "2349ac6640923c2c",
+        "order": 9,
+        "width": "5",
+        "height": "1",
+        "name": "XIAO 2 - Last FRC Date/Time",
+        "label": "FRC Due?  - Last FRC:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 950,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "7df307a16360ecaa",
+        "type": "change",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "name": "Change colors with numbers",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "green",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "yellow",
+                "fromt": "str",
+                "to": "2",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "red",
+                "fromt": "str",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 1000,
+        "wires": [
+            [
+                "f71897802895f65a",
+                "8df7898e92ebe1b5"
+            ]
+        ]
+    },
+    {
+        "id": "f71897802895f65a",
+        "type": "influxdb out",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "XIAO_1_Uptime",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 560,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "8df7898e92ebe1b5",
+        "type": "debug",
+        "z": "b7d254abc3d5f1ce",
+        "g": "d7ea949645f9512c",
+        "name": "LED Color",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "03de6ad76220aca7",
+        "type": "change",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "name": "Change colors with numbers",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "green",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "yellow",
+                "fromt": "str",
+                "to": "2",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "red",
+                "fromt": "str",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 2180,
+        "wires": [
+            [
+                "75308d7a7cd66a6e",
+                "b897b441fcf0a3cc"
+            ]
+        ]
+    },
+    {
+        "id": "75308d7a7cd66a6e",
+        "type": "influxdb out",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "XIAO_2_Uptime",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 520,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "b897b441fcf0a3cc",
+        "type": "debug",
+        "z": "b7d254abc3d5f1ce",
+        "g": "cfc2c806230b1253",
+        "name": "debug 403",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "581da303b81d078e",
+        "type": "ui-markdown",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "cd19f647a7edb16a",
+        "name": "XIAO 1 - Instructions",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "- Set CO₂ sensor outdoors in calm, shady location away from people or other co2 sources.\n- Change settings if desired then press 'Start FRC' button to start 10 min. countdown.\n- NOTE: Sensor readings take several minutes to stablize after FRC.",
+        "className": "",
+        "x": 1120,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "224ad28b85827924",
+        "type": "ui-markdown",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "group": "98729947c317805e",
+        "name": "XIAO 2 - Instructions",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "- Set CO₂ sensor outdoors in calm, shady location away from people or other co2 sources.\n- Change settings if desired then press 'Start FRC' button to start 10 min. countdown.\n- NOTE: Sensor readings take several minutes to stablize after FRC.",
+        "className": "",
+        "x": 1080,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2037d69962869699",
+        "type": "comment",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "=== FRC TEMPLATE:  LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C === DUPLICATE THIS GROUP FOR EACH NEW DEVICE",
+        "info": "THINGS TO CHANGE PER DEVICE (search for XIAO1 / 2C02A7D4DB1C):\n1. Device ID string in all function nodes and MQTT topics\n2. Sensor name label in ui-text header node\n3. Link-in node: re-link to correct CO2 live feed link-out\n4. All node IDs should be regenerated on import (Node-RED does this automatically)\n\nMQTT STATE TOPIC (retained):\n  OMGhome/NodeRed/frc/state/LoRa_XIAO1_2C02A7D4DB1C\n\nMQTT FRC COMMAND TOPIC (to OMG gateway - same for all devices):\n  OMGhome/OMG_ESP32_LORA/commands/MQTTtoLORA\n",
+        "x": 530,
+        "y": 2320,
+        "wires": []
+    },
+    {
+        "id": "e4f9da9cfe7b6d38",
+        "type": "link in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "Live CO2 feed — XIAO2 [CHANGE LINK]",
+        "links": [],
+        "x": 265,
+        "y": 2420,
+        "wires": [
+            [
+                "3b0227e30440403a"
+            ]
+        ]
+    },
+    {
+        "id": "3b0227e30440403a",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "Store live CO2 reading",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_3_BC1BA7D4DB1C\";\n// --------------------------------\n\nflow.set(`frc_current_co2.${DEVICE}`, Number(msg.payload));\nreturn msg;  // pass through to dashboard text node",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 2420,
+        "wires": [
+            [
+                "9afa4beeb5c668e9"
+            ]
+        ]
+    },
+    {
+        "id": "9afa4beeb5c668e9",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "name": "XIAO 3 - Current CO2 ppm",
+        "label": "CO₂ Now",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 740,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "50b87bbe656c64cf",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "XIAO 3 - Sensor: Incubation CO₂",
+        "label": "Sensor: Incubation CO₂",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 280,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "af424643e314a226",
+        "type": "ui-text-input",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "name": "XIAO 3 - Desired FRC ppm",
+        "label": "Desired FRC ppm:",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "topic": "frc_ppm",
+        "topicType": "str",
+        "mode": "number",
+        "tooltip": "Typical outdoor ambient: 432 ppm",
+        "delay": "",
+        "passthru": false,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 220,
+        "y": 2480,
+        "wires": [
+            [
+                "7622f919bf582934"
+            ]
+        ]
+    },
+    {
+        "id": "7622f919bf582934",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "Save desired ppm",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_3_BC1BA7D4DB1C\";\n// --------------------------------\n\nflow.set(`frc_desired_ppm.${DEVICE}`, Number(msg.payload));\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 2480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e1097fca44a7177c",
+        "type": "ui-button",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "name": "XIAO 3 - Start FRC",
+        "label": "Start FRC",
+        "order": 6,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "color": "#ffffff",
+        "bgcolor": "#0094ce",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "start_frc",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 190,
+        "y": 2540,
+        "wires": [
+            [
+                "79db3c536053c3f9"
+            ]
+        ]
+    },
+    {
+        "id": "79db3c536053c3f9",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "Prep & Start Countdown",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_3_BC1BA7D4DB1C\";\n// --------------------------------\n\n// Clear any leftover abort flag\nflow.set(`frc_abort.${DEVICE}`, false);\n\n// Snapshot the desired ppm now (so changing the input mid-countdown has no effect)\nlet ppm = flow.get(`frc_desired_ppm.${DEVICE}`) || 432;\nflow.set(`frc_pending_ppm.${DEVICE}`, ppm);\n\n// Send \"start\" to countdown node\nmsg.payload = \"start\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 2540,
+        "wires": [
+            [
+                "c66c60a0f8f221ef"
+            ]
+        ]
+    },
+    {
+        "id": "851208532bacab1e",
+        "type": "ui-button",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "name": "XIAO 3 - Abort FRC",
+        "label": "Abort FRC",
+        "order": 7,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "color": "#ffffff",
+        "bgcolor": "#ff2600",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "abort_frc",
+        "topicType": "str",
+        "buttonColor": "red",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 190,
+        "y": 2600,
+        "wires": [
+            [
+                "4652382639b6afa1"
+            ]
+        ]
+    },
+    {
+        "id": "4652382639b6afa1",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "Abort Logic",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_3_BC1BA7D4DB1C\";\n// --------------------------------\n\nflow.set(`frc_abort.${DEVICE}`, true);\nmsg.payload = 0;  // stops the countdown node\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 2600,
+        "wires": [
+            [
+                "c66c60a0f8f221ef"
+            ]
+        ]
+    },
+    {
+        "id": "c66c60a0f8f221ef",
+        "type": "countdown",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "10 min countdown",
+        "topic": "",
+        "payloadTimerStart": "start",
+        "payloadTimerStartType": "str",
+        "payloadTimerStop": "",
+        "payloadTimerStopType": "str",
+        "timer": "600",
+        "resetWhileRunning": true,
+        "outputOnReset": true,
+        "setTimeToNewWhileRunning": false,
+        "startCountdownOnControlMessage": false,
+        "x": 670,
+        "y": 2560,
+        "wires": [
+            [],
+            [
+                "069688222877e0ba",
+                "c943c58827e622d8"
+            ]
+        ]
+    },
+    {
+        "id": "069688222877e0ba",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "MM:SS formatter",
+        "func": "let totalSec = Number(msg.payload) || 0;\nlet minutes = Math.floor(totalSec / 60);\nlet seconds = totalSec % 60;\n\nmsg.payload = minutes > 0\n    ? `${minutes} min ${seconds.toString().padStart(2, '0')} sec`\n    : (totalSec === 0 ? \"--\" : `${seconds} sec`);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 2560,
+        "wires": [
+            [
+                "7f244573c0912aeb"
+            ]
+        ]
+    },
+    {
+        "id": "7f244573c0912aeb",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "order": 8,
+        "width": "2",
+        "height": "1",
+        "name": "XIAO 3 - Countdown Display",
+        "label": "Countdown:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1180,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "c943c58827e622d8",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "Check Abort / Gate",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_3_BC1BA7D4DB1C\";\n// --------------------------------\n\n// Only fires when countdown reaches 0 (natural finish or abort)\nif (msg.payload !== 0) return null;\n\nlet aborted = flow.get(`frc_abort.${DEVICE}`) || false;\nflow.set(`frc_abort.${DEVICE}`, false);  // clear flag\n\nif (aborted) {\n    node.status({ fill: \"red\", shape: \"dot\", text: \"Aborted\" });\n    return null;  // block — do nothing on abort\n}\n\nnode.status({ fill: \"green\", shape: \"dot\", text: \"Completing FRC...\" });\nreturn msg;  // pass through to FRC completion logic",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 2640,
+        "wires": [
+            [
+                "543ecc417d6fb8f9"
+            ]
+        ]
+    },
+    {
+        "id": "543ecc417d6fb8f9",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "Complete FRC — Build State & Outputs",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_3_BC1BA7D4DB1C\";\n// --------------------------------\n\n// Read values\nlet target  = flow.get(`frc_pending_ppm.${DEVICE}`) || 425;\nlet actual  = flow.get(`frc_current_co2.${DEVICE}`) || 0;\nlet offset  = actual - target;\nlet now     = new Date().toLocaleString(\"en-US\");\n\n// Read existing MQTT state to preserve interval_days\n// (We'll receive this via the MQTT state subscriber — stored in flow context)\nlet existing = flow.get(`frc_state.${DEVICE}`) || {};\nlet intervalDays = existing.interval_days || 7;\n\n// Build updated state object\nlet state = {\n    device:           DEVICE,\n    last_frc:         now,\n    last_frc_actual:  actual,\n    last_frc_target:  target,\n    last_frc_offset:  offset,\n    interval_days:    intervalDays\n};\n\n// ---- Output 1: MQTT state update (retained) ----\nlet mqttMsg = {\n    topic:   `MushLoRa/NodeRed/frc/state/${DEVICE}`,\n    payload: JSON.stringify(state),\n    retain:  true,\n    qos:     1\n};\n\n// ---- Output 2: FRC command to OMG gateway ----\nlet omgMsg = {\n    topic: \"MushLoRa/OMG_LORA_MOAPA/commands/MQTTtoLORA\",\n    payload: JSON.stringify({\n        message: JSON.stringify({ target: DEVICE, frc: target })\n    })\n};\n\n// ---- Output 3: Dashboard immediate updates (prior reading, corrected to, offset) ----\n// Bundle all three in one pass — downstream function will split\nlet dashMsg = {\n    payload: {\n        prior:  actual,\n        target: target,\n        offset: offset,\n        now:    now\n    }\n};\n\nreturn [ mqttMsg, omgMsg, dashMsg ];",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 2720,
+        "wires": [
+            [
+                "f9abbabcd7cfbc4a"
+            ],
+            [
+                "f9abbabcd7cfbc4a"
+            ],
+            [
+                "e57c207fa0e55c73"
+            ]
+        ],
+        "outputLabels": [
+            "MQTT state (retained)",
+            "OMG FRC command",
+            "Dashboard values"
+        ]
+    },
+    {
+        "id": "f9abbabcd7cfbc4a",
+        "type": "mqtt out",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "MQTT Out (FRC)",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 890,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "e57c207fa0e55c73",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "Split Dashboard Values",
+        "func": "let d = msg.payload;\nreturn [\n    { payload: d.prior  },\n    { payload: d.target },\n    { payload: d.offset }\n];",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 2740,
+        "wires": [
+            [
+                "60b1aed60bba4d11"
+            ],
+            [
+                "0b55f0100c9c8dcd"
+            ],
+            [
+                "8b7b1c8f3837a23b"
+            ]
+        ],
+        "outputLabels": [
+            "Prior Reading",
+            "Corrected To",
+            "Offset"
+        ]
+    },
+    {
+        "id": "60b1aed60bba4d11",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "order": 11,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 3 - Prior Reading",
+        "label": "Prior Reading:",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1220,
+        "y": 2700,
+        "wires": []
+    },
+    {
+        "id": "0b55f0100c9c8dcd",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 3 - Corrected To",
+        "label": "Corrected To:",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1220,
+        "y": 2740,
+        "wires": []
+    },
+    {
+        "id": "8b7b1c8f3837a23b",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "order": 10,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 3 - Correction Offset",
+        "label": "Correction Offset:",
+        "format": "{{msg.payload}} ppm",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1240,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "86b3ea8ebf18bab3",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "FRC State — XIAO 3 [CHANGE TOPIC]",
+        "topic": "MushLoRa/NodeRed/frc/state/LoRa_XIAO_CO2_3_BC1BA7D4DB1C",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 270,
+        "y": 2840,
+        "wires": [
+            [
+                "7c42899d0d4d869a"
+            ]
+        ]
+    },
+    {
+        "id": "7c42899d0d4d869a",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "Parse State & Calc Due",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_3_BC1BA7D4DB1C\";\n// --------------------------------\n\n// Parse payload (may arrive as object or JSON string)\nlet state = (typeof msg.payload === \"string\")\n    ? JSON.parse(msg.payload)\n    : msg.payload;\n\n// Store in flow context so Complete FRC can read interval_days\nflow.set(`frc_state.${DEVICE}`, state);\n\nlet prior       = state.last_frc_actual  ?? \"—\";\nlet offset      = state.last_frc_offset  ?? \"—\";\nlet timestamp   = state.last_frc         ?? \"—\";\nlet intervalDays = state.interval_days   ?? 14;\n\n// ---- Calculate days until next recal ----\nlet daysUntilDue;\nlet led = \"green\";\n\nif (timestamp && timestamp !== \"—\") {\n    let lastDate = new Date(timestamp);\n    if (!isNaN(lastDate.getTime())) {\n        let diffDays = (Date.now() - lastDate.getTime()) / (1000 * 60 * 60 * 24);\n        daysUntilDue = Math.round(intervalDays - diffDays);\n\n        if (daysUntilDue <= 0 && daysUntilDue > -3) {\n            led = \"yellow\";\n        } else if (daysUntilDue <= -3) {\n            led = \"red\";\n        } else {\n            led = \"green\";\n        }\n    }\n}\n\nif (daysUntilDue === undefined || isNaN(daysUntilDue)) {\n    daysUntilDue = \"—\";\n}\n\nreturn [\n    { payload: timestamp },   // output 1 - Last FRC Date/Time\n    { payload: daysUntilDue },  // output 2 - Days Until Next Recal\n    { payload: led }    // output 3 - LED color\n];\n\n",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 2840,
+        "wires": [
+            [
+                "92c59508e6e0efc2",
+                "3e9b40d8bd71e5d6"
+            ],
+            [
+                "74df20fdec401b6b"
+            ],
+            [
+                "495f3181ec6c2903",
+                "81383a14e967cd47",
+                "b29dac6fa366f26e"
+            ]
+        ],
+        "outputLabels": [
+            "Last FRC Date/Time",
+            "Days Until Recal",
+            "LED color"
+        ]
+    },
+    {
+        "id": "92c59508e6e0efc2",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "order": 12,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 3 - Last FRC Date/Time",
+        "label": "Last FRC:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 950,
+        "y": 2800,
+        "wires": []
+    },
+    {
+        "id": "74df20fdec401b6b",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "order": 14,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 3 - Days Until Next Recal",
+        "label": "Days Until Next Recal:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 950,
+        "y": 2880,
+        "wires": []
+    },
+    {
+        "id": "495f3181ec6c2903",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "XIAO 3 - FRC Due LED",
+        "group": "fc64da34e212793d",
+        "order": 13,
+        "width": "3",
+        "height": "1",
+        "label": "FRC Due?",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 930,
+        "y": 2920,
+        "wires": []
+    },
+    {
+        "id": "e163ef9a7df68a2f",
+        "type": "ui-text-input",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "name": "XIAO 3 - Days Between FRC input",
+        "label": "# Days Between FRC:",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "topic": "frc_interval",
+        "topicType": "str",
+        "mode": "number",
+        "tooltip": "Defaults to 14",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 260,
+        "y": 2920,
+        "wires": [
+            [
+                "e2cb876b0a0798da"
+            ]
+        ]
+    },
+    {
+        "id": "e2cb876b0a0798da",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "Save Interval to MQTT State",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_3_BC1BA7D4DB1C\";\n// --------------------------------\n\nlet intervalDays = Number(msg.payload);\nif (isNaN(intervalDays) || intervalDays <= 0) return null;\n\n// Read current retained state so we don't overwrite other fields\nlet existing = flow.get(`frc_state.${DEVICE}`) || {};\n\n// Update interval_days only\nexisting.interval_days = intervalDays;\nexisting.device = DEVICE;  // ensure device field is present\n\n// Publish merged state back as retained\nmsg.topic = `MushLoRa/NodeRed/frc/state/${DEVICE}`;\nmsg.payload = JSON.stringify(existing);\nmsg.retain  = true;\nmsg.qos     = 1;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 2920,
+        "wires": [
+            [
+                "f9abbabcd7cfbc4a"
+            ]
+        ]
+    },
+    {
+        "id": "81383a14e967cd47",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "XIAO 2\\3 - FRC Due? -- xiao2",
+        "group": "f8b093ecf3ed179a",
+        "order": 7,
+        "width": "1",
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 950,
+        "y": 2960,
+        "wires": []
+    },
+    {
+        "id": "9633e86eb227355c",
+        "type": "comment",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "name": "=== WATCHDOG ADDON: Paste these nodes into your flow, then wire frc_wd_linkin_co2 to your existing CO2 link-out ===",
+        "info": "THINGS TO CHANGE PER DEVICE:\n1. DEVICE constant in both function nodes\n2. Link-in node: connect to correct CO2 link-out\n3. Add the two new ui nodes to your existing status ui-group\n\nThresholds:\n  Yellow = 5+ min no data\n  Red    = 10+ min no data\n  Green  = data received within last 5 min",
+        "x": 650,
+        "y": 3060,
+        "wires": []
+    },
+    {
+        "id": "0634c4052f0fa272",
+        "type": "link in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "name": "Watchdog CO2 feed — XIAO3 [CHANGE LINK]",
+        "links": [],
+        "x": 365,
+        "y": 3140,
+        "wires": [
+            [
+                "93aea3d1e9cb77cb",
+                "0bd8d0957bc7f833"
+            ]
+        ]
+    },
+    {
+        "id": "93aea3d1e9cb77cb",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "name": "Store Last Seen Timestamp",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_3_BC1BA7D4DB1C\";\n// --------------------------------\n\nflow.set(`watchdog_last_seen.${DEVICE}`, Date.now());\nreturn null;  // watchdog only — don't pass through",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 3140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "869e61f03da50426",
+        "type": "inject",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "name": "Check every 60 sec",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 5,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 380,
+        "y": 3200,
+        "wires": [
+            [
+                "99fdd73b1f5efb12"
+            ]
+        ]
+    },
+    {
+        "id": "99fdd73b1f5efb12",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "name": "Watchdog Check",
+        "func": "// ---- CHANGE DEVICE ID HERE ----\nconst DEVICE = \"LoRa_XIAO_CO2_3_BC1BA7D4DB1C\";\n// --------------------------------\n\nconst YELLOW_MS = 5  * 60 * 1000;  // 5 min\nconst RED_MS    = 10 * 60 * 1000;  // 10 min\n\nlet lastSeen = flow.get(`watchdog_last_seen.${DEVICE}`);\nlet now = Date.now();\n\nlet led, statusText;\n\nif (!lastSeen) {\n    // Never received any data this session\n    led = \"red\";\n    statusText = \"No data received\";\n} else {\n    let ageMs  = now - lastSeen;\n    let ageMin = Math.floor(ageMs / 60000);\n    let ageSec = Math.floor((ageMs % 60000) / 1000);\n\n    if (ageMs < YELLOW_MS) {\n        led = \"green\";\n        statusText = ageMin > 0\n            ? `Last seen: ${ageMin} min ago`\n            : `Last seen: < 1 min ago`;\n\n \n    } else if (ageMs < RED_MS) {\n        led = \"yellow\";\n        statusText = `STALE — ${ageMin} min ago`;\n    } else {\n        led = \"red\";\n        statusText = `OFFLINE — ${ageMin} min ago`;\n    }\n}\n\nreturn [\n    { payload: led        },   // output 1 — LED color\n    { payload: statusText }    // output 2 — status text\n];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 3200,
+        "wires": [
+            [
+                "61e8d2b768739b5c",
+                "e2089f437d2ef1e1",
+                "e7675578f822074b"
+            ],
+            [
+                "a5073b5764515ca2",
+                "e765d84b12cea746"
+            ]
+        ],
+        "outputLabels": [
+            "LED color",
+            "Status text"
+        ]
+    },
+    {
+        "id": "61e8d2b768739b5c",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "name": "XIAO 3 - Device Online LED - FRC",
+        "group": "fc64da34e212793d",
+        "order": 15,
+        "width": "2",
+        "height": "1",
+        "label": "Device Online",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 920,
+        "y": 3200,
+        "wires": []
+    },
+    {
+        "id": "a5073b5764515ca2",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "group": "fc64da34e212793d",
+        "order": 16,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO 3 - Device Status Text - FRC",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 14,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 920,
+        "y": 3280,
+        "wires": []
+    },
+    {
+        "id": "0bd8d0957bc7f833",
+        "type": "debug",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 3100,
+        "wires": []
+    },
+    {
+        "id": "e765d84b12cea746",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "group": "f8b093ecf3ed179a",
+        "order": 6,
+        "width": "5",
+        "height": "1",
+        "name": "XIAO 3 - Device Status Text - main",
+        "label": "XIAO_3 Online --",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 14,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 920,
+        "y": 3240,
+        "wires": []
+    },
+    {
+        "id": "e2089f437d2ef1e1",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "name": "XIAO 3 - Device Online LED - main",
+        "group": "f8b093ecf3ed179a",
+        "order": 5,
+        "width": "1",
+        "height": "1",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 920,
+        "y": 3160,
+        "wires": []
+    },
+    {
+        "id": "e7675578f822074b",
+        "type": "change",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "name": "Change colors with numbers",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "green",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "yellow",
+                "fromt": "str",
+                "to": "2",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "red",
+                "fromt": "str",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 3280,
+        "wires": [
+            [
+                "131676896e8b0046",
+                "5a88b7aeca1726ae"
+            ]
+        ]
+    },
+    {
+        "id": "131676896e8b0046",
+        "type": "influxdb out",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "XIAO_3_Uptime",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 520,
+        "y": 3340,
+        "wires": []
+    },
+    {
+        "id": "5a88b7aeca1726ae",
+        "type": "debug",
+        "z": "b7d254abc3d5f1ce",
+        "g": "eafca1b9080220ee",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 3340,
+        "wires": []
+    },
+    {
+        "id": "3e9b40d8bd71e5d6",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "f8b093ecf3ed179a",
+        "order": 8,
+        "width": "5",
+        "height": "1",
+        "name": "XIAO 3 - Last FRC Date/Time",
+        "label": "FRC Due?  - Last FRC:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 950,
+        "y": 2840,
+        "wires": []
+    },
+    {
+        "id": "45a95df140a53771",
+        "type": "ui-markdown",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "group": "fc64da34e212793d",
+        "name": "XIAO 3 - Instructions",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "- Set CO₂ sensor outdoors in calm, shady location away from people or other co2 sources.\n- Change settings if desired then press 'Start FRC' button to start 10 min. countdown.\n- NOTE: Sensor readings take several minutes to stablize after FRC.",
+        "className": "",
+        "x": 1080,
+        "y": 2360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "baf977cfa7990d09",
+        "type": "ui-dropdown",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "group": "cal_ui_group",
+        "name": "Device Selector",
+        "label": "Select Sensor",
+        "tooltip": "",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "XIAO 1 - Fruiting Front",
+                "value": "LoRa_XIAO_CO2_1_D893A8D4DB1C",
+                "type": "str"
+            },
+            {
+                "label": "XIAO 2 - Fruiting Rear",
+                "value": "LoRa_XIAO_CO2_2_B893A8D4DB1C",
+                "type": "str"
+            },
+            {
+                "label": "XIAO 3 - Incubation",
+                "value": "LoRa_XIAO_CO2_3_BC1BA7D4DB1C",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "device",
+        "topicType": "str",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 360,
+        "y": 3500,
+        "wires": [
+            [
+                "1df9b6497f12f1d1"
+            ]
+        ]
+    },
+    {
+        "id": "1df9b6497f12f1d1",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Save Selected Device",
+        "func": "flow.set('cal_device', msg.payload);\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 3500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8225bc65abd5b410",
+        "type": "ui-number-input",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "group": "cal_ui_group",
+        "name": "Temp Offset Input",
+        "label": "Temp Offset (°F)",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "topic": "temp_offset_f",
+        "topicType": "str",
+        "min": 0,
+        "max": 36,
+        "step": 0.5,
+        "tooltip": "Enter degrees °F your sensor reads TOO HIGH. SCD41 subtracts this amount. Always positive (0 = no offset).",
+        "delay": "0",
+        "passthru": true,
+        "sendOnDelay": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 360,
+        "y": 3560,
+        "wires": [
+            [
+                "0afaa2d8fe787c6a"
+            ]
+        ]
+    },
+    {
+        "id": "0afaa2d8fe787c6a",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Save Temp Offset",
+        "func": "flow.set('cal_temp_f', msg.payload);\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 3560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bdd9108033b026a4",
+        "type": "ui-button",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "group": "cal_ui_group",
+        "name": "Set Temp Offset",
+        "label": "Set Temp Offset",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "set_temp",
+        "payloadType": "str",
+        "topic": "action",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 360,
+        "y": 3620,
+        "wires": [
+            [
+                "debe1e33821728f1"
+            ]
+        ]
+    },
+    {
+        "id": "26c6e8fda19b69a8",
+        "type": "ui-button",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "group": "cal_ui_group",
+        "name": "Get Temp Offset",
+        "label": "Get Temp Offset",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "get_temp",
+        "payloadType": "str",
+        "topic": "action",
+        "topicType": "str",
+        "x": 360,
+        "y": 3680,
+        "wires": [
+            [
+                "debe1e33821728f1"
+            ]
+        ]
+    },
+    {
+        "id": "9f5c40d5d8d8f0b0",
+        "type": "ui-number-input",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "group": "cal_ui_group",
+        "name": "Altitude Input",
+        "label": "Altitude (feet)",
+        "order": 6,
+        "width": "2",
+        "height": "1",
+        "topic": "altitude_ft",
+        "topicType": "str",
+        "min": 0,
+        "max": 15000,
+        "step": 10,
+        "tooltip": "Longmont CO ≈ 5060 ft  |  Moapa NV ≈ 1560 ft",
+        "delay": "0",
+        "passthru": true,
+        "sendOnDelay": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 360,
+        "y": 3740,
+        "wires": [
+            [
+                "d0a1eae45478e138"
+            ]
+        ]
+    },
+    {
+        "id": "d0a1eae45478e138",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Save Altitude",
+        "func": "flow.set('cal_alt_ft', msg.payload);\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 3760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da85ddfacf230741",
+        "type": "ui-button",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "group": "cal_ui_group",
+        "name": "Set Altitude",
+        "label": "Set Altitude",
+        "order": 7,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "set_alt",
+        "payloadType": "str",
+        "topic": "action",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 360,
+        "y": 3800,
+        "wires": [
+            [
+                "debe1e33821728f1"
+            ]
+        ]
+    },
+    {
+        "id": "51fa391b322cc098",
+        "type": "ui-button",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "group": "cal_ui_group",
+        "name": "Get Altitude",
+        "label": "Get Altitude",
+        "order": 8,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "get_alt",
+        "payloadType": "str",
+        "topic": "action",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 360,
+        "y": 3860,
+        "wires": [
+            [
+                "debe1e33821728f1"
+            ]
+        ]
+    },
+    {
+        "id": "debe1e33821728f1",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Build Calibration Command",
+        "func": "const action     = msg.payload;\nconst device     = flow.get('cal_device');\nconst tempF      = flow.get('cal_temp_f') || 0;\nconst altFt      = flow.get('cal_alt_ft') || 1344;\n\nif (!device) {\n    node.warn('No device selected');\n    return null;\n}\n\nlet command = { target: device };\n\nif (action === 'set_temp') {\n    // SCD41 offset is always positive - it always subtracts this from readings\n    // Convert °F difference to °C difference (divide by 1.8, NOT subtract 32)\n    const absF = Math.abs(parseFloat(tempF) || 0);\n    const tempC = parseFloat((absF / 1.8).toFixed(2));\n    command.temp_offset = tempC;\n    node.status({ fill:'blue', shape:'dot',\n        text: `Set temp offset ${absF}°F (${tempC}°C) → ${device}` });\n\n} else if (action === 'get_temp') {\n    command.get_temp_offset = true;\n    node.status({ fill:'blue', shape:'dot',\n        text: `Get temp offset ← ${device}` });\n\n} else if (action === 'set_alt') {\n    // Convert feet to meters\n    const altM = Math.round(altFt / 3.28084);\n    command.altitude = altM;\n    node.status({ fill:'blue', shape:'dot',\n        text: `Set altitude ${altFt}ft (${altM}m) → ${device}` });\n\n} else if (action === 'get_alt') {\n    command.get_altitude = true;\n    node.status({ fill:'blue', shape:'dot',\n        text: `Get altitude ← ${device}` });\n}\n\nmsg.payload = JSON.stringify({\n    message: JSON.stringify(command)\n});\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 3700,
+        "wires": [
+            [
+                "61319f845ebb4dfb",
+                "fd5c23278ae5d6cb"
+            ]
+        ]
+    },
+    {
+        "id": "61319f845ebb4dfb",
+        "type": "mqtt out",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Send to LoRa Gateway",
+        "topic": "MushLoRa/OMG_LORA_MOAPA/commands/MQTTtoLORA",
+        "qos": "0",
+        "retain": "false",
+        "broker": "a2cc319da1341e36",
+        "x": 890,
+        "y": 3660,
+        "wires": []
+    },
+    {
+        "id": "fd5c23278ae5d6cb",
+        "type": "debug",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Cal Command Sent",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 3720,
+        "wires": []
+    },
+    {
+        "id": "84936bc1549a88d8",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "XIAO_1 cal response - Value",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/temp_offset_value",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 300,
+        "y": 3940,
+        "wires": [
+            [
+                "2c5103da2e11c608"
+            ]
+        ]
+    },
+    {
+        "id": "2dabded3534e6269",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "XIAO_2 cal response - Value",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/temp_offset_value",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 300,
+        "y": 4040,
+        "wires": [
+            [
+                "2c5103da2e11c608"
+            ]
+        ]
+    },
+    {
+        "id": "c9639853b1b3e138",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "XIAO_3 cal response - Value",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/temp_offset_value",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 300,
+        "y": 4140,
+        "wires": [
+            [
+                "2c5103da2e11c608"
+            ]
+        ]
+    },
+    {
+        "id": "2c5103da2e11c608",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Format Response for Display",
+        "func": "const parts = msg.topic.split('/');\nconst device = parts[1] || 'unknown';\nconst field = parts[2] || 'unknown';\n\nconst shortName = device.replace('LoRa_XIAO_CO2_', 'XIAO ');\nconst val = parseFloat(msg.payload);\n\nlet display;\nif (field.startsWith('temp_offset')) {\n    const valF = parseFloat((val * 1.8).toFixed(2));\n    display = `${shortName} — ${field}: ${val}°C (${valF}°F)`;\n} else if (field.startsWith('altitude')) {\n    const valFt = Math.round(val * 3.28084);\n    display = `${shortName} — ${field}: ${val}m (${valFt}ft)`;\n} else {\n    display = `${shortName} — ${field}: ${val}`;\n}\n\nmsg.payload = display;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 4020,
+        "wires": [
+            [
+                "9b474177a8ea9541",
+                "42edd2fc9d9ef150",
+                "5e86fc1bd393040c"
+            ]
+        ]
+    },
+    {
+        "id": "9b474177a8ea9541",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "group": "cal_ui_group",
+        "order": 9,
+        "width": "6",
+        "height": "1",
+        "name": "Cal Response Display",
+        "label": "Last Response",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "className": "",
+        "x": 930,
+        "y": 4000,
+        "wires": []
+    },
+    {
+        "id": "42edd2fc9d9ef150",
+        "type": "debug",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Cal Response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 4060,
+        "wires": []
+    },
+    {
+        "id": "537a021747e9d068",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "XIAO_1 cal response - Current",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/temp_offset_current",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 300,
+        "y": 3980,
+        "wires": [
+            [
+                "2c5103da2e11c608"
+            ]
+        ]
+    },
+    {
+        "id": "51f09c70508ea361",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "XIAO_2 cal response - Current",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/temp_offset_current",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 300,
+        "y": 4080,
+        "wires": [
+            [
+                "2c5103da2e11c608"
+            ]
+        ]
+    },
+    {
+        "id": "c112e8bff73d8cc9",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "XIAO_3 cal response - Current",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/temp_offset_current",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 300,
+        "y": 4180,
+        "wires": [
+            [
+                "2c5103da2e11c608"
+            ]
+        ]
+    },
+    {
+        "id": "efd9ede6e61a81fb",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/altitude_value",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 420,
+        "y": 4240,
+        "wires": [
+            [
+                "8f823c09efd9dce4"
+            ]
+        ]
+    },
+    {
+        "id": "3e53f9e07693a71c",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/altitude_value",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 420,
+        "y": 4340,
+        "wires": [
+            [
+                "8f823c09efd9dce4"
+            ]
+        ]
+    },
+    {
+        "id": "3acca4c744c3b1b4",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/altitude_value",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 430,
+        "y": 4440,
+        "wires": [
+            [
+                "8f823c09efd9dce4"
+            ]
+        ]
+    },
+    {
+        "id": "659071664f273f8a",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/altitude_current",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 430,
+        "y": 4280,
+        "wires": [
+            [
+                "8f823c09efd9dce4"
+            ]
+        ]
+    },
+    {
+        "id": "45f930bed4009981",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/altitude_current",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 430,
+        "y": 4380,
+        "wires": [
+            [
+                "8f823c09efd9dce4"
+            ]
+        ]
+    },
+    {
+        "id": "604af3c0bddc07ba",
+        "type": "mqtt in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/altitude_current",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 430,
+        "y": 4480,
+        "wires": [
+            [
+                "8f823c09efd9dce4"
+            ]
+        ]
+    },
+    {
+        "id": "8f823c09efd9dce4",
+        "type": "link out",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "SCD41 Altitude",
+        "mode": "link",
+        "links": [
+            "27c98e64a93886f4"
+        ],
+        "x": 805,
+        "y": 4360,
+        "wires": []
+    },
+    {
+        "id": "27c98e64a93886f4",
+        "type": "link in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "SCD41 Setting Display",
+        "links": [
+            "8f823c09efd9dce4"
+        ],
+        "x": 585,
+        "y": 4100,
+        "wires": [
+            [
+                "2c5103da2e11c608"
+            ]
+        ]
+    },
+    {
+        "id": "5e86fc1bd393040c",
+        "type": "debug",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Alttitude Response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 4100,
+        "wires": []
+    },
+    {
+        "id": "04a7f21a22bfd216",
+        "type": "comment",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "SCD41 Temp and Altitude Calibration",
+        "info": "",
+        "x": 430,
+        "y": 3440,
+        "wires": []
+    },
+    {
+        "id": "98b59ebd50b4c944",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "group": "cal_ui_group",
+        "order": 10,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "------------------------------------------------------------------------------------------------",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 630,
+        "y": 4540,
+        "wires": []
+    },
+    {
+        "id": "29c10ee55d6d71dd",
+        "type": "ui-button",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "group": "cal_ui_group",
+        "name": "Trigger OTA Update",
+        "label": "Trigger OTA Update Period",
+        "order": 11,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "Sends OTA command to selected device. You have 3 minutes to push firmware.",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "ota",
+        "payloadType": "str",
+        "topic": "action",
+        "topicType": "str",
+        "buttonColor": "#ffff00",
+        "textColor": "#000000",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 4620,
+        "wires": [
+            [
+                "b9cea0505691466c",
+                "1452498499d12279"
+            ]
+        ]
+    },
+    {
+        "id": "1452498499d12279",
+        "type": "delay",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Wait 3 Minutes",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "minutes",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 620,
+        "y": 4700,
+        "wires": [
+            [
+                "3d74c2914c4c64fd"
+            ]
+        ]
+    },
+    {
+        "id": "3d74c2914c4c64fd",
+        "type": "change",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Clear OTA Status",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 4700,
+        "wires": [
+            [
+                "a4c132ecca284132"
+            ]
+        ]
+    },
+    {
+        "id": "b9cea0505691466c",
+        "type": "function",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Build OTA Command",
+        "func": "const device = flow.get('cal_device');\n\nif (!device) {\n    node.warn('No device selected');\n    node.status({ fill:'red', shape:'dot', text:'No device selected' });\n    return null;\n}\n\nconst command = { target: device, ota: true };\n\nconst payload = JSON.stringify({\n    message: JSON.stringify(command)\n});\n\nnode.status({ fill:'blue', shape:'dot',\n    text: `OTA triggered → ${device}` });\n\n// Route: output 1 = local (HomePi), output 2 = Nevada (MushRmPi)\nconst isLocal = device === 'LoRa_XIAO1_2C02A7D4DB1C';\n\nif (isLocal) {\n    return [{ payload }, null];\n} else {\n    return [null, { payload }];\n}",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 4620,
+        "wires": [
+            [
+                "92704bb75db5c3a7"
+            ],
+            [
+                "6adfe1f419a028e7"
+            ]
+        ],
+        "outputLabels": [
+            "Home OMG Gateway",
+            "Moapa OMG Gateway"
+        ]
+    },
+    {
+        "id": "d6162015a5673ac5",
+        "type": "link in",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "OTA Status In",
+        "links": [],
+        "x": 355,
+        "y": 4760,
+        "wires": [
+            [
+                "a4c132ecca284132"
+            ]
+        ]
+    },
+    {
+        "id": "a4c132ecca284132",
+        "type": "ui-text",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "group": "cal_ui_group",
+        "order": 12,
+        "width": "6",
+        "height": "1",
+        "name": "OTA Status Display",
+        "label": "OTA Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 4760,
+        "wires": []
+    },
+    {
+        "id": "6adfe1f419a028e7",
+        "type": "mqtt out",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "Send to OMG_LORA_MOAPA Gateway",
+        "topic": "MushLoRa/OMG_LORA_MOAPA/commands/MQTTtoLORA",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 940,
+        "y": 4640,
+        "wires": []
+    },
+    {
+        "id": "92704bb75db5c3a7",
+        "type": "link out",
+        "z": "b7d254abc3d5f1ce",
+        "g": "da2f71dceb86776b",
+        "name": "OTA → Local OMG",
+        "mode": "link",
+        "links": [],
+        "x": 845,
+        "y": 4600,
+        "wires": []
+    },
+    {
+        "id": "9236b228bd3d3aa3",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "name": "FRC Due - SCD1",
+        "group": "c8646f9b073751c8",
+        "order": 10,
+        "width": "2",
+        "height": 1,
+        "label": "SCD-1",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 930,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "13782af77d5f65b2",
+        "type": "ui-markdown",
+        "z": "b7d254abc3d5f1ce",
+        "g": "9a857536ec022484",
+        "group": "c8646f9b073751c8",
+        "name": "Sensor Recalibration (FRC) Due Status:",
+        "order": 9,
+        "width": "6",
+        "height": "2",
+        "content": "### Sensor Recalibration (FRC) Due Status\n<span style='display:inline-block;width:14px;height:14px;background:#00cc00;border-radius:2px;margin-right:4px;vertical-align:middle;'></span><small>OK</small>&nbsp;&nbsp;&nbsp;<span style='display:inline-block;width:14px;height:14px;background:#ffcc00;border-radius:2px;margin-right:4px;vertical-align:middle;'></span><small>Due Soon</small>&nbsp;&nbsp;&nbsp;<span style='display:inline-block;width:14px;height:14px;background:#ff3300;border-radius:2px;margin-right:4px;vertical-align:middle;'></span><small>Due Now</small>",
+        "className": "",
+        "x": 1260,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58b04b2b653df1ed",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "a5633bd9e2fef232",
+        "name": "FRC Due - SCD2",
+        "group": "c8646f9b073751c8",
+        "order": 11,
+        "width": "2",
+        "height": 1,
+        "label": "SCD-2",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 910,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "b29dac6fa366f26e",
+        "type": "ui-led",
+        "z": "b7d254abc3d5f1ce",
+        "g": "8e40b6d19fdfb397",
+        "name": "FRC Due - SCD3",
+        "group": "c8646f9b073751c8",
+        "order": 12,
+        "width": "2",
+        "height": 1,
+        "label": "SCD-3",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "green",
+                "valueType": "str",
+                "color": "#00f900"
+            },
+            {
+                "value": "yellow",
+                "valueType": "str",
+                "color": "#fffb00"
+            },
+            {
+                "value": "red",
+                "valueType": "str",
+                "color": "#ff2600"
+            }
+        ],
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 910,
+        "y": 3000,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

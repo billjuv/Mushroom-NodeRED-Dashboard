@@ -1,0 +1,1377 @@
+[
+    {
+        "id": "87d85e89d8eecc24",
+        "type": "tab",
+        "label": "Expel Fan - humid",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2f3a3686eb4b6893",
+        "type": "group",
+        "z": "87d85e89d8eecc24",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "316878c2b0ee3664",
+            "548306982e5cf516",
+            "438598c923d2484a",
+            "f4bfe931b1db4f10",
+            "2b7d46b435a4ec21",
+            "92aa0c928fb8b9ed",
+            "4a0e4c5c992f30fd",
+            "8192b648c5e0715b",
+            "8221a4793a62cff1",
+            "06dcf323172ea176",
+            "2facbf267c1a92c1",
+            "9ea698955eb73c6b",
+            "9c31071c818ba4b6",
+            "07bd33a35ada2fe5",
+            "d72d32c1a3cfa653",
+            "fd26f7109cfd5991",
+            "2ee3c9aa40e43db3",
+            "4afad85c5e7577b7",
+            "c66835612d0ca0d1",
+            "3a011a57bf1ef832",
+            "7d7068570f959947",
+            "4a85ad69d40e4192",
+            "0426ae1080928199",
+            "92957c8c66a8a47a",
+            "6cd42357c5d61a21",
+            "5e18639761c7f6ef",
+            "f6c60b4c91e52e11",
+            "81da80fb4a85c9b8",
+            "6a13ddeed0fbd926",
+            "ad8a5054747d2199",
+            "4ddc10276e2ee899",
+            "2c0c641af3258257",
+            "815f29e71138857c",
+            "c9bf307797d8c968",
+            "cca0449c7d0bf7d3",
+            "b7c1e3f902aa4401",
+            "b7c1e3f902aa4402",
+            "b7f3d1d882dedb70"
+        ],
+        "x": 4,
+        "y": 119,
+        "w": 1762,
+        "h": 708
+    },
+    {
+        "id": "4ddc10276e2ee899",
+        "type": "group",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "",
+        "style": {
+            "stroke": "#0070c0",
+            "label": true
+        },
+        "nodes": [
+            "a89c487e07ab0813",
+            "db41ef3aedc18cb0",
+            "74c4c76c45f9eaf0",
+            "ed65b7894b6b9055",
+            "86a4eabce734d408",
+            "15a2e8b1c62b0333",
+            "dde403f2d298ab15"
+        ],
+        "x": 1094,
+        "y": 539,
+        "w": 532,
+        "h": 262
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "12606b49c66bd206",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "25610350729beff8",
+        "type": "ui-page",
+        "name": "MushRoom",
+        "ui": "b19902285c24f724",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "12606b49c66bd206",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "a2cc319da1341e36",
+        "type": "mqtt-broker",
+        "name": "MushRmPi - K1W1 (use)",
+        "broker": "192.168.1.109",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e5d695bf95ae6c6c",
+        "type": "influxdb",
+        "hostname": "MushRmPi.local",
+        "port": 8086,
+        "protocol": "http",
+        "database": "mushroom_data",
+        "name": "InfluxDB 1.x - mushroom_data",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "f6dad65e37606704",
+        "type": "influxdb",
+        "hostname": "MushRmPi.local",
+        "port": 8086,
+        "protocol": "http",
+        "database": "mushroom_data",
+        "name": "InfluxDB 1.x - mushroom_data",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "d2c11b184fc0fbf1",
+        "type": "ui-group",
+        "name": "Expel Fan",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 4,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "316878c2b0ee3664",
+        "type": "debug",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "Humidity %",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "548306982e5cf516",
+        "type": "comment",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "Expel Fan On/Off - S31 SmartPlug",
+        "info": "",
+        "x": 420,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "438598c923d2484a",
+        "type": "debug",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1460,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "f4bfe931b1db4f10",
+        "type": "change",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "set.highThreshold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::highThreshold",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 460,
+        "wires": [
+            [
+                "c66835612d0ca0d1",
+                "0426ae1080928199"
+            ]
+        ]
+    },
+    {
+        "id": "2b7d46b435a4ec21",
+        "type": "ui-number-input",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "group": "d2c11b184fc0fbf1",
+        "name": "Set High Threshold",
+        "label": "Set Trigger Fan ON Delay Level (Max)",
+        "order": 7,
+        "width": "3",
+        "height": "1",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": "1",
+        "tooltip": "",
+        "delay": "0",
+        "passthru": false,
+        "sendOnDelay": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 360,
+        "y": 460,
+        "wires": [
+            [
+                "f4bfe931b1db4f10"
+            ]
+        ]
+    },
+    {
+        "id": "92aa0c928fb8b9ed",
+        "type": "change",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "1→ON / 0→OFF",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "num",
+                "to": "ON",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "num",
+                "to": "OFF",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1200,
+        "y": 340,
+        "wires": [
+            [
+                "438598c923d2484a",
+                "4a0e4c5c992f30fd",
+                "2facbf267c1a92c1"
+            ]
+        ]
+    },
+    {
+        "id": "4a0e4c5c992f30fd",
+        "type": "ui-led",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "Fan Triggered",
+        "group": "d2c11b184fc0fbf1",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "label": "Fan Triggered",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "OFF",
+                "valueType": "str",
+                "color": "#919191"
+            },
+            {
+                "value": "ON",
+                "valueType": "str",
+                "color": "#00ff00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 1480,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8192b648c5e0715b",
+        "type": "change",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "set.overrideMode",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::overrideMode",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "source",
+                "pt": "msg",
+                "to": "override",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 380,
+        "wires": [
+            [
+                "4afad85c5e7577b7",
+                "fd26f7109cfd5991",
+                "cca0449c7d0bf7d3"
+            ]
+        ]
+    },
+    {
+        "id": "8221a4793a62cff1",
+        "type": "debug",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "06dcf323172ea176",
+        "type": "ui-radio-group",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "group": "d2c11b184fc0fbf1",
+        "name": "",
+        "label": "      OVERRIDE - Select Option:",
+        "order": 9,
+        "width": "0",
+        "height": "0",
+        "columns": "3",
+        "passthru": false,
+        "options": [
+            {
+                "label": "Auto",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "OFF",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "ON",
+                "value": 2,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 350,
+        "y": 380,
+        "wires": [
+            [
+                "8192b648c5e0715b"
+            ]
+        ]
+    },
+    {
+        "id": "2facbf267c1a92c1",
+        "type": "mqtt out",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "cmnd/S31Plug_0D3D11/POWER",
+        "topic": "cmnd/S31Plug_0D3D11/POWER",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1540,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "9ea698955eb73c6b",
+        "type": "link in",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "Fruiting - Expel RH",
+        "links": [],
+        "x": 705,
+        "y": 240,
+        "wires": [
+            [
+                "316878c2b0ee3664",
+                "d72d32c1a3cfa653",
+                "fd26f7109cfd5991"
+            ]
+        ]
+    },
+    {
+        "id": "9c31071c818ba4b6",
+        "type": "ui-number-input",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "group": "d2c11b184fc0fbf1",
+        "name": "Set Low Threshold",
+        "label": "Set Fan OFF Level (Min)",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": "1",
+        "tooltip": "",
+        "delay": "0",
+        "passthru": false,
+        "sendOnDelay": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 360,
+        "y": 420,
+        "wires": [
+            [
+                "07bd33a35ada2fe5"
+            ]
+        ]
+    },
+    {
+        "id": "07bd33a35ada2fe5",
+        "type": "change",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "set.lowThreshold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::lowThreshold",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 420,
+        "wires": [
+            [
+                "2ee3c9aa40e43db3",
+                "92957c8c66a8a47a"
+            ]
+        ]
+    },
+    {
+        "id": "d72d32c1a3cfa653",
+        "type": "ui-gauge",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "",
+        "group": "d2c11b184fc0fbf1",
+        "order": 5,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "3",
+        "height": "3",
+        "gtype": "gauge-34",
+        "gstyle": "needle",
+        "title": "Fruiting Front Humidity (SCD1)",
+        "alwaysShowTitle": false,
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "110",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1530,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd26f7109cfd5991",
+        "type": "function",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "High Threshold (set, on/off)",
+        "func": "let value;\nif (msg.source === 'override') {\n    // Triggered by override button — use last saved humidity\n    value = Number(flow.get('lastHumidity', 'file')) || 0;\n} else {\n    // Real sensor reading — save it and use it\n    value = Number(msg.payload);\n    flow.set('lastHumidity', value, 'file');\n}\n\nlet lowThreshold = Number(flow.get('lowThreshold', 'file')) || 0;\nlet highThreshold = Number(flow.get('highThreshold', 'file')) || 100;\nlet overrideMode = Number(flow.get('overrideMode', 'file')) || 0;\nlet lastState = Number(flow.get('lastState', 'memory')) || 0;\n\nnode.status({\n    fill: 'blue', shape: 'dot',\n    text: `RH:${value} Lo:${lowThreshold} Hi:${highThreshold} Mode:${overrideMode} Last:${lastState}`\n});\n\n// Override OFF — immediate, no delay\nif (overrideMode === 1) {\n    if (lastState !== 0) {\n        flow.set('lastState', 0, 'memory');\n        return { payload: 0, override: true };\n    }\n    return null;\n}\n\n// Override ON — immediate, no delay\nif (overrideMode === 2) {\n    if (lastState !== 1) {\n        flow.set('lastState', 1, 'memory');\n        return { payload: 1, override: true };\n    }\n    return null;\n}\n\n// Auto mode — only fire on state change\nif (lastState === 0 && value > highThreshold) {\n    let puckOn = global.get('puckPlugOn') === 1;\n    if (puckOn) {\n        node.status({\n            fill: 'orange', shape: 'ring',\n            text: `Blocked: puck ON (RH:${value})`\n        });\n        return null;\n    }\n    flow.set('lastState', 1, 'memory');\n    return { payload: 1, override: false };\n}\nif (lastState === 1 && value < lowThreshold) {\n    flow.set('lastState', 0, 'memory');\n    return { payload: 0, override: false };\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 240,
+        "wires": [
+            [
+                "8221a4793a62cff1",
+                "5e18639761c7f6ef"
+            ]
+        ]
+    },
+    {
+        "id": "2ee3c9aa40e43db3",
+        "type": "mqtt out",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "lowThreshold",
+        "topic": "MushControls/ExpelFan/lowThreshold",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 860,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "4afad85c5e7577b7",
+        "type": "mqtt out",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "overrideMode",
+        "topic": "MushControls/ExpelFan/overrideMode",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 860,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "c66835612d0ca0d1",
+        "type": "mqtt out",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "highThreshold",
+        "topic": "MushControls/ExpelFan/highThreshold",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 860,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "3a011a57bf1ef832",
+        "type": "mqtt in",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "overrideMode",
+        "topic": "MushControls/ExpelFan/overrideMode",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 100,
+        "y": 380,
+        "wires": [
+            [
+                "06dcf323172ea176"
+            ]
+        ]
+    },
+    {
+        "id": "7d7068570f959947",
+        "type": "mqtt in",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "lowThreshold",
+        "topic": "MushControls/ExpelFan/lowThreshold",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 100,
+        "y": 420,
+        "wires": [
+            [
+                "9c31071c818ba4b6"
+            ]
+        ]
+    },
+    {
+        "id": "4a85ad69d40e4192",
+        "type": "mqtt in",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "highThreshold",
+        "topic": "MushControls/ExpelFan/highThreshold",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 100,
+        "y": 460,
+        "wires": [
+            [
+                "2b7d46b435a4ec21"
+            ]
+        ]
+    },
+    {
+        "id": "0426ae1080928199",
+        "type": "influxdb out",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "influxdb": "f6dad65e37606704",
+        "name": "Expel/High",
+        "measurement": "Expel/High",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 860,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "92957c8c66a8a47a",
+        "type": "influxdb out",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "influxdb": "f6dad65e37606704",
+        "name": "Expel/Low",
+        "measurement": "Expel/Low",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 860,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "6cd42357c5d61a21",
+        "type": "ui-text",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "group": "d2c11b184fc0fbf1",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Expel Fan",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 440,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a89c487e07ab0813",
+        "type": "mqtt in",
+        "z": "87d85e89d8eecc24",
+        "g": "4ddc10276e2ee899",
+        "name": "",
+        "topic": "tele/S31Plug_0D3D11/LWT",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 1230,
+        "y": 580,
+        "wires": [
+            [
+                "db41ef3aedc18cb0",
+                "ed65b7894b6b9055"
+            ]
+        ]
+    },
+    {
+        "id": "5e18639761c7f6ef",
+        "type": "switch",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "ON or OFF?",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1190,
+        "y": 240,
+        "wires": [
+            [
+                "815f29e71138857c"
+            ],
+            [
+                "92aa0c928fb8b9ed"
+            ]
+        ]
+    },
+    {
+        "id": "f6c60b4c91e52e11",
+        "type": "mqtt out",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "fanOnDelay",
+        "topic": "MushControls/ExpelFan/fanOnDelay",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 850,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "81da80fb4a85c9b8",
+        "type": "ui-number-input",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "group": "d2c11b184fc0fbf1",
+        "name": "Set Fan On Delay",
+        "label": "Fan On Delay (minutes)",
+        "order": 8,
+        "width": "3",
+        "height": "1",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "30",
+        "step": "1",
+        "tooltip": "",
+        "delay": "0",
+        "passthru": false,
+        "sendOnDelay": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 370,
+        "y": 620,
+        "wires": [
+            [
+                "6a13ddeed0fbd926"
+            ]
+        ]
+    },
+    {
+        "id": "6a13ddeed0fbd926",
+        "type": "change",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "set.fanOnDelay",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::fanOnDelay",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 620,
+        "wires": [
+            [
+                "f6c60b4c91e52e11"
+            ]
+        ]
+    },
+    {
+        "id": "ad8a5054747d2199",
+        "type": "mqtt in",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "fanOnDelay",
+        "topic": "MushControls/ExpelFan/fanOnDelay",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 110,
+        "y": 620,
+        "wires": [
+            [
+                "81da80fb4a85c9b8"
+            ]
+        ]
+    },
+    {
+        "id": "db41ef3aedc18cb0",
+        "type": "ui-led",
+        "z": "87d85e89d8eecc24",
+        "g": "4ddc10276e2ee899",
+        "name": "S31 LWT",
+        "group": "d2c11b184fc0fbf1",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "label": "S31Plug Online",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "Online",
+                "valueType": "str",
+                "color": "#00fdff"
+            },
+            {
+                "value": "Offline",
+                "valueType": "str",
+                "color": "#919191"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showBorder": true,
+        "showGlow": false,
+        "x": 1480,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "74c4c76c45f9eaf0",
+        "type": "influxdb out",
+        "z": "87d85e89d8eecc24",
+        "g": "4ddc10276e2ee899",
+        "influxdb": "f6dad65e37606704",
+        "name": "Expel/S31_LWT",
+        "measurement": "Expel/S31_LWT",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1520,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "ed65b7894b6b9055",
+        "type": "change",
+        "z": "87d85e89d8eecc24",
+        "g": "4ddc10276e2ee899",
+        "name": "Online=1, Offline = 0",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Online",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Offline",
+                "fromt": "str",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 640,
+        "wires": [
+            [
+                "74c4c76c45f9eaf0"
+            ]
+        ]
+    },
+    {
+        "id": "86a4eabce734d408",
+        "type": "mqtt in",
+        "z": "87d85e89d8eecc24",
+        "g": "4ddc10276e2ee899",
+        "name": "",
+        "topic": "cmnd/S31Plug_0D3D11/POWER",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 1250,
+        "y": 700,
+        "wires": [
+            [
+                "dde403f2d298ab15"
+            ]
+        ]
+    },
+    {
+        "id": "15a2e8b1c62b0333",
+        "type": "influxdb out",
+        "z": "87d85e89d8eecc24",
+        "g": "4ddc10276e2ee899",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "Expel/OnOff",
+        "measurement": "Expel/OnOff",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1510,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "dde403f2d298ab15",
+        "type": "change",
+        "z": "87d85e89d8eecc24",
+        "g": "4ddc10276e2ee899",
+        "name": "On=1, Off = 0",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 760,
+        "wires": [
+            [
+                "15a2e8b1c62b0333"
+            ]
+        ]
+    },
+    {
+        "id": "2c0c641af3258257",
+        "type": "inject",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 660,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "815f29e71138857c",
+        "type": "function",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "Apply Fan On Delay",
+        "func": "// Override ON skips delay entirely\nif (msg.override === true) {\n    node.status({ fill: 'green', shape: 'dot', text: 'Override ON - no delay' });\n    node.send([msg, { payload: 'OFF' }]);  // fan ON, LED off (no delay active)\n    return null;\n}\n\nlet delayMinutes = Number(flow.get('fanOnDelay', 'file')) || 0;\nlet delayMs = delayMinutes * 60 * 1000;\n\nif (delayMs === 0) {\n    node.status({ fill: 'green', shape: 'dot', text: 'No delay - ON' });\n    node.send([msg, { payload: 'OFF' }]);  // fan ON, LED off (no delay active)\n    return null;\n}\n\n// Delay is active — light up the LED\nnode.status({ fill: 'yellow', shape: 'dot', text: `Delay: ${delayMinutes}m pending...` });\nnode.send([null, { payload: 'ON' }]);  // hold fan, LED on\n\nsetTimeout(() => {\n    node.status({ fill: 'green', shape: 'dot', text: 'Delay done - ON sent' });\n    node.send([msg, { payload: 'OFF' }]);  // fan ON, LED off\n}, delayMs);\n\nreturn null;",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
+        "y": 220,
+        "wires": [
+            [
+                "92aa0c928fb8b9ed"
+            ],
+            [
+                "c9bf307797d8c968",
+                "b7f3d1d882dedb70"
+            ]
+        ]
+    },
+    {
+        "id": "c9bf307797d8c968",
+        "type": "ui-led",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "Delay Active",
+        "group": "d2c11b184fc0fbf1",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "label": "Delay Active",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "OFF",
+                "valueType": "str",
+                "color": "#919191"
+            },
+            {
+                "value": "ON",
+                "valueType": "str",
+                "color": "#fffb00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 1630,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "cca0449c7d0bf7d3",
+        "type": "debug",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "Override Mode",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "b7c1e3f902aa4401",
+        "type": "mqtt in",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "Puck plug state",
+        "topic": "cmnd/WyzePlug1_Mushroom/POWER1",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": true,
+        "inputs": 0,
+        "x": 380,
+        "y": 720,
+        "wires": [
+            [
+                "b7c1e3f902aa4402"
+            ]
+        ]
+    },
+    {
+        "id": "b7c1e3f902aa4402",
+        "type": "function",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "store puck state (global)",
+        "func": "let raw = msg.payload;\nlet on = (raw === 'ON' || raw === 1 || raw === '1' || raw === true);\nglobal.set('puckPlugOn', on ? 1 : 0, 'memory');\nnode.status({ fill: on ? 'green' : 'grey', shape: 'dot', text: on ? 'Puck ON' : 'Puck OFF' });\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b7f3d1d882dedb70",
+        "type": "debug",
+        "z": "87d85e89d8eecc24",
+        "g": "2f3a3686eb4b6893",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1660,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

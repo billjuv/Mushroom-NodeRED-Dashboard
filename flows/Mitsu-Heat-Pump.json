@@ -1,0 +1,1646 @@
+[
+    {
+        "id": "7b2bb67c779f4c6e",
+        "type": "tab",
+        "label": "Mitsu Heat Pump",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "002c9c53e1c43b40",
+        "type": "group",
+        "z": "7b2bb67c779f4c6e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "6f38deeb1776f62b",
+            "d620c6c69bd856de",
+            "6f200742232978f9",
+            "2d4b6064f43fbe0e",
+            "6995d691d2377b31",
+            "a589691e700be5d0",
+            "55153960ad12b543",
+            "f57326c9a8a1897c",
+            "1e1411090aec953c",
+            "8650adc6523def38",
+            "bc3cd23db66e688f",
+            "873996965c106283",
+            "6940a5f4478cca84",
+            "df688e16bd1ffbb0",
+            "5caabce6c85cb8ba",
+            "d2452ab72f7cc517",
+            "9383f9572722aba3",
+            "5800049b9f9fd9cf",
+            "1cfbd6ad07e2d7a9",
+            "dbe1279ae295b7fe",
+            "686f90bf4da2858c",
+            "1689dfd3baf0f459",
+            "175c518c3a1abc03"
+        ],
+        "x": 234,
+        "y": 899,
+        "w": 1352,
+        "h": 522
+    },
+    {
+        "id": "45b8f00549ec73e9",
+        "type": "group",
+        "z": "7b2bb67c779f4c6e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bfb7ac30a9a1ab34",
+            "37edb5658f8623a5",
+            "22bf8e2830484e04",
+            "0642c6a43bc984d6",
+            "121ad72b3f7f2767",
+            "5c8601fd0bda248b",
+            "830561fb7330d41b",
+            "14e06eafac125983",
+            "02d5d93bfdb48660",
+            "55477a6a4fc90c21",
+            "3a6f0343f8ac016b",
+            "95452a3317689b81",
+            "5bddb68be6a72485",
+            "ac1e75665625ac61",
+            "d07c894b0282a70b",
+            "44dd614ec9efe971",
+            "acf18429d9a0e68e",
+            "1a2bb14d98a5a3b8",
+            "91c9910e0e17d1f5",
+            "daf2714abe7916f5",
+            "613e4ccf47a246bb",
+            "255323dcfabf8b7e",
+            "d0a29486ba377cfe",
+            "c6f787f87466d594",
+            "e4ebce15feb3752b",
+            "b79f77b96f9ed7e9",
+            "0cbcace2da30ccd2",
+            "e721688115e080f7",
+            "32afb5c35c2d9054",
+            "1f81751f62640c7d"
+        ],
+        "x": 34,
+        "y": 59,
+        "w": 1212,
+        "h": 702
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "12606b49c66bd206",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "a0e4e8c6e6df9adf",
+        "type": "mqtt-broker",
+        "name": "MushRmPi- (switch from)",
+        "broker": "192.168.1.109",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "25610350729beff8",
+        "type": "ui-page",
+        "name": "MushRoom",
+        "ui": "b19902285c24f724",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "12606b49c66bd206",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "a2cc319da1341e36",
+        "type": "mqtt-broker",
+        "name": "MushRmPi - K1W1 (use)",
+        "broker": "192.168.1.109",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e0f8180e52f4cd39",
+        "type": "ui-group",
+        "name": "Mitsubishi Heat Pump",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 9,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e5d695bf95ae6c6c",
+        "type": "influxdb",
+        "hostname": "MushRmPi.local",
+        "port": 8086,
+        "protocol": "http",
+        "database": "mushroom_data",
+        "name": "InfluxDB 1.x - mushroom_data",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "bfb7ac30a9a1ab34",
+        "type": "mqtt in",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "",
+        "topic": "mitsubishi2mqtt/HVAC_Preconroom/state",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 360,
+        "wires": [
+            [
+                "22bf8e2830484e04",
+                "37edb5658f8623a5",
+                "e721688115e080f7"
+            ]
+        ]
+    },
+    {
+        "id": "37edb5658f8623a5",
+        "type": "debug",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "HVAC state",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "22bf8e2830484e04",
+        "type": "split",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": true,
+        "addname": "payload.hits",
+        "x": 230,
+        "y": 540,
+        "wires": [
+            [
+                "0642c6a43bc984d6",
+                "121ad72b3f7f2767"
+            ]
+        ]
+    },
+    {
+        "id": "0642c6a43bc984d6",
+        "type": "switch",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "State Objects",
+        "property": "parts.key",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "roomTemperature",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "temperature",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "fan",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "vane",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "mode",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "action",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "wideVane",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "compressorFrequency",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 8,
+        "x": 680,
+        "y": 560,
+        "wires": [
+            [
+                "14e06eafac125983",
+                "1a2bb14d98a5a3b8",
+                "91c9910e0e17d1f5"
+            ],
+            [
+                "02d5d93bfdb48660"
+            ],
+            [
+                "55477a6a4fc90c21"
+            ],
+            [
+                "3a6f0343f8ac016b"
+            ],
+            [
+                "95452a3317689b81"
+            ],
+            [
+                "5bddb68be6a72485"
+            ],
+            [
+                "ac1e75665625ac61",
+                "e4ebce15feb3752b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "121ad72b3f7f2767",
+        "type": "debug",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "split",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "5c8601fd0bda248b",
+        "type": "mqtt in",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "",
+        "topic": "mitsubishi2mqtt/HVAC_Preconroom/settings",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 660,
+        "wires": [
+            [
+                "830561fb7330d41b"
+            ]
+        ]
+    },
+    {
+        "id": "830561fb7330d41b",
+        "type": "debug",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "HVAC settings",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "6f38deeb1776f62b",
+        "type": "mqtt out",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "",
+        "topic": "mitsubishi2mqtt/HVAC_Preconroom/temp/set",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1380,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "d620c6c69bd856de",
+        "type": "mqtt out",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "",
+        "topic": "mitsubishi2mqtt/HVAC_Preconroom/vane/set",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1200,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "6f200742232978f9",
+        "type": "comment",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "HVAC Settings ",
+        "info": "",
+        "x": 440,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "2d4b6064f43fbe0e",
+        "type": "mqtt out",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "",
+        "topic": "mitsubishi2mqtt/HVAC_Preconroom/fan/set",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1170,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "6995d691d2377b31",
+        "type": "mqtt out",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "",
+        "topic": "mitsubishi2mqtt/HVAC_Preconroom/mode/set",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1180,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "55153960ad12b543",
+        "type": "comment",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "MQTT topic use cases",
+        "info": "For nodered fans MQTT topic use cases\n\ntopic/power/set OFF\ntopic/mode/set AUTO HEAT COOL DRY FAN_ONLY OFF ON\ntopic/temp/set 16-31\ntopic/remote_temp/set also called \"room_temp\", the implementation defined in \"HeatPump\" seems not work in some models\ntopic/fan/set 1-4 AUTO QUIET\ntopic/vane/set 1-5 SWING AUTO\ntopic/wideVane/set << < | > >>\ntopic/settings\ntopic/state\ntopic/debug/packets\ntopic/debug/packets/set on off\ntopic/debug/logs\ntopic/debug/logs/set on off\ntopic/custom/send as example \"fc 42 01 30 10 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7b \" see https://github.com/SwiCago/HeatPump/blob/master/src/HeatPump.h\ntopic/system/set reboot\n\nha_temp_set_topic        = mqtt_topic + \"/\" + mqtt_fn + \"/temp/set\";",
+        "x": 820,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "a589691e700be5d0",
+        "type": "comment",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "NEED TO TRACK ALL < > WITH MYCODO ",
+        "info": "",
+        "x": 500,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "daf2714abe7916f5",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "group": "e0f8180e52f4cd39",
+        "order": 10,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "Outdoor Temp ",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 980,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "f57326c9a8a1897c",
+        "type": "ui-dropdown",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "group": "e0f8180e52f4cd39",
+        "name": "",
+        "label": "Vane Mode",
+        "tooltip": "",
+        "order": 7,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "AUTO",
+                "value": "AUTO",
+                "type": "str"
+            },
+            {
+                "label": "SWING",
+                "value": "SWING",
+                "type": "str"
+            },
+            {
+                "label": "1",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "2",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "3",
+                "value": "3",
+                "type": "str"
+            },
+            {
+                "label": "4",
+                "value": "4",
+                "type": "str"
+            },
+            {
+                "label": "5",
+                "value": "5",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "vane",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 730,
+        "y": 1160,
+        "wires": [
+            [
+                "d620c6c69bd856de",
+                "d2452ab72f7cc517"
+            ]
+        ]
+    },
+    {
+        "id": "14e06eafac125983",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "group": "e0f8180e52f4cd39",
+        "order": 12,
+        "width": 2,
+        "height": "1",
+        "name": "",
+        "label": "Temp at MiniSplit  ",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 1010,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "02d5d93bfdb48660",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "group": "e0f8180e52f4cd39",
+        "order": 11,
+        "width": 2,
+        "height": "1",
+        "name": "",
+        "label": "Set Temp",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 980,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "55477a6a4fc90c21",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "group": "e0f8180e52f4cd39",
+        "order": 15,
+        "width": 2,
+        "height": "1",
+        "name": "",
+        "label": "Fan Mode",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 980,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "3a6f0343f8ac016b",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "group": "e0f8180e52f4cd39",
+        "order": 16,
+        "width": 2,
+        "height": "1",
+        "name": "",
+        "label": "Vane Mode",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 990,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "95452a3317689b81",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "group": "e0f8180e52f4cd39",
+        "order": 13,
+        "width": 2,
+        "height": "1",
+        "name": "",
+        "label": "HVAC Mode  ",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 990,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "5bddb68be6a72485",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "group": "e0f8180e52f4cd39",
+        "order": 14,
+        "width": 2,
+        "height": "1",
+        "name": "",
+        "label": "Action",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 970,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "ac1e75665625ac61",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "group": "e0f8180e52f4cd39",
+        "order": 17,
+        "width": 2,
+        "height": "1",
+        "name": "",
+        "label": "Wide Vane Mode",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 1010,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "d07c894b0282a70b",
+        "type": "ui-chart",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "group": "e0f8180e52f4cd39",
+        "name": "",
+        "label": "Temperature Comparison (F)",
+        "order": 18,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "false",
+        "pointRadius": "2",
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "86400",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "4",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1020,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "44dd614ec9efe971",
+        "type": "link in",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "Outdoor temp",
+        "links": [],
+        "x": 395,
+        "y": 200,
+        "wires": [
+            [
+                "acf18429d9a0e68e",
+                "613e4ccf47a246bb",
+                "c6f787f87466d594"
+            ]
+        ]
+    },
+    {
+        "id": "acf18429d9a0e68e",
+        "type": "change",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "topic set to Outdoor",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Outdoor",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 240,
+        "wires": [
+            [
+                "d07c894b0282a70b"
+            ]
+        ]
+    },
+    {
+        "id": "1a2bb14d98a5a3b8",
+        "type": "change",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "topic set to Indoor - HVAC_MushRm",
+        "rules": [
+            {
+                "t": "change",
+                "p": "topic",
+                "pt": "msg",
+                "from": "mitsubishi2mqtt/HVAC_Preconroom/state",
+                "fromt": "str",
+                "to": "@ Mini-Split",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 300,
+        "wires": [
+            [
+                "d07c894b0282a70b"
+            ]
+        ]
+    },
+    {
+        "id": "1e1411090aec953c",
+        "type": "ui-dropdown",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "group": "e0f8180e52f4cd39",
+        "name": "",
+        "label": "Wide Vane Mode",
+        "tooltip": "",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "<<",
+                "value": "<<",
+                "type": "str"
+            },
+            {
+                "label": "<",
+                "value": "<",
+                "type": "str"
+            },
+            {
+                "label": "|",
+                "value": "|",
+                "type": "str"
+            },
+            {
+                "label": ">",
+                "value": ">",
+                "type": "str"
+            },
+            {
+                "label": ">>",
+                "value": ">>",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "wideVane",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 750,
+        "y": 1260,
+        "wires": [
+            [
+                "873996965c106283"
+            ]
+        ]
+    },
+    {
+        "id": "8650adc6523def38",
+        "type": "ui-dropdown",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "group": "e0f8180e52f4cd39",
+        "name": "",
+        "label": "Fan Mode",
+        "tooltip": "",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "AUTO",
+                "value": "AUTO",
+                "type": "str"
+            },
+            {
+                "label": "QUIET (Diffuse)",
+                "value": "QUIET",
+                "type": "str"
+            },
+            {
+                "label": "1",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "2",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "3",
+                "value": "3",
+                "type": "str"
+            },
+            {
+                "label": "4",
+                "value": "4",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "fan",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 720,
+        "y": 1320,
+        "wires": [
+            [
+                "2d4b6064f43fbe0e",
+                "5caabce6c85cb8ba"
+            ]
+        ]
+    },
+    {
+        "id": "bc3cd23db66e688f",
+        "type": "ui-dropdown",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "group": "e0f8180e52f4cd39",
+        "name": "",
+        "label": "HVAC Mode",
+        "tooltip": "",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "OFF",
+                "value": "OFF",
+                "type": "str"
+            },
+            {
+                "label": "HEAT",
+                "value": "HEAT",
+                "type": "str"
+            },
+            {
+                "label": "COOL",
+                "value": "COOL",
+                "type": "str"
+            },
+            {
+                "label": "AUTO",
+                "value": "AUTO",
+                "type": "str"
+            },
+            {
+                "label": "DRY",
+                "value": "DRY",
+                "type": "str"
+            },
+            {
+                "label": "FAN_ONLY",
+                "value": "FAN_ONLY",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "mode",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 730,
+        "y": 1380,
+        "wires": [
+            [
+                "6995d691d2377b31"
+            ]
+        ]
+    },
+    {
+        "id": "873996965c106283",
+        "type": "mqtt out",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "",
+        "topic": "mitsubishi2mqtt/HVAC_Preconroom/wideVane/set",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1190,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "6940a5f4478cca84",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "group": "e0f8180e52f4cd39",
+        "order": 8,
+        "width": "3",
+        "height": "1",
+        "name": "Set to \"SWING\" for \"Econo Cool\"",
+        "label": "Set Vane Mode  to \"SWING\" for \"Econo Cool\"",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 840,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "df688e16bd1ffbb0",
+        "type": "debug",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "Temp Set",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "5caabce6c85cb8ba",
+        "type": "debug",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "Temp Set",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "d2452ab72f7cc517",
+        "type": "debug",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "Temp Set",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "5800049b9f9fd9cf",
+        "type": "ui-number-input",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "group": "e0f8180e52f4cd39",
+        "name": "",
+        "label": "Set Temp",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "topic": "temp",
+        "topicType": "msg",
+        "min": "60",
+        "max": "80",
+        "step": "1",
+        "tooltip": "",
+        "passthru": true,
+        "sendOnBlur": true,
+        "sendOnEnter": false,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "right",
+        "iconInnerPosition": "inside",
+        "spinner": "stacked",
+        "x": 840,
+        "y": 1060,
+        "wires": [
+            [
+                "9383f9572722aba3"
+            ]
+        ]
+    },
+    {
+        "id": "9383f9572722aba3",
+        "type": "change",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "temp",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 1060,
+        "wires": [
+            [
+                "df688e16bd1ffbb0",
+                "6f38deeb1776f62b"
+            ]
+        ]
+    },
+    {
+        "id": "91c9910e0e17d1f5",
+        "type": "debug",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "split",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "613e4ccf47a246bb",
+        "type": "change",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "round to 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 1)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 200,
+        "wires": [
+            [
+                "daf2714abe7916f5"
+            ]
+        ]
+    },
+    {
+        "id": "255323dcfabf8b7e",
+        "type": "comment",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "CURRENT STATES",
+        "info": "",
+        "x": 170,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d0a29486ba377cfe",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "group": "e0f8180e52f4cd39",
+        "order": 9,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "CURRENT STATES",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 990,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "c6f787f87466d594",
+        "type": "debug",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "split",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "1cfbd6ad07e2d7a9",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "group": "e0f8180e52f4cd39",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "MINI-SPLIT SETTINGS",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 1170,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "e4ebce15feb3752b",
+        "type": "debug",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "HVAC settings",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "b79f77b96f9ed7e9",
+        "type": "mqtt in",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "",
+        "topic": "pwm-ec-mush1/rssi",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 720,
+        "wires": [
+            [
+                "0cbcace2da30ccd2"
+            ]
+        ]
+    },
+    {
+        "id": "0cbcace2da30ccd2",
+        "type": "link out",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "Fan1-RSSI",
+        "mode": "link",
+        "links": [],
+        "x": 335,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "e721688115e080f7",
+        "type": "change",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "name": "topic set to Mini-Split/State",
+        "rules": [
+            {
+                "t": "change",
+                "p": "topic",
+                "pt": "msg",
+                "from": "mitsubishi2mqtt/HVAC_Preconroom/state",
+                "fromt": "str",
+                "to": "Mini-Split/State",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 420,
+        "wires": [
+            [
+                "32afb5c35c2d9054"
+            ]
+        ]
+    },
+    {
+        "id": "32afb5c35c2d9054",
+        "type": "influxdb out",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "Mini-Split/State",
+        "measurement": "Mini-Split/State",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 620,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "686f90bf4da2858c",
+        "type": "mqtt in",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "Get - HVAC_Preconroom/temp/set",
+        "topic": "mitsubishi2mqtt/HVAC_Preconroom/temp/set",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 1080,
+        "wires": [
+            [
+                "dbe1279ae295b7fe",
+                "1689dfd3baf0f459"
+            ]
+        ]
+    },
+    {
+        "id": "1689dfd3baf0f459",
+        "type": "rbe",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 630,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dbe1279ae295b7fe",
+        "type": "debug",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "Temp Set",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "175c518c3a1abc03",
+        "type": "comment",
+        "z": "7b2bb67c779f4c6e",
+        "g": "002c9c53e1c43b40",
+        "name": "Was intended for restoring from reboot",
+        "info": "For nodered fans MQTT topic use cases\n\ntopic/power/set OFF\ntopic/mode/set AUTO HEAT COOL DRY FAN_ONLY OFF ON\ntopic/temp/set 16-31\ntopic/remote_temp/set also called \"room_temp\", the implementation defined in \"HeatPump\" seems not work in some models\ntopic/fan/set 1-4 AUTO QUIET\ntopic/vane/set 1-5 SWING AUTO\ntopic/wideVane/set << < | > >>\ntopic/settings\ntopic/state\ntopic/debug/packets\ntopic/debug/packets/set on off\ntopic/debug/logs\ntopic/debug/logs/set on off\ntopic/custom/send as example \"fc 42 01 30 10 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7b \" see https://github.com/SwiCago/HeatPump/blob/master/src/HeatPump.h\ntopic/system/set reboot\n\nha_temp_set_topic        = mqtt_topic + \"/\" + mqtt_fn + \"/temp/set\";",
+        "x": 410,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "1f81751f62640c7d",
+        "type": "ui-text",
+        "z": "7b2bb67c779f4c6e",
+        "g": "45b8f00549ec73e9",
+        "group": "e0f8180e52f4cd39",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Mitsubishi Heat Pump",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 180,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

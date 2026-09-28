@@ -1,0 +1,50 @@
+[
+    {
+        "id": "323e3ef8ec5c7e58",
+        "type": "tab",
+        "label": "RemoteRED",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6fa4c09e7310b177",
+        "type": "remote-config",
+        "name": "MushRmPi",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/dashboard",
+        "instancehash": "YOUR_REMOTERED_INSTANCE_HASH",
+        "server": "nodered03.remote-red.com",
+        "region": "us"
+    },
+    {
+        "id": "a6ab043ce6b86d30",
+        "type": "remote-access",
+        "z": "323e3ef8ec5c7e58",
+        "confignode": "6fa4c09e7310b177",
+        "name": "MushRmPi Dashboard",
+        "verbose": 0,
+        "x": 200,
+        "y": 60,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

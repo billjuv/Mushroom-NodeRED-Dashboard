@@ -1,0 +1,2940 @@
+[
+    {
+        "id": "b9a3e749a8574c0d",
+        "type": "tab",
+        "label": "Puck/Humid/TempF",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a0382308493f0671",
+        "type": "group",
+        "z": "b9a3e749a8574c0d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "577e0df249c1debc",
+            "b1a3da1857eae22d",
+            "020b97a8a917697f",
+            "890f218b3e5057fb",
+            "645c0907e5c5ffb4",
+            "3d53b074e23888f1",
+            "e47ff8d5b8c7d3e3",
+            "4fa97d3fc2499b97",
+            "0fd49c110ff62840",
+            "4eedf9b3a4a80dcf",
+            "516646c4ebf2e71a",
+            "9231434513c1d8b4",
+            "dc012f8afae1fa5e",
+            "e8c2ad6625dff0dd",
+            "9059a98ddab36203",
+            "0e9ce26bc1523789",
+            "1869dc892db3626c",
+            "1f5027117f403f59",
+            "508d44292dc08c86",
+            "d058dfa56b852157",
+            "6ac821a28f356ada",
+            "a5c63fc8b0fce3e3",
+            "a268ada3d72a7a17",
+            "693ad381d83e1cc6",
+            "7960f9302ab573be",
+            "3f440f05b300b871",
+            "fa4a3d68e90d3c80",
+            "b5fa4e101cd842ae",
+            "hpuck_inject_timer",
+            "hpuck_threshold_func",
+            "71cdd6447dd77918",
+            "pause_reset_mqtt",
+            "pause_btn_humidifier",
+            "pause_set_override",
+            "pause_mqtt_override",
+            "pause_delay_node",
+            "pause_reset_override",
+            "ad8e80bc4e2c8750",
+            "b5a3e349b398d239",
+            "5aae4eca40aaf21d",
+            "8f88fb114d12be15"
+        ],
+        "x": 128,
+        "y": 1839,
+        "w": 1578,
+        "h": 728
+    },
+    {
+        "id": "88a8171c97c5a68b",
+        "type": "group",
+        "z": "b9a3e749a8574c0d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "686ac400eb24ba35",
+            "39a7db9c1d5b7aa6",
+            "693cef8ca13537a2",
+            "758aff1c83ed38b8",
+            "39f073f9f32a5b36",
+            "0a369d12c8188cd2",
+            "d28b6e0c99e62a12",
+            "50e7d371c16b9f48",
+            "2231d5e39178aa8d",
+            "68a63f2882c9c697",
+            "f20ba87c9d81a657",
+            "114b222b69f9316b",
+            "fdc5c963877e7656",
+            "3158e15ee9575780",
+            "c296f1cddc7f372a",
+            "bca2f124cdac3f65",
+            "hum_table_func",
+            "7aa0a3bf6c9db1b3",
+            "46a9591076b89e0a",
+            "70342ce26007cf85",
+            "cd9c31ec7b2acf15",
+            "3d86f343a7624718",
+            "85dcc13eba2d99e7",
+            "3db2404c16041983",
+            "8dddbb76de1f9149"
+        ],
+        "x": 154,
+        "y": 819,
+        "w": 1052,
+        "h": 742
+    },
+    {
+        "id": "8d2be08f2920828b",
+        "type": "group",
+        "z": "b9a3e749a8574c0d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "754624c83ec77282",
+            "127a6edd1d3a7b69",
+            "7b4fb7542b4a4b51",
+            "ab747bd9a02870f3",
+            "dfeaa93e91ddfc6e",
+            "1ece181fb91904d6",
+            "ee95aa59f541c8e5",
+            "e22a68214d94973c",
+            "8b602c69338c95a1",
+            "d0079ed760326e0f",
+            "0f54578ebd6aacad",
+            "15be51c33aaa6c6d",
+            "7e52e10fa229cf9d",
+            "621051440a8ec54b",
+            "742f7096aa110bcb",
+            "1db55dcb43f1cdf3",
+            "22deeb19f19a9a6e",
+            "c28ef979eba95e85",
+            "3d8f9c2a4e8fdb1f",
+            "2a604a03f46967b7",
+            "4338215c93f50380",
+            "40632e05e6f1f320",
+            "8f6f4aa4138a7dc1",
+            "d1cda8e6cd912dce",
+            "58dd89a3a0b5906b",
+            "437f7709a92ef15b"
+        ],
+        "x": 154,
+        "y": 19,
+        "w": 1062,
+        "h": 762
+    },
+    {
+        "id": "8f88fb114d12be15",
+        "type": "group",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "aef86a9a79cd35b1",
+            "f350ffcd33a91a3d",
+            "4066aac641f5d7ec",
+            "9d2c2c5cc01cb72c",
+            "37eb2c3bf01c0e71",
+            "e7ae12c648613524"
+        ],
+        "x": 154,
+        "y": 2279,
+        "w": 592,
+        "h": 262
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "12606b49c66bd206",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "a0e4e8c6e6df9adf",
+        "type": "mqtt-broker",
+        "name": "MushRmPi- (switch from)",
+        "broker": "192.168.1.109",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "25610350729beff8",
+        "type": "ui-page",
+        "name": "MushRoom",
+        "ui": "b19902285c24f724",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "12606b49c66bd206",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "a2cc319da1341e36",
+        "type": "mqtt-broker",
+        "name": "MushRmPi - K1W1 (use)",
+        "broker": "192.168.1.109",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ad325d605bbeee86",
+        "type": "ui-group",
+        "name": "Temperatures",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 5,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "0c5e1a81b93d0383",
+        "type": "ui-group",
+        "name": "Humidity",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "01c8720d8147648c",
+        "type": "ui-group",
+        "name": "Humidifier Controls",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "",
+        "order": 3,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e5d695bf95ae6c6c",
+        "type": "influxdb",
+        "hostname": "MushRmPi.local",
+        "port": 8086,
+        "protocol": "http",
+        "database": "mushroom_data",
+        "name": "InfluxDB 1.x - mushroom_data",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "c9cdfab2a11cd3d1",
+        "type": "mqtt-broker",
+        "name": "IkaMycodo MQTT",
+        "broker": "192.168.1.123",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "577e0df249c1debc",
+        "type": "debug",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "debug 347",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "b1a3da1857eae22d",
+        "type": "comment",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "SCD1 - Humidity Puck -> WyzePlug1 - Out2",
+        "info": "",
+        "x": 430,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "020b97a8a917697f",
+        "type": "function",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "High/Low Threshold (set, on/off) New",
+        "func": "// Get the incoming sensor value\nlet value = Number(msg.payload);\n\n// Retrieve thresholds\nlet lowThreshold = Number(flow.get(\"lowThreshold\", \"file\"));\nlet highThreshold = Number(flow.get(\"highThreshold\", \"file\"));\n\n// Retrieve override mode from dashboard input\n// 0 = Auto, 1 = Force OFF, 2 = Force ON\nlet overrideMode = flow.get(\"overrideMode\", \"file\") || 0;\n\nnode.status({ fill: \"blue\", shape: \"dot\", text: `H:${value} L:${lowThreshold} H:${highThreshold} Mode:${overrideMode}` });\n\n// Output object\nlet outMsg = {};\n\n// Handle override modes\nif (overrideMode === 1) {\n    outMsg.payload = 0;   // Force OFF\n    return outMsg;\n}\nif (overrideMode === 2) {\n    outMsg.payload = 1;   // Force ON\n    return outMsg;\n}\n\n\n// --- Validate thresholds before proceeding ---\n// If either threshold is missing/invalid, turn OFF and exit\nif (isNaN(lowThreshold) || isNaN(highThreshold)) {\n    outMsg.payload = 0;   // OFF\n    return outMsg;\n}\n\n// --- Auto mode: threshold logic ---\nif (lowThreshold >= highThreshold) {\n    outMsg.payload = 0;   // OFF - invalid threshold range\n} else if (value < lowThreshold) {\n    outMsg.payload = 1;   // ON\n} else if (value > highThreshold) {\n    outMsg.payload = 0;   // OFF\n} else {\n    return null; // Between thresholds → do nothing\n}\n\nreturn outMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 2240,
+        "wires": [
+            [
+                "4eedf9b3a4a80dcf",
+                "9059a98ddab36203"
+            ]
+        ]
+    },
+    {
+        "id": "890f218b3e5057fb",
+        "type": "debug",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "debug 357",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1490,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "645c0907e5c5ffb4",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "set.lowThreshold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::lowThreshold",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 2160,
+        "wires": [
+            [
+                "020b97a8a917697f",
+                "6ac821a28f356ada",
+                "b5fa4e101cd842ae"
+            ]
+        ]
+    },
+    {
+        "id": "3d53b074e23888f1",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "set.highThreshold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::highThreshold",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 2200,
+        "wires": [
+            [
+                "020b97a8a917697f",
+                "a268ada3d72a7a17",
+                "fa4a3d68e90d3c80"
+            ]
+        ]
+    },
+    {
+        "id": "e47ff8d5b8c7d3e3",
+        "type": "ui-number-input",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "group": "01c8720d8147648c",
+        "name": "Set Low Threshold",
+        "label": "Set Min. Humidity",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "tooltip": "",
+        "delay": "0",
+        "passthru": false,
+        "sendOnDelay": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 470,
+        "y": 2160,
+        "wires": [
+            [
+                "645c0907e5c5ffb4"
+            ]
+        ]
+    },
+    {
+        "id": "4fa97d3fc2499b97",
+        "type": "ui-number-input",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "group": "01c8720d8147648c",
+        "name": "Set High Threshold",
+        "label": "Set Max. Humidity",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "tooltip": "",
+        "delay": "0",
+        "passthru": false,
+        "sendOnDelay": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 470,
+        "y": 2200,
+        "wires": [
+            [
+                "3d53b074e23888f1"
+            ]
+        ]
+    },
+    {
+        "id": "0fd49c110ff62840",
+        "type": "ui-gauge",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "",
+        "group": "01c8720d8147648c",
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "3",
+        "height": "3",
+        "gtype": "gauge-34",
+        "gstyle": "needle",
+        "title": "Front Humidity (SCD1)",
+        "alwaysShowTitle": false,
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1140,
+        "y": 2360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4eedf9b3a4a80dcf",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "num",
+                "to": "ON",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "num",
+                "to": "OFF",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 2300,
+        "wires": [
+            [
+                "890f218b3e5057fb",
+                "516646c4ebf2e71a",
+                "dc012f8afae1fa5e",
+                "508d44292dc08c86"
+            ]
+        ]
+    },
+    {
+        "id": "516646c4ebf2e71a",
+        "type": "ui-led",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "",
+        "group": "01c8720d8147648c",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "label": "Puck Triggered",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "OFF",
+                "valueType": "str",
+                "color": "#919191"
+            },
+            {
+                "value": "ON",
+                "valueType": "str",
+                "color": "#00ff00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 1470,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "9231434513c1d8b4",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "from SCD1 - Humidity",
+        "links": [],
+        "x": 855,
+        "y": 2360,
+        "wires": [
+            [
+                "0fd49c110ff62840",
+                "577e0df249c1debc",
+                "020b97a8a917697f"
+            ]
+        ]
+    },
+    {
+        "id": "dc012f8afae1fa5e",
+        "type": "mqtt out",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "",
+        "topic": "cmnd/WyzePlug1_Mushroom/POWER2",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1520,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "e8c2ad6625dff0dd",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::overrideMode",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 1980,
+        "wires": [
+            [
+                "020b97a8a917697f",
+                "a5c63fc8b0fce3e3",
+                "ad8e80bc4e2c8750"
+            ]
+        ]
+    },
+    {
+        "id": "9059a98ddab36203",
+        "type": "debug",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "debug 358",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1510,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "0e9ce26bc1523789",
+        "type": "ui-radio-group",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "group": "01c8720d8147648c",
+        "name": "",
+        "label": "Override - Select Option:",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "columns": "3",
+        "passthru": false,
+        "options": [
+            {
+                "label": "Auto",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "OFF",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "ON",
+                "value": 2,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 510,
+        "y": 1980,
+        "wires": [
+            [
+                "e8c2ad6625dff0dd"
+            ]
+        ]
+    },
+    {
+        "id": "1869dc892db3626c",
+        "type": "ui-led",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "WyzePlug1 LWT",
+        "group": "01c8720d8147648c",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "label": "Wyze1 Online",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "Online",
+                "valueType": "str",
+                "color": "#00fdff"
+            },
+            {
+                "value": "Offline",
+                "valueType": "str",
+                "color": "#919191"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showBorder": true,
+        "showGlow": false,
+        "x": 1180,
+        "y": 2440,
+        "wires": []
+    },
+    {
+        "id": "1f5027117f403f59",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "Wyze1 -LWT",
+        "links": [],
+        "x": 815,
+        "y": 2440,
+        "wires": [
+            [
+                "1869dc892db3626c",
+                "5aae4eca40aaf21d"
+            ]
+        ]
+    },
+    {
+        "id": "508d44292dc08c86",
+        "type": "mqtt out",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "",
+        "topic": "cmnd/WyzePlug1_Mushroom/POWER1",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1520,
+        "y": 2440,
+        "wires": []
+    },
+    {
+        "id": "d058dfa56b852157",
+        "type": "comment",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "Switching on both puck & fan for humidifier",
+        "info": "",
+        "x": 1520,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "6ac821a28f356ada",
+        "type": "mqtt out",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "lowThreshold",
+        "topic": "MushControls/HumPuck/lowThreshold",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1420,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "a5c63fc8b0fce3e3",
+        "type": "mqtt out",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "",
+        "topic": "MushControls/HumPuck/overrideMode",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1340,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "a268ada3d72a7a17",
+        "type": "mqtt out",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "highThreshold",
+        "topic": "MushControls/HumPuck/highThreshold",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1220,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "693ad381d83e1cc6",
+        "type": "mqtt in",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "highThreshold",
+        "topic": "MushControls/HumPuck/highThreshold",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 250,
+        "y": 2200,
+        "wires": [
+            [
+                "4fa97d3fc2499b97"
+            ]
+        ]
+    },
+    {
+        "id": "7960f9302ab573be",
+        "type": "mqtt in",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "lowThreshold",
+        "topic": "MushControls/HumPuck/lowThreshold",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 250,
+        "y": 2160,
+        "wires": [
+            [
+                "e47ff8d5b8c7d3e3"
+            ]
+        ]
+    },
+    {
+        "id": "3f440f05b300b871",
+        "type": "mqtt in",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "overrideMode",
+        "topic": "MushControls/HumPuck/overrideMode",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 270,
+        "y": 1980,
+        "wires": [
+            [
+                "0e9ce26bc1523789"
+            ]
+        ]
+    },
+    {
+        "id": "686ac400eb24ba35",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Moapa Humidity",
+        "links": [
+            "82b8b93be0c36299"
+        ],
+        "x": 195,
+        "y": 940,
+        "wires": [
+            [
+                "758aff1c83ed38b8",
+                "8dddbb76de1f9149"
+            ]
+        ]
+    },
+    {
+        "id": "39a7db9c1d5b7aa6",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "FruitRear Humidity EZO2",
+        "links": [],
+        "x": 195,
+        "y": 1180,
+        "wires": [
+            [
+                "d28b6e0c99e62a12"
+            ]
+        ]
+    },
+    {
+        "id": "693cef8ca13537a2",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Fruiting 1 EZO1 Humidity",
+        "links": [],
+        "x": 195,
+        "y": 1020,
+        "wires": [
+            [
+                "0a369d12c8188cd2"
+            ]
+        ]
+    },
+    {
+        "id": "758aff1c83ed38b8",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Moapa",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Moapa",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 940,
+        "wires": [
+            [
+                "39f073f9f32a5b36"
+            ]
+        ]
+    },
+    {
+        "id": "39f073f9f32a5b36",
+        "type": "ui-chart",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "group": "0c5e1a81b93d0383",
+        "name": "Humidity ",
+        "label": "",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "false",
+        "pointRadius": "1",
+        "showLegend": true,
+        "removeOlder": "12",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff9300",
+            "#00f900",
+            "#00fdff",
+            "#ff40ff",
+            "#0042aa",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "6",
+        "height": "5",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1100,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a369d12c8188cd2",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "F.F. ezo1 % Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "F.F. ezo1 %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 1020,
+        "wires": [
+            [
+                "39f073f9f32a5b36",
+                "hum_table_func"
+            ]
+        ]
+    },
+    {
+        "id": "d28b6e0c99e62a12",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "F.R. ezo2% Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "F.R. ezo2 %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 1180,
+        "wires": [
+            [
+                "39f073f9f32a5b36",
+                "hum_table_func"
+            ]
+        ]
+    },
+    {
+        "id": "50e7d371c16b9f48",
+        "type": "comment",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Humidity Comparison",
+        "info": "",
+        "x": 280,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "2231d5e39178aa8d",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Incub. EZO3 Humidity",
+        "links": [],
+        "x": 195,
+        "y": 1320,
+        "wires": [
+            [
+                "68a63f2882c9c697"
+            ]
+        ]
+    },
+    {
+        "id": "68a63f2882c9c697",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Incub. ezo3 % Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Incub. ezo3 %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 1320,
+        "wires": [
+            [
+                "hum_table_func"
+            ]
+        ]
+    },
+    {
+        "id": "fa4a3d68e90d3c80",
+        "type": "influxdb out",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "H_Puck_High",
+        "measurement": "H_Puck_High",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1220,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "b5fa4e101cd842ae",
+        "type": "influxdb out",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "H_Puck_Low",
+        "measurement": "H_Puck_Low",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1290,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "hpuck_inject_timer",
+        "type": "inject",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "Write Thresholds Every 2hrs",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "7200",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 5,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 460,
+        "y": 1940,
+        "wires": [
+            [
+                "hpuck_threshold_func"
+            ]
+        ]
+    },
+    {
+        "id": "hpuck_threshold_func",
+        "type": "function",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "Get Thresholds from Context",
+        "func": "const low  = flow.get('lowThreshold',  'file');\nconst high = flow.get('highThreshold', 'file');\n\nif (low  === undefined || low  === null) { node.warn('lowThreshold not set');  }\nif (high === undefined || high === null) { node.warn('highThreshold not set'); }\n\nreturn [\n    { payload: low  },\n    { payload: high }\n];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 1940,
+        "wires": [
+            [
+                "b5fa4e101cd842ae"
+            ],
+            [
+                "fa4a3d68e90d3c80"
+            ]
+        ]
+    },
+    {
+        "id": "f20ba87c9d81a657",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Fruit.Fnt LoRa_1 Humidity",
+        "links": [],
+        "x": 195,
+        "y": 1100,
+        "wires": [
+            [
+                "3158e15ee9575780"
+            ]
+        ]
+    },
+    {
+        "id": "114b222b69f9316b",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "FruitRear LoRa_1 Humidity",
+        "links": [],
+        "x": 195,
+        "y": 1220,
+        "wires": [
+            [
+                "c296f1cddc7f372a"
+            ]
+        ]
+    },
+    {
+        "id": "fdc5c963877e7656",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Incub. XIAO3 Humidity",
+        "links": [],
+        "x": 195,
+        "y": 1380,
+        "wires": [
+            [
+                "bca2f124cdac3f65"
+            ]
+        ]
+    },
+    {
+        "id": "3158e15ee9575780",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "F.F. scd1 % Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "F.F. scd1 %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 1100,
+        "wires": [
+            [
+                "39f073f9f32a5b36",
+                "hum_table_func"
+            ]
+        ]
+    },
+    {
+        "id": "c296f1cddc7f372a",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "F.R. scd2 % Topic ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "F.R. scd2 %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 1220,
+        "wires": [
+            [
+                "39f073f9f32a5b36",
+                "hum_table_func"
+            ]
+        ]
+    },
+    {
+        "id": "bca2f124cdac3f65",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Incub. scd3 % Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Incub. scd3 %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 1380,
+        "wires": [
+            [
+                "hum_table_func"
+            ]
+        ]
+    },
+    {
+        "id": "hum_table_func",
+        "type": "function",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Build Humidity Table",
+        "func": "//flow.set('hum_table', null); // clears table - turn back off\n\nvar sensors = flow.get('hum_table') || {\n    'Moapa': { loc: 'Outdoor (Moapa)', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'F.F. ezo1 %': { loc: 'Fruiting Front - ezo1', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'F.F. scd1 %': { loc: 'Fruiting Front - scd1', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'F.R. ezo2 %': { loc: 'Fruiting Rear - ezo2', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'F.R. scd2 %': { loc: 'Fruiting Rear - scd2', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'Incub. ezo3 %': { loc: 'Incubation - ezo3', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'Incub. scd3 %': { loc: 'Incubation - scd3', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'Pre-Con %': { loc: 'Pre-Con Govee', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'Lab %': { loc: 'Lab Govee', values: [], cur: '--', min: '--', max: '--', avg: '--' }\n\n};\n\nvar key = msg.topic;\n\nif (sensors[key] !== undefined) {\n    var val = parseFloat(msg.payload);\n    if (!isNaN(val)) {\n        var now = Date.now();\n        var cutoff = now - 1440 * 60 * 1000;\n\n        if (!sensors[key].values) sensors[key].values = [];\n        sensors[key].values.push({ t: now, v: val });\n        sensors[key].values = sensors[key].values.filter(function (e) { return e.t >= cutoff; });\n\n        var vals = sensors[key].values.map(function (e) { return e.v; });\n        var mn = Math.min.apply(null, vals);\n        var mx = Math.max.apply(null, vals);\n        var av = vals.reduce(function (a, b) { return a + b; }, 0) / vals.length;\n\n        sensors[key].cur = val.toFixed(1) + ' %';\n        sensors[key].min = mn.toFixed(1) ;\n        sensors[key].max = mx.toFixed(1) ;\n        sensors[key].avg = (Math.round(av * 100) / 100).toFixed(1);\n    }\n}\n\nflow.set('hum_table', sensors);\nmsg.payload = Object.values(sensors);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 1180,
+        "wires": [
+            [
+                "70342ce26007cf85",
+                "46a9591076b89e0a"
+            ]
+        ]
+    },
+    {
+        "id": "70342ce26007cf85",
+        "type": "debug",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "debug 11",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "7aa0a3bf6c9db1b3",
+        "type": "ui-text",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "group": "0c5e1a81b93d0383",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Humidity",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 740,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "46a9591076b89e0a",
+        "type": "ui-template",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "group": "0c5e1a81b93d0383",
+        "page": "",
+        "ui": "",
+        "name": "Humidity Table",
+        "order": 3,
+        "width": "6",
+        "height": "9",
+        "format": "<template>\n    <table style=\"width:100%; border-collapse:collapse; font-size:16px;\">\n        <thead>\n            <tr>\n                <th style=\"text-align:left; padding:3px 8px; border-bottom:2px solid #ccc; color:#555;\">Location</th>\n                <th style=\"text-align:right; padding:3px 8px; border-bottom:2px solid #ccc; color:#555;\">Now</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr v-for=\"row in msg.payload\" :key=\"row.loc\">\n                <td style=\"padding:3px 8px;\">\n                    <div style=\"color:#333; font-weight:550;\">{{ row.loc }}</div>\n                    <div style=\"font-size:15px; color:#666; margin-top:1px;\">\n                        Min: {{ row.min }}&nbsp;&nbsp;Max: {{ row.max }}&nbsp;&nbsp;Avg: {{ row.avg }}\n                    </div>\n                </td>\n                <td\n                    style=\"padding:3px 8px; text-align:right; font-size:20px; font-weight:500; color:#006fa3; vertical-align:middle;\">\n                    {{ row.cur }}\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</template>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1080,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71cdd6447dd77918",
+        "type": "ui-text",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "group": "01c8720d8147648c",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Humidifier Controls",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 770,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "754624c83ec77282",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Moapa TempF",
+        "links": [
+            "755228ecc8c7caaf"
+        ],
+        "x": 205,
+        "y": 140,
+        "wires": [
+            [
+                "2a604a03f46967b7"
+            ]
+        ]
+    },
+    {
+        "id": "127a6edd1d3a7b69",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "FruitRear Humidity EZO2",
+        "links": [],
+        "x": 205,
+        "y": 380,
+        "wires": [
+            [
+                "ee95aa59f541c8e5"
+            ]
+        ]
+    },
+    {
+        "id": "7b4fb7542b4a4b51",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Fruiting 1 EZO1 Humidity",
+        "links": [],
+        "x": 205,
+        "y": 220,
+        "wires": [
+            [
+                "1ece181fb91904d6"
+            ]
+        ]
+    },
+    {
+        "id": "ab747bd9a02870f3",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Moapa",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Moapa",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 100,
+        "wires": [
+            [
+                "dfeaa93e91ddfc6e",
+                "2a604a03f46967b7"
+            ]
+        ]
+    },
+    {
+        "id": "dfeaa93e91ddfc6e",
+        "type": "ui-chart",
+        "z": "b9a3e749a8574c0d",
+        "d": true,
+        "g": "8d2be08f2920828b",
+        "group": "ad325d605bbeee86",
+        "name": "Temp F ",
+        "label": "",
+        "order": 5,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "false",
+        "pointRadius": "1",
+        "showLegend": true,
+        "removeOlder": "12",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff9300",
+            "#00f900",
+            "#00fdff",
+            "#ff40ff",
+            "#0042aa",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "6",
+        "height": "5",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1110,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1ece181fb91904d6",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "F.F. ezo1 TempF Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "F.F. ezo1 F",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 220,
+        "wires": [
+            [
+                "dfeaa93e91ddfc6e",
+                "22deeb19f19a9a6e"
+            ]
+        ]
+    },
+    {
+        "id": "ee95aa59f541c8e5",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "F.R. ezo TempF Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "F.R. ezo F",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 380,
+        "wires": [
+            [
+                "dfeaa93e91ddfc6e",
+                "22deeb19f19a9a6e"
+            ]
+        ]
+    },
+    {
+        "id": "e22a68214d94973c",
+        "type": "comment",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Temperature Comparison",
+        "info": "",
+        "x": 300,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "8b602c69338c95a1",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Incub. EZO3 Humidity",
+        "links": [],
+        "x": 205,
+        "y": 520,
+        "wires": [
+            [
+                "d0079ed760326e0f"
+            ]
+        ]
+    },
+    {
+        "id": "d0079ed760326e0f",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Incub. ezo3 TempF Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Incub. ezo F",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 520,
+        "wires": [
+            [
+                "22deeb19f19a9a6e"
+            ]
+        ]
+    },
+    {
+        "id": "0f54578ebd6aacad",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Fruit.Fnt LoRa_1 Humidity",
+        "links": [],
+        "x": 205,
+        "y": 300,
+        "wires": [
+            [
+                "621051440a8ec54b"
+            ]
+        ]
+    },
+    {
+        "id": "15be51c33aaa6c6d",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "FruitRear LoRa_1 Humidity",
+        "links": [],
+        "x": 205,
+        "y": 420,
+        "wires": [
+            [
+                "742f7096aa110bcb"
+            ]
+        ]
+    },
+    {
+        "id": "7e52e10fa229cf9d",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Incub. XIAO3 Humidity",
+        "links": [],
+        "x": 205,
+        "y": 580,
+        "wires": [
+            [
+                "1db55dcb43f1cdf3"
+            ]
+        ]
+    },
+    {
+        "id": "621051440a8ec54b",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "F.F. scd1 TempF Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "F.F. scd1 F",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 300,
+        "wires": [
+            [
+                "dfeaa93e91ddfc6e",
+                "22deeb19f19a9a6e"
+            ]
+        ]
+    },
+    {
+        "id": "742f7096aa110bcb",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "F.R. scd2 TempF Topic ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "F.R. scd2 F",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 420,
+        "wires": [
+            [
+                "dfeaa93e91ddfc6e",
+                "22deeb19f19a9a6e"
+            ]
+        ]
+    },
+    {
+        "id": "1db55dcb43f1cdf3",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Incub. scd3 TempF Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Incub. scd3 F",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 580,
+        "wires": [
+            [
+                "22deeb19f19a9a6e"
+            ]
+        ]
+    },
+    {
+        "id": "22deeb19f19a9a6e",
+        "type": "function",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Build TempF Table",
+        "func": "//flow.set('tempF_table', null); // clears table - turn back off\n\nvar sensors = flow.get('tempF_table') || {\n    'Moapa': { loc: 'Outdoor (Moapa)', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'F.F. ezo1 F': { loc: 'Fruiting Front - ezo1', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'F.F. scd1 F': { loc: 'Fruiting Front - scd1', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'F.R. ezo F': { loc: 'Fruiting Rear - ezo2', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'F.R. scd2 F': { loc: 'Fruiting Rear - scd2', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'Incub. ezo F': { loc: 'Incubation - ezo3', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'Incub. scd3 F': { loc: 'Incubation - scd3', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'Pre-Con_TempF': { loc: 'Pre-Con Govee', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'Lab TempF': { loc: 'Lab Govee', values: [], cur: '--', min: '--', max: '--', avg: '--' }\n};\n\nvar key = msg.topic;\n\nif (sensors[key] !== undefined) {\n    var val = parseFloat(msg.payload);\n    if (!isNaN(val)) {\n        var now = Date.now();\n        var cutoff = now - 1440 * 60 * 1000;\n\n        if (!sensors[key].values) sensors[key].values = [];\n        sensors[key].values.push({ t: now, v: val });\n        sensors[key].values = sensors[key].values.filter(function (e) { return e.t >= cutoff; });\n\n        var vals = sensors[key].values.map(function (e) { return e.v; });\n        var mn = Math.min.apply(null, vals);\n        var mx = Math.max.apply(null, vals);\n        var av = vals.reduce(function (a, b) { return a + b; }, 0) / vals.length;\n\n        sensors[key].cur = val.toFixed(1) + ' °F';\n        sensors[key].min = mn.toFixed(1) ;\n        sensors[key].max = mx.toFixed(1) ;\n        sensors[key].avg = (Math.round(av * 100) / 100).toFixed(1);\n    }\n}\n\nflow.set('tempF_table', sensors);\nmsg.payload = Object.values(sensors);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 380,
+        "wires": [
+            [
+                "4338215c93f50380",
+                "3d8f9c2a4e8fdb1f"
+            ]
+        ]
+    },
+    {
+        "id": "c28ef979eba95e85",
+        "type": "ui-text",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "group": "ad325d605bbeee86",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Temperatures",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 770,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3d8f9c2a4e8fdb1f",
+        "type": "ui-template",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "group": "ad325d605bbeee86",
+        "page": "",
+        "ui": "",
+        "name": "TempF Table",
+        "order": 4,
+        "width": "6",
+        "height": "9",
+        "format": "<template>\n    <table style=\"width:100%; border-collapse:collapse; font-size:16px;\">\n        <thead>\n            <tr>\n                <th style=\"text-align:left; padding:3px 8px; border-bottom:2px solid #ccc; color:#555;\">Location</th>\n                <th style=\"text-align:right; padding:3px 8px; border-bottom:2px solid #ccc; color:#555;\">Now</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr v-for=\"row in msg.payload\" :key=\"row.loc\">\n                <td style=\"padding:3px 8px;\">\n                    <div style=\"color:#333; font-weight:550;\">{{ row.loc }}</div>\n                    <div style=\"font-size:15px; color:#666; margin-top:1px;\">\n                        Min: {{ row.min }}&nbsp;&nbsp;Max: {{ row.max }}&nbsp;&nbsp;Avg: {{ row.avg }}\n                    </div>\n                </td>\n                <td\n                    style=\"padding:3px 8px; text-align:right; font-size:20px; font-weight:500; color:#006fa3; vertical-align:middle;\">\n                    {{ row.cur }}\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</template>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1080,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a604a03f46967b7",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Moapa",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Moapa",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 140,
+        "wires": [
+            [
+                "22deeb19f19a9a6e"
+            ]
+        ]
+    },
+    {
+        "id": "4338215c93f50380",
+        "type": "debug",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e1cf0a63dd8b219a",
+        "type": "debug",
+        "z": "b9a3e749a8574c0d",
+        "name": "Moapa Temp",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "a64af7a8994257f4",
+        "type": "mqtt in",
+        "z": "b9a3e749a8574c0d",
+        "name": "",
+        "topic": "AmbWeather/Moapa/Humidity",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "c9cdfab2a11cd3d1",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 1780,
+        "wires": [
+            [
+                "baa07972f2e4232c",
+                "82b8b93be0c36299",
+                "e19125edbd8af39e"
+            ]
+        ]
+    },
+    {
+        "id": "baa07972f2e4232c",
+        "type": "debug",
+        "z": "b9a3e749a8574c0d",
+        "name": "Moapa Humidity",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "82b8b93be0c36299",
+        "type": "link out",
+        "z": "b9a3e749a8574c0d",
+        "name": "Moapa Humidity",
+        "mode": "link",
+        "links": [
+            "686ac400eb24ba35"
+        ],
+        "x": 595,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "755228ecc8c7caaf",
+        "type": "link out",
+        "z": "b9a3e749a8574c0d",
+        "name": "Moapa TempF",
+        "mode": "link",
+        "links": [
+            "754624c83ec77282"
+        ],
+        "x": 585,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "26b6cb846f73c0d2",
+        "type": "influxdb out",
+        "z": "b9a3e749a8574c0d",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "Moapa_TempF",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 960,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "e19125edbd8af39e",
+        "type": "influxdb out",
+        "z": "b9a3e749a8574c0d",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "Moapa_Humidity",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 960,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "0e549cc7dbfa482b",
+        "type": "mqtt in",
+        "z": "b9a3e749a8574c0d",
+        "name": "AmbWeather/Moapa/TempF",
+        "topic": "AmbWeather/Moapa/TempF",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "c9cdfab2a11cd3d1",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 1660,
+        "wires": [
+            [
+                "755228ecc8c7caaf",
+                "26b6cb846f73c0d2",
+                "e1cf0a63dd8b219a"
+            ]
+        ]
+    },
+    {
+        "id": "pause_btn_humidifier",
+        "type": "ui-button",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "group": "01c8720d8147648c",
+        "name": "Pause Auto 30min",
+        "label": "⏸ Pause (Off 30 min)",
+        "order": 7,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "Forces humidifier OFF for 30 minutes then returns to Auto",
+        "color": "#ffffff",
+        "bgcolor": "#e65c00",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 290,
+        "y": 2040,
+        "wires": [
+            [
+                "pause_set_override",
+                "pause_delay_node"
+            ]
+        ]
+    },
+    {
+        "id": "pause_set_override",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "Set overrideMode=1 (Force OFF)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::overrideMode",
+                "pt": "flow",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 2040,
+        "wires": [
+            [
+                "pause_mqtt_override",
+                "e8c2ad6625dff0dd"
+            ]
+        ]
+    },
+    {
+        "id": "pause_mqtt_override",
+        "type": "mqtt out",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "overrideMode retained",
+        "topic": "MushControls/HumPuck/overrideMode",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 940,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "pause_delay_node",
+        "type": "delay",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "30 min delay",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "minutes",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 2100,
+        "wires": [
+            [
+                "pause_reset_override"
+            ]
+        ]
+    },
+    {
+        "id": "pause_reset_override",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "Reset overrideMode=0 (Auto)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::overrideMode",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 2100,
+        "wires": [
+            [
+                "pause_reset_mqtt",
+                "0e9ce26bc1523789",
+                "e8c2ad6625dff0dd"
+            ]
+        ]
+    },
+    {
+        "id": "pause_reset_mqtt",
+        "type": "mqtt out",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "overrideMode retained",
+        "topic": "MushControls/HumPuck/overrideMode",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 1400,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "cd9c31ec7b2acf15",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Pre-Con Humidity - mma",
+        "links": [],
+        "x": 205,
+        "y": 1460,
+        "wires": [
+            [
+                "3d86f343a7624718"
+            ]
+        ]
+    },
+    {
+        "id": "3d86f343a7624718",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Pre-Con Humidity % Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Pre-Con %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 1460,
+        "wires": [
+            [
+                "hum_table_func"
+            ]
+        ]
+    },
+    {
+        "id": "85dcc13eba2d99e7",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Lab Humidity - mma",
+        "links": [],
+        "x": 205,
+        "y": 1520,
+        "wires": [
+            [
+                "3db2404c16041983"
+            ]
+        ]
+    },
+    {
+        "id": "3db2404c16041983",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Lab % Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Lab %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 1520,
+        "wires": [
+            [
+                "hum_table_func"
+            ]
+        ]
+    },
+    {
+        "id": "40632e05e6f1f320",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Pre-Con TempF to Topic",
+        "links": [],
+        "x": 195,
+        "y": 660,
+        "wires": [
+            [
+                "8f6f4aa4138a7dc1"
+            ]
+        ]
+    },
+    {
+        "id": "8f6f4aa4138a7dc1",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Pre-Con TempF Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Pre-Con_TempF",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 660,
+        "wires": [
+            [
+                "22deeb19f19a9a6e"
+            ]
+        ]
+    },
+    {
+        "id": "d1cda8e6cd912dce",
+        "type": "link in",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Lab TempF - mma",
+        "links": [],
+        "x": 195,
+        "y": 720,
+        "wires": [
+            [
+                "58dd89a3a0b5906b"
+            ]
+        ]
+    },
+    {
+        "id": "58dd89a3a0b5906b",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Lab TempF  Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Lab TempF",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 720,
+        "wires": [
+            [
+                "22deeb19f19a9a6e",
+                "437f7709a92ef15b"
+            ]
+        ]
+    },
+    {
+        "id": "8dddbb76de1f9149",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "88a8171c97c5a68b",
+        "name": "Moapa",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Moapa",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 900,
+        "wires": [
+            [
+                "hum_table_func"
+            ]
+        ]
+    },
+    {
+        "id": "437f7709a92ef15b",
+        "type": "debug",
+        "z": "b9a3e749a8574c0d",
+        "g": "8d2be08f2920828b",
+        "name": "Lab - Temp_F ",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "ad8e80bc4e2c8750",
+        "type": "influxdb out",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "",
+        "measurement": "H_Puck_Override_Mode",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1410,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "b5a3e349b398d239",
+        "type": "influxdb out",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "H_Puck_Wyze_LWT",
+        "measurement": "H_Puck_Wyze_LWT",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1200,
+        "y": 2480,
+        "wires": []
+    },
+    {
+        "id": "5aae4eca40aaf21d",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "a0382308493f0671",
+        "name": "Online=1, Offline = 0",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Online",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Offline",
+                "fromt": "str",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 980,
+        "y": 2480,
+        "wires": [
+            [
+                "b5a3e349b398d239"
+            ]
+        ]
+    },
+    {
+        "id": "aef86a9a79cd35b1",
+        "type": "influxdb out",
+        "z": "b9a3e749a8574c0d",
+        "g": "8f88fb114d12be15",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "H_Puck_Out1_OnOff",
+        "measurement": "H_Puck_Out1_OnOff",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 620,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "f350ffcd33a91a3d",
+        "type": "mqtt in",
+        "z": "b9a3e749a8574c0d",
+        "g": "8f88fb114d12be15",
+        "name": "",
+        "topic": "cmnd/WyzePlug1_Mushroom/POWER2",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 2440,
+        "wires": [
+            [
+                "e7ae12c648613524"
+            ]
+        ]
+    },
+    {
+        "id": "4066aac641f5d7ec",
+        "type": "mqtt in",
+        "z": "b9a3e749a8574c0d",
+        "g": "8f88fb114d12be15",
+        "name": "",
+        "topic": "cmnd/WyzePlug1_Mushroom/POWER1",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 2320,
+        "wires": [
+            [
+                "9d2c2c5cc01cb72c"
+            ]
+        ]
+    },
+    {
+        "id": "9d2c2c5cc01cb72c",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8f88fb114d12be15",
+        "name": "On=1, Off = 0",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 2380,
+        "wires": [
+            [
+                "aef86a9a79cd35b1"
+            ]
+        ]
+    },
+    {
+        "id": "37eb2c3bf01c0e71",
+        "type": "influxdb out",
+        "z": "b9a3e749a8574c0d",
+        "g": "8f88fb114d12be15",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "H_Puck_Out2_OnOff",
+        "measurement": "H_Puck_Out2_OnOff",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 620,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "e7ae12c648613524",
+        "type": "change",
+        "z": "b9a3e749a8574c0d",
+        "g": "8f88fb114d12be15",
+        "name": "On=1, Off = 0",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 2500,
+        "wires": [
+            [
+                "37eb2c3bf01c0e71"
+            ]
+        ]
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

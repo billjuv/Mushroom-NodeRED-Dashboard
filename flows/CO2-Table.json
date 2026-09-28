@@ -1,0 +1,433 @@
+[
+    {
+        "id": "ff63fb8bd58c30b0",
+        "type": "tab",
+        "label": "CO₂ Table",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "12606b49c66bd206",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "25610350729beff8",
+        "type": "ui-page",
+        "name": "MushRoom",
+        "ui": "b19902285c24f724",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "12606b49c66bd206",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "c8646f9b073751c8",
+        "type": "ui-group",
+        "name": "CO2 Data / Alarm ",
+        "page": "25610350729beff8",
+        "width": "6",
+        "height": "1",
+        "order": 6,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "364eb2cd829a3b23",
+        "type": "change",
+        "z": "ff63fb8bd58c30b0",
+        "name": "F.R. ezo2 %",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "F.R. ezo2 %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 340,
+        "wires": [
+            [
+                "1de6708b2b12314f"
+            ]
+        ]
+    },
+    {
+        "id": "e9df02ab86f3752e",
+        "type": "comment",
+        "z": "ff63fb8bd58c30b0",
+        "name": "payload[\"EZO-2\"].CarbonDioxide",
+        "info": "",
+        "x": 390,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "e089cc8cf6515b9a",
+        "type": "change",
+        "z": "ff63fb8bd58c30b0",
+        "name": "Incub. ezo3 %",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Incub. ezo3 %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 540,
+        "wires": [
+            [
+                "1de6708b2b12314f"
+            ]
+        ]
+    },
+    {
+        "id": "b078214cd8adcac0",
+        "type": "comment",
+        "z": "ff63fb8bd58c30b0",
+        "name": "payload[\"EZO-3\"].CarbonDioxide",
+        "info": "",
+        "x": 390,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "19e1228c212f6e4d",
+        "type": "link in",
+        "z": "ff63fb8bd58c30b0",
+        "name": "EZO3-Incubation CO2 Min/Max",
+        "links": [],
+        "x": 215,
+        "y": 540,
+        "wires": [
+            [
+                "e089cc8cf6515b9a"
+            ]
+        ]
+    },
+    {
+        "id": "5bd995651aec8734",
+        "type": "link in",
+        "z": "ff63fb8bd58c30b0",
+        "name": "Fruiting CO2 ezo2 Min/Max In",
+        "links": [],
+        "x": 215,
+        "y": 340,
+        "wires": [
+            [
+                "364eb2cd829a3b23"
+            ]
+        ]
+    },
+    {
+        "id": "307353d198acd325",
+        "type": "change",
+        "z": "ff63fb8bd58c30b0",
+        "name": "Incub. scd3 %",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Incub. scd3 %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 640,
+        "wires": [
+            [
+                "1de6708b2b12314f"
+            ]
+        ]
+    },
+    {
+        "id": "e6ea18fce32222e1",
+        "type": "comment",
+        "z": "ff63fb8bd58c30b0",
+        "name": "payload[\"SCD-3\"].CarbonDioxide",
+        "info": "",
+        "x": 390,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "87b62df6a2c05e25",
+        "type": "link in",
+        "z": "ff63fb8bd58c30b0",
+        "name": "SCD3-Incubation CO2 Min/Max",
+        "links": [],
+        "x": 215,
+        "y": 640,
+        "wires": [
+            [
+                "307353d198acd325"
+            ]
+        ]
+    },
+    {
+        "id": "622cc5cbf9047c74",
+        "type": "change",
+        "z": "ff63fb8bd58c30b0",
+        "name": "F.F. scd1 %",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "F.F. scd1 %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 240,
+        "wires": [
+            [
+                "1de6708b2b12314f"
+            ]
+        ]
+    },
+    {
+        "id": "aba907f0454f8cb1",
+        "type": "comment",
+        "z": "ff63fb8bd58c30b0",
+        "name": "payload[\"SCD1\"].CarbonDioxide",
+        "info": "",
+        "x": 390,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "7ea954a0a75719c1",
+        "type": "link in",
+        "z": "ff63fb8bd58c30b0",
+        "name": "Fruiting Front CO2 SCD1 Min/Max In",
+        "links": [],
+        "x": 215,
+        "y": 240,
+        "wires": [
+            [
+                "622cc5cbf9047c74"
+            ]
+        ]
+    },
+    {
+        "id": "c4faef1f226370b9",
+        "type": "change",
+        "z": "ff63fb8bd58c30b0",
+        "name": "F.R. scd2 %",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "F.R. scd2 %",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 440,
+        "wires": [
+            [
+                "1de6708b2b12314f"
+            ]
+        ]
+    },
+    {
+        "id": "998048c63e68d2f0",
+        "type": "comment",
+        "z": "ff63fb8bd58c30b0",
+        "name": "payload[\"SCD2\"].CarbonDioxide",
+        "info": "",
+        "x": 390,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "34ebf51966a048ba",
+        "type": "link in",
+        "z": "ff63fb8bd58c30b0",
+        "name": "Fruiting Rear CO2 SCD2 Min/Max In",
+        "links": [],
+        "x": 215,
+        "y": 440,
+        "wires": [
+            [
+                "c4faef1f226370b9"
+            ]
+        ]
+    },
+    {
+        "id": "1de6708b2b12314f",
+        "type": "function",
+        "z": "ff63fb8bd58c30b0",
+        "name": "Build CO2 Table",
+        "func": "//flow.set('co2_table', null); // clears table - turn back off\n\nvar sensors = flow.get('co2_table') || {\n    'F.F. scd1 %': { loc: 'Fruiting Front - scd1', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'F.R. ezo2 %': { loc: 'Fruiting Rear - ezo2', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'F.R. scd2 %': { loc: 'Fruiting Rear - scd2', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'Incub. ezo3 %': { loc: 'Incubation - ezo3', values: [], cur: '--', min: '--', max: '--', avg: '--' },\n    'Incub. scd3 %': { loc: 'Incubation - scd3', values: [], cur: '--', min: '--', max: '--', avg: '--' }\n};\n\nvar key = msg.topic;\n\nif (sensors[key] !== undefined) {\n    var val = parseFloat(msg.payload);\n    if (!isNaN(val)) {\n        var now = Date.now();\n        var cutoff = now - 1440 * 60 * 1000;\n\n        if (!sensors[key].values) sensors[key].values = [];\n        sensors[key].values.push({ t: now, v: val });\n        sensors[key].values = sensors[key].values.filter(function (e) { return e.t >= cutoff; });\n\n        var vals = sensors[key].values.map(function (e) { return e.v; });\n        var mn = Math.min.apply(null, vals);\n        var mx = Math.max.apply(null, vals);\n        var av = vals.reduce(function (a, b) { return a + b; }, 0) / vals.length;\n\n        sensors[key].cur = val.toFixed(0) + ' ppm';\n        //sensors[key].min = mn.toFixed(0) + ' ppm';\n        //sensors[key].max = mx.toFixed(0) + ' ppm';\n        //sensors[key].avg = (Math.round(av * 100) / 100).toFixed(0) + ' ppm';\n    \n        //sensors[key].cur = val.toFixed(0) ;\n        sensors[key].min = mn.toFixed(0) ;\n        sensors[key].max = mx.toFixed(0) ;\n        sensors[key].avg = (Math.round(av * 100) / 100).toFixed(0) ;\n    }\n}\n\nflow.set('co2_table', sensors);\nmsg.payload = Object.values(sensors);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 420,
+        "wires": [
+            [
+                "3c1534f22e992ce3"
+            ]
+        ]
+    },
+    {
+        "id": "3c1534f22e992ce3",
+        "type": "ui-template",
+        "z": "ff63fb8bd58c30b0",
+        "group": "c8646f9b073751c8",
+        "page": "",
+        "ui": "",
+        "name": "CO2 Table",
+        "order": 2,
+        "width": "6",
+        "height": "7",
+        "format": "<template>\n    <table style=\"width:100%; border-collapse:collapse; font-size:16px;\">\n        <thead>\n            <tr>\n                <th style=\"text-align:left; padding:3px 8px; border-bottom:2px solid #ccc; color:#555;\">Location</th>\n                <th style=\"text-align:right; padding:3px 8px; border-bottom:2px solid #ccc; color:#555;\">Now</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr v-for=\"row in msg.payload\" :key=\"row.loc\">\n                <td style=\"padding:3px 8px;\">\n                    <div style=\"color:#333; font-weight:550;\">{{ row.loc }}</div>\n                    <div style=\"font-size:15px; color:#666; margin-top:1px;\">\n                        Min: {{ row.min }}&nbsp;&nbsp;Max: {{ row.max }}&nbsp;&nbsp;Avg: {{ row.avg }}\n                    </div>\n                </td>\n                <td\n                    style=\"padding:3px 8px; text-align:right; font-size:20px; font-weight:500; color:#006fa3; vertical-align:middle;\">\n                    {{ row.cur }}\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</template>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 970,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "accf24d1873dc66c",
+        "type": "ui-text",
+        "z": "ff63fb8bd58c30b0",
+        "group": "c8646f9b073751c8",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "CO₂ Sensors - Title",
+        "label": "CO₂ Sensors",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 930,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

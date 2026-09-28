@@ -1,0 +1,4594 @@
+[
+    {
+        "id": "951a1b4207d9f883",
+        "type": "tab",
+        "label": "SDC41/LoRa",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "109d2c5378241e42",
+        "type": "group",
+        "z": "951a1b4207d9f883",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "61eaac38c432d121",
+            "84f924b512222c3c",
+            "017d3d21a254777a",
+            "4741b04cafcbecb4",
+            "7dd814b21f044527",
+            "42f94f3fe45784bc",
+            "f7440aff3a23523a",
+            "2f93e57c33afa9ab",
+            "f1db857836f292dc",
+            "86cb0a3e155f89c7",
+            "24bdb21be925ef85",
+            "3ca8a3882b53e853",
+            "45a85f41e4e82b80",
+            "17737c06f9721769",
+            "50c001425155f940",
+            "7414b6d1969e55a8",
+            "e02317a54b99eae8",
+            "5a9e5d4ea792406c",
+            "75b7516107642419",
+            "de1771aaf07e2494",
+            "a3a3c0a3690682d4",
+            "6b9bcdc14acfb35b",
+            "bfceb09a4112c32b",
+            "cab8b7c312af7403",
+            "7594a4f7d594d48d",
+            "7f8ff6f06f5e7332",
+            "5b5901117d923d69",
+            "d957825125b90e74",
+            "01efb96034359ed4",
+            "d350981e3d96e259",
+            "76605012c062df57",
+            "e1f8a793ac8a5ba0",
+            "51ea567751cb4e7e",
+            "5bf2a4a9c9821a0e",
+            "9b7d6afd2356464f",
+            "47a7064963a58a6a"
+        ],
+        "x": 94,
+        "y": 2299,
+        "w": 1132,
+        "h": 822
+    },
+    {
+        "id": "819c58cc08a77bc6",
+        "type": "group",
+        "z": "951a1b4207d9f883",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "91bbc8fabfe77768",
+            "23bed290ad3e2255",
+            "b1a8b23c5c5d0444",
+            "444642466fe579d6",
+            "2b836ec80a4a98ad",
+            "b713085f9131b045",
+            "e3b6839b57a05606",
+            "b2083ba78ad3e353",
+            "0a525d50ea11a94d",
+            "f2a34ff2c1b4eb38",
+            "e5603c602780b162",
+            "09276a1b3f3dfb28",
+            "5de306896bea98cf",
+            "d4d891522454019b",
+            "da90228035b62b56",
+            "c88fe2907c96b86a",
+            "3c450ab5ccf62e1a",
+            "fa6755cd11c0ba0c",
+            "7945cf0d63a88a96",
+            "8a8e7d43543d3ad5",
+            "f5a4f08e8f76aff7",
+            "bca80315c0cd2873",
+            "63ec22d426896d21",
+            "4a4a89d1e3cbd240",
+            "defcc0d4342ef814",
+            "19bd50b86462f543",
+            "9be8e1e69693bd24",
+            "7a38325536274e3e",
+            "e15e3cdc0d2312f3",
+            "a2fda162fa80c7c1",
+            "67ab52d9ea843ef0",
+            "batt_mqtt_xiao2",
+            "batt_func_xiao2",
+            "70ac762aa87b5e3f",
+            "394e3b29519ae4df",
+            "04c43679053c4ccc",
+            "3e3e7b8da6e472e8",
+            "d109832eb3dc52ed"
+        ],
+        "x": 94,
+        "y": 1459,
+        "w": 1132,
+        "h": 822
+    },
+    {
+        "id": "3ca2c29793c003e9",
+        "type": "group",
+        "z": "951a1b4207d9f883",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e733e163e03db28d",
+            "78d217902336574b",
+            "e910e12817b89fc9",
+            "aca7fadcb0a972df",
+            "dd76c6b0bb21ac91",
+            "49bd0c64980f5467",
+            "396297904794d6e1",
+            "b284d38323afb804",
+            "8042344b726bdbcf",
+            "e0a26e0a4e03a8a4",
+            "455b1ee795a80e6d",
+            "42e3dd95801a253a",
+            "964d815d26dbd2b3",
+            "2a2d9b6ff53418c9",
+            "af291d7889b236e3",
+            "aa4f95679425853b",
+            "783b37efb5aa6df2",
+            "34b4103718a2f079",
+            "d7b8a7b9adc035b9",
+            "d253d03c973f98e8",
+            "fabc4cbbd0b850f6",
+            "44458348733eb12c",
+            "b771be0b27d6e84b",
+            "7af99e0c0d3781f0",
+            "e2471374788f159a",
+            "17d1a37234d1f9f0",
+            "8dbf9cd739a9ca5d",
+            "f77d08bdde98d852",
+            "cb90406ff3d9108b",
+            "c183d6a7de4d518e",
+            "22e78da13033f58e",
+            "88cc97013ca2f7b7",
+            "b33409a796a1300c",
+            "7a8809a3810fede8",
+            "batt_func_xiao1",
+            "batt_mqtt_xiao1",
+            "068c83c157f87501",
+            "19e0d933feeb3cc1",
+            "a796e6acd14f5a8c",
+            "49f8a7601b70156d",
+            "216f31283c39445a"
+        ],
+        "x": 94,
+        "y": 539,
+        "w": 922,
+        "h": 882
+    },
+    {
+        "id": "6488260617096e1a",
+        "type": "group",
+        "z": "951a1b4207d9f883",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cf0630c852e34ef3",
+            "806d4ebe66a6c9c3",
+            "245ee199aac86699",
+            "15c243caa2ba3bf4",
+            "4a7f5a12842d18b4",
+            "e55ccd3e40d152db",
+            "6a828e16a9df9ce1",
+            "f76b439e65962d18",
+            "2f8c6b64879e1a59",
+            "4a39210dba837b2e",
+            "2b74020e931592d1",
+            "36515d8dd540d752",
+            "795e325a24e14551",
+            "88696cea0575cec7",
+            "3ac9cfe6b944b34e",
+            "0a4f9a98dc235c64",
+            "5e913872a8b3ab80",
+            "51617110e8322f34",
+            "05580e9851dafee2",
+            "7a908105497231f9",
+            "963fe1152e105930",
+            "bce5d37be09bf985",
+            "1430e48520f9bdd1",
+            "3e5fc17914e6e25a",
+            "7cbdb84bfdba33f6",
+            "4f3c47d5cd4db650",
+            "c00a089576adc62b",
+            "3c06d4590c75dcf2",
+            "0d946a71d4c3d12e",
+            "5631ee5f0f67cae5",
+            "e5aa7139f0bfc408",
+            "22080a6db6bbec7b",
+            "6b90efbc362233a6",
+            "64067c829382840f",
+            "bcf07d2d5464ecf3",
+            "cae77bb621ebab45",
+            "86edc9f277f2a9ff",
+            "52709a9850067533",
+            "69aba4daf9581695",
+            "0de464d89325ca70",
+            "729a0697e217c1ff",
+            "a6f6b88660a182e3"
+        ],
+        "x": 334,
+        "y": 3239,
+        "w": 752,
+        "h": 942
+    },
+    {
+        "id": "f2f40bdb9235544a",
+        "type": "group",
+        "z": "951a1b4207d9f883",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "78acaaefecefbe82",
+            "64f0e9b892738daa",
+            "c8c1437aa0948205",
+            "8dcef9b38c01c367",
+            "0cf2be390c5317a5",
+            "e36b66aef683079d",
+            "f980c2af0be3a05b",
+            "9aaefc34caa6adfb",
+            "b0486b3a3a1a57e0",
+            "6380faf6d2334067",
+            "b25ec336532ff3a9"
+        ],
+        "x": 74,
+        "y": 39,
+        "w": 872,
+        "h": 282
+    },
+    {
+        "id": "6de654acc9018e66",
+        "type": "group",
+        "z": "951a1b4207d9f883",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8f052478781886c9",
+            "8401584375773070",
+            "3678763df24d4faf",
+            "ca107bba390c1689"
+        ],
+        "x": 74,
+        "y": 339,
+        "w": 752,
+        "h": 162
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "cbb09358a5c9450b",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "2px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "e9f46447c605b116",
+        "type": "ui-page",
+        "name": "New CO2/LoRa sensors ",
+        "ui": "b19902285c24f724",
+        "path": "/page2",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "cbb09358a5c9450b",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "349197be4230d395",
+        "type": "ui-group",
+        "name": "SCD41 - LoRa_Test",
+        "page": "e9f46447c605b116",
+        "width": "6",
+        "height": "1",
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "10b2d55f217821a7",
+        "type": "ui-group",
+        "name": "SCD41 - LoRa XIAO 1",
+        "page": "e9f46447c605b116",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a2cc319da1341e36",
+        "type": "mqtt-broker",
+        "name": "MushRmPi - K1W1 (use)",
+        "broker": "192.168.1.109",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e5d695bf95ae6c6c",
+        "type": "influxdb",
+        "hostname": "MushRmPi.local",
+        "port": 8086,
+        "protocol": "http",
+        "database": "mushroom_data",
+        "name": "InfluxDB 1.x - mushroom_data",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "2349ac6640923c2c",
+        "type": "ui-group",
+        "name": "SCD41 - LoRa XIAO_2",
+        "page": "e9f46447c605b116",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "f8b093ecf3ed179a",
+        "type": "ui-group",
+        "name": "SCD41 - LoRa XIAO_3",
+        "page": "e9f46447c605b116",
+        "width": 6,
+        "height": 1,
+        "order": 4,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "c123275eb6a26f2a",
+        "type": "ui-group",
+        "d": true,
+        "name": "Temp/Hum Compare",
+        "page": "e9f46447c605b116",
+        "width": "6",
+        "height": 1,
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e733e163e03db28d",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "BattVolt",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "78d217902336574b",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/batt_volt",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 350,
+        "y": 1040,
+        "wires": [
+            [
+                "e733e163e03db28d",
+                "42e3dd95801a253a"
+            ]
+        ]
+    },
+    {
+        "id": "e910e12817b89fc9",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "group": "10b2d55f217821a7",
+        "order": 12,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO_1 - BattVolt ",
+        "label": "Battery Voltage",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 770,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "aca7fadcb0a972df",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/batt_percent",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 360,
+        "y": 1120,
+        "wires": [
+            [
+                "455b1ee795a80e6d"
+            ]
+        ]
+    },
+    {
+        "id": "dd76c6b0bb21ac91",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "group": "10b2d55f217821a7",
+        "order": 13,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO_1 - Batt% ",
+        "label": "Battery %",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 760,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "49bd0c64980f5467",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "Batt_%",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "396297904794d6e1",
+        "type": "ui-led",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "XIAO_1-  BattStatus",
+        "group": "10b2d55f217821a7",
+        "order": 10,
+        "width": "1",
+        "height": "1",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "center",
+        "states": [
+            {
+                "value": "CRITICAL",
+                "valueType": "str",
+                "color": "#ff0000"
+            },
+            {
+                "value": "OK",
+                "valueType": "str",
+                "color": "#00ff00"
+            },
+            {
+                "value": "WARNING",
+                "valueType": "str",
+                "color": "#fffb00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 770,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "b284d38323afb804",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "Batt_crate",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "8042344b726bdbcf",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/batt_crate",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 350,
+        "y": 1220,
+        "wires": [
+            [
+                "b284d38323afb804",
+                "964d815d26dbd2b3"
+            ]
+        ]
+    },
+    {
+        "id": "e0a26e0a4e03a8a4",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "group": "10b2d55f217821a7",
+        "order": 11,
+        "width": "5",
+        "height": "1",
+        "name": "XIAO_1 - BattChgRate",
+        "label": "Status/Charge Rate (%/hr.)",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 780,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "91bbc8fabfe77768",
+        "type": "ui-gauge",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "XIAO_2 - Humidity ",
+        "group": "2349ac6640923c2c",
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Humidity",
+        "alwaysShowTitle": false,
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#00f5f5",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 950,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "23bed290ad3e2255",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "group": "2349ac6640923c2c",
+        "order": 5,
+        "width": "3",
+        "height": "2",
+        "name": "XIAO_2 - RSSI ",
+        "label": "RSSI",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 940,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "b1a8b23c5c5d0444",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "Set XIAO LoRa CO2 Payload/Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Fruiting Rear (2)",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 1540,
+        "wires": [
+            [
+                "0a525d50ea11a94d"
+            ]
+        ]
+    },
+    {
+        "id": "444642466fe579d6",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "C to F",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round((payload*9/5+32), 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 1740,
+        "wires": [
+            [
+                "b713085f9131b045",
+                "b2083ba78ad3e353",
+                "70ac762aa87b5e3f"
+            ]
+        ]
+    },
+    {
+        "id": "2b836ec80a4a98ad",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "CO2-LoRa-XIAO",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "b713085f9131b045",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "TempF",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "e3b6839b57a05606",
+        "type": "ui-gauge",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "XIAO_2 - CO2",
+        "group": "2349ac6640923c2c",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "CO₂",
+        "alwaysShowTitle": false,
+        "units": "ppm",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#f5ec00",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "1500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 940,
+        "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b2083ba78ad3e353",
+        "type": "ui-gauge",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "XIAO_2 - Temp",
+        "group": "2349ac6640923c2c",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temp",
+        "alwaysShowTitle": false,
+        "units": "F",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "80",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 940,
+        "y": 1780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a525d50ea11a94d",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "XIAO_2/Ft_R - CO2 payload",
+        "mode": "link",
+        "links": [
+            "56764535b1f5a9b9"
+        ],
+        "x": 1185,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "f2a34ff2c1b4eb38",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/co2",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 1560,
+        "wires": [
+            [
+                "e3b6839b57a05606",
+                "b1a8b23c5c5d0444",
+                "2b836ec80a4a98ad",
+                "c88fe2907c96b86a",
+                "394e3b29519ae4df"
+            ]
+        ]
+    },
+    {
+        "id": "e5603c602780b162",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "Hum-LoRa",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "09276a1b3f3dfb28",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/hum",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 1660,
+        "wires": [
+            [
+                "e5603c602780b162",
+                "91bbc8fabfe77768",
+                "3e3e7b8da6e472e8"
+            ]
+        ]
+    },
+    {
+        "id": "5de306896bea98cf",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/temp",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 340,
+        "y": 1740,
+        "wires": [
+            [
+                "444642466fe579d6",
+                "d109832eb3dc52ed"
+            ]
+        ]
+    },
+    {
+        "id": "d4d891522454019b",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/rssi",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 1820,
+        "wires": [
+            [
+                "da90228035b62b56",
+                "23bed290ad3e2255"
+            ]
+        ]
+    },
+    {
+        "id": "da90228035b62b56",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "RSSI",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "c88fe2907c96b86a",
+        "type": "function",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "Device ID",
+        "func": "// Device ID (hard-coded here because this MQTT topic is device-specific)\nlet device = \"LoRa_XIAO_CO2_2_B893A8D4DB1C\";\n\n// Store current CO2 per device (file context)\nflow.set(`current_co2.${device}`, msg.payload, \"file\");\n\n// Keep topic for charting\nmsg.topic = device;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c450ab5ccf62e1a",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "BattVolt",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "fa6755cd11c0ba0c",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/batt_volt",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 350,
+        "y": 1900,
+        "wires": [
+            [
+                "3c450ab5ccf62e1a",
+                "a2fda162fa80c7c1"
+            ]
+        ]
+    },
+    {
+        "id": "7945cf0d63a88a96",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "group": "2349ac6640923c2c",
+        "order": 12,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO_2 - BattVolt",
+        "label": "Battery Voltage",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 950,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "8a8e7d43543d3ad5",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/batt_percent",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 360,
+        "y": 1980,
+        "wires": [
+            [
+                "7a38325536274e3e"
+            ]
+        ]
+    },
+    {
+        "id": "f5a4f08e8f76aff7",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "group": "2349ac6640923c2c",
+        "order": 13,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO_2 - Batt%",
+        "label": "Battery %",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 940,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "bca80315c0cd2873",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "Batt_%",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "63ec22d426896d21",
+        "type": "ui-led",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "XIAO_2 - BattStatus",
+        "group": "2349ac6640923c2c",
+        "order": 10,
+        "width": "1",
+        "height": "1",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "center",
+        "states": [
+            {
+                "value": "CRITICAL",
+                "valueType": "str",
+                "color": "#ff0000"
+            },
+            {
+                "value": "OK",
+                "valueType": "str",
+                "color": "#00ff00"
+            },
+            {
+                "value": "WARNING",
+                "valueType": "str",
+                "color": "#fffb00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 980,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "4a4a89d1e3cbd240",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "Batt_crate",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "defcc0d4342ef814",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/batt_crate",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 350,
+        "y": 2100,
+        "wires": [
+            [
+                "4a4a89d1e3cbd240",
+                "e15e3cdc0d2312f3"
+            ]
+        ]
+    },
+    {
+        "id": "19bd50b86462f543",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "group": "2349ac6640923c2c",
+        "order": 11,
+        "width": "5",
+        "height": "1",
+        "name": "XIAO_2 - BattChgRate",
+        "label": "Status/Charge Rate (%/hr.)",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 960,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "455b1ee795a80e6d",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 1160,
+        "wires": [
+            [
+                "dd76c6b0bb21ac91",
+                "b33409a796a1300c"
+            ]
+        ]
+    },
+    {
+        "id": "42e3dd95801a253a",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 1080,
+        "wires": [
+            [
+                "e910e12817b89fc9"
+            ]
+        ]
+    },
+    {
+        "id": "964d815d26dbd2b3",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 1280,
+        "wires": [
+            [
+                "e0a26e0a4e03a8a4"
+            ]
+        ]
+    },
+    {
+        "id": "2a2d9b6ff53418c9",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "group": "10b2d55f217821a7",
+        "order": 5,
+        "width": "3",
+        "height": "2",
+        "name": "XIAO_1 - RSSI ",
+        "label": "RSSI",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 760,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "af291d7889b236e3",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "Set LoRa CO2 Payload/Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Fruiting Front (1)",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 620,
+        "wires": [
+            [
+                "44458348733eb12c"
+            ]
+        ]
+    },
+    {
+        "id": "aa4f95679425853b",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "C to F",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round((payload*9/5+32), 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 820,
+        "wires": [
+            [
+                "34b4103718a2f079",
+                "fabc4cbbd0b850f6",
+                "a796e6acd14f5a8c"
+            ]
+        ]
+    },
+    {
+        "id": "783b37efb5aa6df2",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "LoRa-SCD41-1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "34b4103718a2f079",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "TempF",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "d7b8a7b9adc035b9",
+        "type": "ui-gauge",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "XIAO_1 - CO2  ",
+        "group": "10b2d55f217821a7",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "CO₂",
+        "alwaysShowTitle": false,
+        "units": "ppm",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#f5ec00",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "1500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 760,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d253d03c973f98e8",
+        "type": "ui-gauge",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "XIAO_1 - Humidity ",
+        "group": "10b2d55f217821a7",
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Humidity",
+        "alwaysShowTitle": false,
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#00f5f5",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 770,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fabc4cbbd0b850f6",
+        "type": "ui-gauge",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "XIAO_1 - Temp ",
+        "group": "10b2d55f217821a7",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temp",
+        "alwaysShowTitle": false,
+        "units": "F",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "80",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 760,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "44458348733eb12c",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "XIAO_1/Ft_F - CO2 payload",
+        "mode": "link",
+        "links": [
+            "56764535b1f5a9b9"
+        ],
+        "x": 975,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "b771be0b27d6e84b",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/co2",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 660,
+        "wires": [
+            [
+                "d7b8a7b9adc035b9",
+                "af291d7889b236e3",
+                "783b37efb5aa6df2",
+                "cb90406ff3d9108b",
+                "068c83c157f87501"
+            ]
+        ]
+    },
+    {
+        "id": "7af99e0c0d3781f0",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "Hum-LoRa",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "e2471374788f159a",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/hum",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 740,
+        "wires": [
+            [
+                "7af99e0c0d3781f0",
+                "d253d03c973f98e8",
+                "49f8a7601b70156d"
+            ]
+        ]
+    },
+    {
+        "id": "17d1a37234d1f9f0",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/temp",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 340,
+        "y": 820,
+        "wires": [
+            [
+                "aa4f95679425853b",
+                "216f31283c39445a"
+            ]
+        ]
+    },
+    {
+        "id": "8dbf9cd739a9ca5d",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/rssi",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 900,
+        "wires": [
+            [
+                "f77d08bdde98d852",
+                "2a2d9b6ff53418c9"
+            ]
+        ]
+    },
+    {
+        "id": "f77d08bdde98d852",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "RSSI",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "cb90406ff3d9108b",
+        "type": "function",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "Device ID",
+        "func": "// Device ID (hard-coded here because this MQTT topic is device-specific)\nlet device = \"LoRa_XIAO_CO2_1_D893A8D4DB1C\";\n\n// Store current CO2 per device (file context)\nflow.set(`current_co2.${device}`, msg.payload, \"file\");\n\n// Keep topic for charting\nmsg.topic = device;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c183d6a7de4d518e",
+        "type": "comment",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "LoRa_XIAO_CO2_1_D893A8D4DB1C",
+        "info": "",
+        "x": 370,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "22e78da13033f58e",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/#",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 980,
+        "wires": [
+            [
+                "88cc97013ca2f7b7"
+            ]
+        ]
+    },
+    {
+        "id": "88cc97013ca2f7b7",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "Multi",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "8156163b104d137d",
+        "type": "ui-chart",
+        "z": "951a1b4207d9f883",
+        "group": "349197be4230d395",
+        "name": "",
+        "label": "CO2 Compare",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "ppm",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "false",
+        "pointRadius": "1",
+        "showLegend": true,
+        "removeOlder": "12",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0433ff",
+            "#ff2600",
+            "#00f900",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "4",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1360,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "56764535b1f5a9b9",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "name": "CO2 compare chart",
+        "links": [
+            "0a525d50ea11a94d",
+            "44458348733eb12c",
+            "f1db857836f292dc"
+        ],
+        "x": 1195,
+        "y": 1220,
+        "wires": [
+            [
+                "8156163b104d137d"
+            ]
+        ]
+    },
+    {
+        "id": "b33409a796a1300c",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "Set LoRa Battery Payload/Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Fruiting Front (1)",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1120,
+        "wires": [
+            [
+                "4b387a9fc9d69942"
+            ]
+        ]
+    },
+    {
+        "id": "9be8e1e69693bd24",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "Set LoRa Battery Payload/Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Fruiting Rear (2)",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 1980,
+        "wires": [
+            [
+                "4b387a9fc9d69942"
+            ]
+        ]
+    },
+    {
+        "id": "7a38325536274e3e",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 2000,
+        "wires": [
+            [
+                "9be8e1e69693bd24",
+                "f5a4f08e8f76aff7"
+            ]
+        ]
+    },
+    {
+        "id": "61eaac38c432d121",
+        "type": "ui-gauge",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "XIAO_3 - Humidity ",
+        "group": "f8b093ecf3ed179a",
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Humidity",
+        "alwaysShowTitle": false,
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#00f5f5",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 950,
+        "y": 2540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "84f924b512222c3c",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "group": "f8b093ecf3ed179a",
+        "order": 13,
+        "width": "3",
+        "height": "2",
+        "name": "XIAO_3 - RSSI ",
+        "label": "RSSI",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 940,
+        "y": 2700,
+        "wires": []
+    },
+    {
+        "id": "017d3d21a254777a",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "Set XIAO LoRa CO2 Payload/Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Incubation (3)",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 2380,
+        "wires": [
+            [
+                "f1db857836f292dc"
+            ]
+        ]
+    },
+    {
+        "id": "4741b04cafcbecb4",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "C to F",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round((payload*9/5+32), 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 2580,
+        "wires": [
+            [
+                "42f94f3fe45784bc",
+                "2f93e57c33afa9ab",
+                "e1f8a793ac8a5ba0"
+            ]
+        ]
+    },
+    {
+        "id": "7dd814b21f044527",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "CO2-LoRa-XIAO",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "42f94f3fe45784bc",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "TempF",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 2620,
+        "wires": []
+    },
+    {
+        "id": "f7440aff3a23523a",
+        "type": "ui-gauge",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "XIAO_3 - CO2",
+        "group": "f8b093ecf3ed179a",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "CO₂",
+        "alwaysShowTitle": false,
+        "units": "ppm",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#f5ec00",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "1500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 940,
+        "y": 2460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f93e57c33afa9ab",
+        "type": "ui-gauge",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "XIAO_3 - Temp",
+        "group": "f8b093ecf3ed179a",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temp",
+        "alwaysShowTitle": false,
+        "units": "F",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "80",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 940,
+        "y": 2620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f1db857836f292dc",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "XIAO_3/Incub.  - CO2 payload",
+        "mode": "link",
+        "links": [
+            "56764535b1f5a9b9"
+        ],
+        "x": 1185,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "86cb0a3e155f89c7",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/co2",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 2400,
+        "wires": [
+            [
+                "f7440aff3a23523a",
+                "017d3d21a254777a",
+                "7dd814b21f044527",
+                "7414b6d1969e55a8",
+                "51ea567751cb4e7e"
+            ]
+        ]
+    },
+    {
+        "id": "24bdb21be925ef85",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "Hum-LoRa",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "3ca8a3882b53e853",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/hum",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 340,
+        "y": 2500,
+        "wires": [
+            [
+                "24bdb21be925ef85",
+                "61eaac38c432d121",
+                "9b7d6afd2356464f"
+            ]
+        ]
+    },
+    {
+        "id": "45a85f41e4e82b80",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/temp",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 340,
+        "y": 2580,
+        "wires": [
+            [
+                "4741b04cafcbecb4",
+                "47a7064963a58a6a"
+            ]
+        ]
+    },
+    {
+        "id": "17737c06f9721769",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/rssi",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 2660,
+        "wires": [
+            [
+                "50c001425155f940",
+                "84f924b512222c3c"
+            ]
+        ]
+    },
+    {
+        "id": "50c001425155f940",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "RSSI",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 2660,
+        "wires": []
+    },
+    {
+        "id": "7414b6d1969e55a8",
+        "type": "function",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "Device ID",
+        "func": "// Device ID (hard-coded here because this MQTT topic is device-specific)\nlet device = \"LoRa_XIAO_CO2_3_BC1BA7D4DB1C\";\n\n// Store current CO2 per device (file context)\nflow.set(`current_co2.${device}`, msg.payload, \"file\");\n\n// Keep topic for charting\nmsg.topic = device;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 2340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e02317a54b99eae8",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "BattVolt",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 2740,
+        "wires": []
+    },
+    {
+        "id": "5a9e5d4ea792406c",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/batt_volt",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 350,
+        "y": 2740,
+        "wires": [
+            [
+                "e02317a54b99eae8",
+                "01efb96034359ed4"
+            ]
+        ]
+    },
+    {
+        "id": "75b7516107642419",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "group": "f8b093ecf3ed179a",
+        "order": 11,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO_3 - BattVolt",
+        "label": "Battery Voltage",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 950,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "de1771aaf07e2494",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/batt_percent",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 360,
+        "y": 2820,
+        "wires": [
+            [
+                "d957825125b90e74"
+            ]
+        ]
+    },
+    {
+        "id": "a3a3c0a3690682d4",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "group": "f8b093ecf3ed179a",
+        "order": 12,
+        "width": "3",
+        "height": "1",
+        "name": "XIAO_3 - Batt%",
+        "label": "Battery %",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 940,
+        "y": 2860,
+        "wires": []
+    },
+    {
+        "id": "6b9bcdc14acfb35b",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "Batt_%",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 3080,
+        "wires": []
+    },
+    {
+        "id": "bfceb09a4112c32b",
+        "type": "ui-led",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "XIAO_3 - BattStatus",
+        "group": "f8b093ecf3ed179a",
+        "order": 9,
+        "width": "1",
+        "height": "1",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "center",
+        "states": [
+            {
+                "value": "CRITICAL",
+                "valueType": "str",
+                "color": "#ff0000"
+            },
+            {
+                "value": "OK",
+                "valueType": "str",
+                "color": "#00ff00"
+            },
+            {
+                "value": "WARNING",
+                "valueType": "str",
+                "color": "#fffb00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 980,
+        "y": 3040,
+        "wires": []
+    },
+    {
+        "id": "cab8b7c312af7403",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "Batt_crate",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 2940,
+        "wires": []
+    },
+    {
+        "id": "7594a4f7d594d48d",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/batt_crate",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 350,
+        "y": 2940,
+        "wires": [
+            [
+                "cab8b7c312af7403",
+                "d350981e3d96e259"
+            ]
+        ]
+    },
+    {
+        "id": "7f8ff6f06f5e7332",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "group": "f8b093ecf3ed179a",
+        "order": 10,
+        "width": "5",
+        "height": "1",
+        "name": "XIAO_3 - BattChgRate",
+        "label": "Status/Charge Rate (%/hr.)",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 960,
+        "y": 2980,
+        "wires": []
+    },
+    {
+        "id": "5b5901117d923d69",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "Set LoRa Battery Payload/Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Incubation (3)",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 2820,
+        "wires": [
+            [
+                "4b387a9fc9d69942"
+            ]
+        ]
+    },
+    {
+        "id": "d957825125b90e74",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 2860,
+        "wires": [
+            [
+                "5b5901117d923d69",
+                "a3a3c0a3690682d4"
+            ]
+        ]
+    },
+    {
+        "id": "e15e3cdc0d2312f3",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 2140,
+        "wires": [
+            [
+                "19bd50b86462f543"
+            ]
+        ]
+    },
+    {
+        "id": "a2fda162fa80c7c1",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 1940,
+        "wires": [
+            [
+                "7945cf0d63a88a96"
+            ]
+        ]
+    },
+    {
+        "id": "01efb96034359ed4",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 2780,
+        "wires": [
+            [
+                "75b7516107642419"
+            ]
+        ]
+    },
+    {
+        "id": "d350981e3d96e259",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 2980,
+        "wires": [
+            [
+                "7f8ff6f06f5e7332"
+            ]
+        ]
+    },
+    {
+        "id": "7a8809a3810fede8",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "group": "10b2d55f217821a7",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "XIAO 1 - Sensor: Fruiting Front CO₂",
+        "label": "Fruiting Front CO₂ - Sensor 1",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 360,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "67ab52d9ea843ef0",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "group": "2349ac6640923c2c",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "XIAO 2 - Sensor: Fruiting Rear CO₂",
+        "label": "Fruiting Rear CO₂ - Sensor 2",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 340,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "76605012c062df57",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "group": "f8b093ecf3ed179a",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "XIAO 3 - Sensor: Incubation CO₂",
+        "label": "Incubation CO₂ - Sensor 3",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 340,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "4b387a9fc9d69942",
+        "type": "ui-chart",
+        "z": "951a1b4207d9f883",
+        "group": "349197be4230d395",
+        "name": "",
+        "label": "Battery % - LoRa/SCD41",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "ppm",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "false",
+        "pointRadius": "1",
+        "showLegend": true,
+        "removeOlder": "12",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0433ff",
+            "#ff2600",
+            "#00f900",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "4",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1390,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "batt_mqtt_xiao3",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "name": "XIAO_3 batt_percent",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_3_BC1BA7D4DB1C/batt_percent",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 230,
+        "y": 2820,
+        "wires": [
+            [
+                "batt_func_xiao3"
+            ]
+        ]
+    },
+    {
+        "id": "batt_func_xiao3",
+        "type": "function",
+        "z": "951a1b4207d9f883",
+        "name": "XIAO_3 Batt LED Status",
+        "func": "const pct = parseFloat(msg.payload);\nif (isNaN(pct)) {\n    msg.payload = \"UNKNOWN\";\n} else if (pct <= 10) {\n    msg.payload = \"CRITICAL\";\n} else if (pct <= 20) {\n    msg.payload = \"WARNING\";\n} else {\n    msg.payload = \"OK\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 2820,
+        "wires": [
+            [
+                "bfceb09a4112c32b",
+                "6b9bcdc14acfb35b"
+            ]
+        ]
+    },
+    {
+        "id": "batt_mqtt_xiao2",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "XIAO_2 batt_percent",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_2_B893A8D4DB1C/batt_percent",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 350,
+        "y": 2200,
+        "wires": [
+            [
+                "batt_func_xiao2"
+            ]
+        ]
+    },
+    {
+        "id": "batt_func_xiao2",
+        "type": "function",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "XIAO_2 Batt LED Status",
+        "func": "const pct = parseFloat(msg.payload);\nif (isNaN(pct)) {\n    msg.payload = \"UNKNOWN\";\n} else if (pct <= 10) {\n    msg.payload = \"CRITICAL\";\n} else if (pct <= 20) {\n    msg.payload = \"WARNING\";\n} else {\n    msg.payload = \"OK\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 2200,
+        "wires": [
+            [
+                "63ec22d426896d21",
+                "bca80315c0cd2873"
+            ]
+        ]
+    },
+    {
+        "id": "batt_func_xiao1",
+        "type": "function",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "XIAO_1 Batt LED Status",
+        "func": "const pct = parseFloat(msg.payload);\nif (isNaN(pct)) {\n    msg.payload = \"UNKNOWN\";\n} else if (pct <= 10) {\n    msg.payload = \"CRITICAL\";\n} else if (pct <= 20) {\n    msg.payload = \"WARNING\";\n} else {\n    msg.payload = \"OK\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 1340,
+        "wires": [
+            [
+                "396297904794d6e1",
+                "49bd0c64980f5467"
+            ]
+        ]
+    },
+    {
+        "id": "batt_mqtt_xiao1",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "XIAO_1 batt_percent",
+        "topic": "LoRa_NodeRed/LoRa_XIAO_CO2_1_D893A8D4DB1C/batt_percent",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 230,
+        "y": 1340,
+        "wires": [
+            [
+                "batt_func_xiao1"
+            ]
+        ]
+    },
+    {
+        "id": "068c83c157f87501",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "XIAO_1/Ft_F - CO2",
+        "mode": "link",
+        "links": [],
+        "x": 605,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "19e0d933feeb3cc1",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "XIAO_1/Ft_F - Hum",
+        "mode": "link",
+        "links": [
+            "2f8c6b64879e1a59"
+        ],
+        "x": 975,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "a796e6acd14f5a8c",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "XIAO_1 - TempF",
+        "mode": "link",
+        "links": [
+            "4a7f5a12842d18b4"
+        ],
+        "x": 895,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "70ac762aa87b5e3f",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "XIAO_2/Ft_R - TempF",
+        "mode": "link",
+        "links": [
+            "e55ccd3e40d152db"
+        ],
+        "x": 1085,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "394e3b29519ae4df",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "XIAO_2/Ft_R - CO2",
+        "mode": "link",
+        "links": [],
+        "x": 615,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "04c43679053c4ccc",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "XIAO_2/Ft_R - Hum",
+        "mode": "link",
+        "links": [
+            "2b74020e931592d1"
+        ],
+        "x": 615,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "e1f8a793ac8a5ba0",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "XIAO_3/Incub.  - TempF",
+        "mode": "link",
+        "links": [
+            "6a828e16a9df9ce1"
+        ],
+        "x": 1085,
+        "y": 2580,
+        "wires": []
+    },
+    {
+        "id": "51ea567751cb4e7e",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "XIAO_3/Incub. - CO2",
+        "mode": "link",
+        "links": [],
+        "x": 625,
+        "y": 2440,
+        "wires": []
+    },
+    {
+        "id": "5bf2a4a9c9821a0e",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "XIAO_3/Incub. - Hum",
+        "mode": "link",
+        "links": [
+            "795e325a24e14551"
+        ],
+        "x": 635,
+        "y": 2540,
+        "wires": []
+    },
+    {
+        "id": "49f8a7601b70156d",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 780,
+        "wires": [
+            [
+                "19e0d933feeb3cc1"
+            ]
+        ]
+    },
+    {
+        "id": "3e3e7b8da6e472e8",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 1700,
+        "wires": [
+            [
+                "04c43679053c4ccc"
+            ]
+        ]
+    },
+    {
+        "id": "9b7d6afd2356464f",
+        "type": "change",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "round to 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 2540,
+        "wires": [
+            [
+                "5bf2a4a9c9821a0e"
+            ]
+        ]
+    },
+    {
+        "id": "cf0630c852e34ef3",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 1,
+        "width": "4",
+        "height": "1",
+        "name": "XIAO vs HUM - Temp/Hum Compare",
+        "label": "Temp/Hum Sensor Compare",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 510,
+        "y": 3280,
+        "wires": []
+    },
+    {
+        "id": "806d4ebe66a6c9c3",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 11,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "SCD2 F.R. - TempF",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 3660,
+        "wires": []
+    },
+    {
+        "id": "245ee199aac86699",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "SCD1 F.F. - TempF",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 3380,
+        "wires": []
+    },
+    {
+        "id": "15c243caa2ba3bf4",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 18,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "SCD3 Incub. - TempF",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 560,
+        "y": 3940,
+        "wires": []
+    },
+    {
+        "id": "4a7f5a12842d18b4",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp X1 TempF",
+        "links": [
+            "a796e6acd14f5a8c"
+        ],
+        "x": 375,
+        "y": 3380,
+        "wires": [
+            [
+                "245ee199aac86699"
+            ]
+        ]
+    },
+    {
+        "id": "e55ccd3e40d152db",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp X2 TempF",
+        "links": [
+            "70ac762aa87b5e3f"
+        ],
+        "x": 375,
+        "y": 3660,
+        "wires": [
+            [
+                "806d4ebe66a6c9c3"
+            ]
+        ]
+    },
+    {
+        "id": "6a828e16a9df9ce1",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp X3 TempF",
+        "links": [
+            "e1f8a793ac8a5ba0"
+        ],
+        "x": 375,
+        "y": 3940,
+        "wires": [
+            [
+                "15c243caa2ba3bf4"
+            ]
+        ]
+    },
+    {
+        "id": "f76b439e65962d18",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 6,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "SCD1 F.F. - Hum",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 540,
+        "y": 3540,
+        "wires": []
+    },
+    {
+        "id": "2f8c6b64879e1a59",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp X1 Hum",
+        "links": [
+            "19e0d933feeb3cc1"
+        ],
+        "x": 375,
+        "y": 3540,
+        "wires": [
+            [
+                "f76b439e65962d18"
+            ]
+        ]
+    },
+    {
+        "id": "4a39210dba837b2e",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 13,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "SCD2 F.R. - Hum",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 3820,
+        "wires": []
+    },
+    {
+        "id": "2b74020e931592d1",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp X2 Hum",
+        "links": [
+            "04c43679053c4ccc"
+        ],
+        "x": 375,
+        "y": 3820,
+        "wires": [
+            [
+                "4a39210dba837b2e"
+            ]
+        ]
+    },
+    {
+        "id": "36515d8dd540d752",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 20,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "SCD3 Incub. - Hum",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 4100,
+        "wires": []
+    },
+    {
+        "id": "795e325a24e14551",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp X3 Hum",
+        "links": [
+            "5bf2a4a9c9821a0e"
+        ],
+        "x": 375,
+        "y": 4100,
+        "wires": [
+            [
+                "36515d8dd540d752"
+            ]
+        ]
+    },
+    {
+        "id": "88696cea0575cec7",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 9,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "EZO1 F.F. - Hum",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 540,
+        "y": 3580,
+        "wires": []
+    },
+    {
+        "id": "3ac9cfe6b944b34e",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp EZ1 Hum",
+        "links": [],
+        "x": 375,
+        "y": 3580,
+        "wires": [
+            [
+                "88696cea0575cec7"
+            ]
+        ]
+    },
+    {
+        "id": "0a4f9a98dc235c64",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp EZ1 TempF",
+        "links": [],
+        "x": 375,
+        "y": 3460,
+        "wires": [
+            [
+                "5e913872a8b3ab80"
+            ]
+        ]
+    },
+    {
+        "id": "5e913872a8b3ab80",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 7,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "EZO1 F.F. - TempF",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 3460,
+        "wires": []
+    },
+    {
+        "id": "51617110e8322f34",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 14,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "EZO2 F.R. - TempF",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 3740,
+        "wires": []
+    },
+    {
+        "id": "05580e9851dafee2",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp ezo2 TempF",
+        "links": [],
+        "x": 375,
+        "y": 3740,
+        "wires": [
+            [
+                "51617110e8322f34"
+            ]
+        ]
+    },
+    {
+        "id": "7a908105497231f9",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 16,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "EZO2 F.R. - Hum",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 3860,
+        "wires": []
+    },
+    {
+        "id": "963fe1152e105930",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp ezo2 Hum",
+        "links": [],
+        "x": 375,
+        "y": 3860,
+        "wires": [
+            [
+                "7a908105497231f9"
+            ]
+        ]
+    },
+    {
+        "id": "bce5d37be09bf985",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 23,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "EZO3 Incub. - Hum",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 4140,
+        "wires": []
+    },
+    {
+        "id": "1430e48520f9bdd1",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp X3 Hum",
+        "links": [],
+        "x": 375,
+        "y": 4140,
+        "wires": [
+            [
+                "bce5d37be09bf985"
+            ]
+        ]
+    },
+    {
+        "id": "3e5fc17914e6e25a",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 21,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "EZO3 Incub. - TempF",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 560,
+        "y": 4020,
+        "wires": []
+    },
+    {
+        "id": "7cbdb84bfdba33f6",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp Z3 TempF",
+        "links": [],
+        "x": 375,
+        "y": 4020,
+        "wires": [
+            [
+                "3e5fc17914e6e25a"
+            ]
+        ]
+    },
+    {
+        "id": "4f3c47d5cd4db650",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "SCD1 F.F. - TempC",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 3420,
+        "wires": []
+    },
+    {
+        "id": "c00a089576adc62b",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp X1 Temp C",
+        "links": [
+            "216f31283c39445a"
+        ],
+        "x": 375,
+        "y": 3420,
+        "wires": [
+            [
+                "4f3c47d5cd4db650"
+            ]
+        ]
+    },
+    {
+        "id": "3c06d4590c75dcf2",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 8,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "EZO1 F.F. - TempC",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 3500,
+        "wires": []
+    },
+    {
+        "id": "0d946a71d4c3d12e",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp EZ1 TempC",
+        "links": [],
+        "x": 375,
+        "y": 3500,
+        "wires": [
+            [
+                "3c06d4590c75dcf2"
+            ]
+        ]
+    },
+    {
+        "id": "5631ee5f0f67cae5",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 12,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "SCD2 F.R. - TempC",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 3700,
+        "wires": []
+    },
+    {
+        "id": "e5aa7139f0bfc408",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp X2 TempC",
+        "links": [
+            "d109832eb3dc52ed"
+        ],
+        "x": 375,
+        "y": 3700,
+        "wires": [
+            [
+                "5631ee5f0f67cae5"
+            ]
+        ]
+    },
+    {
+        "id": "22080a6db6bbec7b",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 15,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "EZO2 F.R. - TempC",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 550,
+        "y": 3780,
+        "wires": []
+    },
+    {
+        "id": "6b90efbc362233a6",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp ezo2 TempC",
+        "links": [],
+        "x": 375,
+        "y": 3780,
+        "wires": [
+            [
+                "22080a6db6bbec7b"
+            ]
+        ]
+    },
+    {
+        "id": "64067c829382840f",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 19,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "SCD3 Incub. - TempC",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 560,
+        "y": 3980,
+        "wires": []
+    },
+    {
+        "id": "bcf07d2d5464ecf3",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp X3 TempC",
+        "links": [
+            "47a7064963a58a6a"
+        ],
+        "x": 375,
+        "y": 3980,
+        "wires": [
+            [
+                "64067c829382840f"
+            ]
+        ]
+    },
+    {
+        "id": "cae77bb621ebab45",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 22,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "EZO3 Incub - TempC",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 560,
+        "y": 4060,
+        "wires": []
+    },
+    {
+        "id": "86edc9f277f2a9ff",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp Z3 TempC",
+        "links": [],
+        "x": 375,
+        "y": 4060,
+        "wires": [
+            [
+                "cae77bb621ebab45"
+            ]
+        ]
+    },
+    {
+        "id": "216f31283c39445a",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "3ca2c29793c003e9",
+        "name": "XIAO_1 - TempC",
+        "mode": "link",
+        "links": [
+            "c00a089576adc62b"
+        ],
+        "x": 615,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "d109832eb3dc52ed",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "819c58cc08a77bc6",
+        "name": "XIAO_2 - TempC",
+        "mode": "link",
+        "links": [
+            "e5aa7139f0bfc408"
+        ],
+        "x": 615,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "47a7064963a58a6a",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "109d2c5378241e42",
+        "name": "XIAO_3 - TempC",
+        "mode": "link",
+        "links": [
+            "bcf07d2d5464ecf3"
+        ],
+        "x": 635,
+        "y": 2600,
+        "wires": []
+    },
+    {
+        "id": "52709a9850067533",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 3,
+        "width": "6",
+        "height": "1",
+        "name": "XIAO vs HUM - Fruit Front",
+        "label": "Fruiting Front",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 840,
+        "y": 3360,
+        "wires": []
+    },
+    {
+        "id": "69aba4daf9581695",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 10,
+        "width": "6",
+        "height": "1",
+        "name": "XIAO vs HUM - Fruit Rear",
+        "label": "Fruiting Rear",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 830,
+        "y": 3640,
+        "wires": []
+    },
+    {
+        "id": "0de464d89325ca70",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 17,
+        "width": "6",
+        "height": "1",
+        "name": "XIAO vs HUM - Incubation",
+        "label": "Incubation",
+        "format": "SCD41 — XIAO 1",
+        "layout": "row-spread",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0094ce",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 840,
+        "y": 3920,
+        "wires": []
+    },
+    {
+        "id": "729a0697e217c1ff",
+        "type": "link in",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "name": "Temp/Hum Comp EZO TempC",
+        "links": [],
+        "x": 775,
+        "y": 3280,
+        "wires": [
+            [
+                "a6f6b88660a182e3"
+            ]
+        ]
+    },
+    {
+        "id": "a6f6b88660a182e3",
+        "type": "ui-text",
+        "z": "951a1b4207d9f883",
+        "g": "6488260617096e1a",
+        "group": "c123275eb6a26f2a",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "EZO3 Refer. TempC",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 960,
+        "y": 3280,
+        "wires": []
+    },
+    {
+        "id": "78acaaefecefbe82",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "f2f40bdb9235544a",
+        "name": "from OMG - LORAtoMQTT",
+        "topic": "MushLoRa/OMG_LORA_MOAPA/LORAtoMQTT",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 210,
+        "y": 140,
+        "wires": [
+            [
+                "c8c1437aa0948205",
+                "8dcef9b38c01c367",
+                "b0486b3a3a1a57e0"
+            ]
+        ]
+    },
+    {
+        "id": "64f0e9b892738daa",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "f2f40bdb9235544a",
+        "name": "Split",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c8c1437aa0948205",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "f2f40bdb9235544a",
+        "name": "Split",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8dcef9b38c01c367",
+        "type": "function",
+        "z": "951a1b4207d9f883",
+        "g": "f2f40bdb9235544a",
+        "name": "Seperate out devices",
+        "func": "// --- Multi-sensor safe Function node with InfluxDB write ---\n\nlet payload = msg.payload;\n\nif (Buffer.isBuffer(payload)) {\n    payload = payload.toString('utf8');\n}\n\nif (typeof payload === \"string\") {\n    try {\n        payload = JSON.parse(payload);\n    } catch (err) {\n        node.error(\"Invalid JSON payload\", msg);\n        return null;\n    }\n}\n\nconst device = payload.value;\nif (!device) return null;\n\n// Fields to ignore (non-metric)\nconst ignore = [\"value\", \"snr\", \"pferror\", \"packetSize\", \"batt_status\"];\n\n// Valid measurement names: letters, numbers, underscores only\nconst validName = /^[a-zA-Z_][a-zA-Z0-9_]*$/;\n\n// Valid device names: same rules\nconst validDevice = /^[a-zA-Z0-9_-]+$/;\n\nif (!validDevice.test(device)) {\n    node.warn(`Skipping bad device name: ${device}`);\n    return null;\n}\n\nconst messages = [];\n\nfor (const [key, val] of Object.entries(payload)) {\n    if (ignore.includes(key)) continue;\n    if (!validName.test(key)) {\n        node.warn(`Skipping bad field name: ${key}`);\n        continue;\n    }\n\n    const numVal = parseFloat(val);\n    if (isNaN(numVal)) {\n        node.warn(`Skipping non-numeric value for ${key}: ${val}`);\n        continue;\n    }\n\n    // Message 1: to MQTT (existing behavior)\n    // Message 2: to InfluxDB HTTP write\n    messages.push([\n        {\n            topic: `LoRa_NodeRed/${device}/${key}`,\n            payload: val,\n            retain: true\n        },\n        {\n            payload: `${key},device=${device} value=${numVal}`,\n            headers: { \"Content-Type\": \"text/plain\" }\n        }\n    ]);\n}\n\n// Send all validated messages\nfor (const [mqttMsg, influxMsg] of messages) {\n    node.send([mqttMsg, influxMsg]);\n}\n\nreturn null;",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 140,
+        "wires": [
+            [
+                "0cf2be390c5317a5",
+                "64f0e9b892738daa"
+            ],
+            [
+                "f980c2af0be3a05b"
+            ]
+        ]
+    },
+    {
+        "id": "0cf2be390c5317a5",
+        "type": "mqtt out",
+        "z": "951a1b4207d9f883",
+        "g": "f2f40bdb9235544a",
+        "name": "To LoRa_NodeRed",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 790,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e36b66aef683079d",
+        "type": "comment",
+        "z": "951a1b4207d9f883",
+        "g": "f2f40bdb9235544a",
+        "name": "Moves multiple sensors to split MQTT topics and save to InfluxDB",
+        "info": "",
+        "x": 340,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "f980c2af0be3a05b",
+        "type": "http request",
+        "z": "951a1b4207d9f883",
+        "g": "f2f40bdb9235544a",
+        "name": "http request-LoRa data to InfluxDB",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8086/write?db=mushroom_data",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 760,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9aaefc34caa6adfb",
+        "type": "influxdb out",
+        "z": "951a1b4207d9f883",
+        "g": "f2f40bdb9235544a",
+        "influxdb": "e5d695bf95ae6c6c",
+        "name": "(USE HTTP Request instead of Influx Out)",
+        "measurement": "",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 760,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "b0486b3a3a1a57e0",
+        "type": "function",
+        "z": "951a1b4207d9f883",
+        "g": "f2f40bdb9235544a",
+        "name": "OTA Confirmation",
+        "func": "let payload = msg.payload;\nif (typeof payload === \"string\") {\n    try { payload = JSON.parse(payload); } catch (e) { return null; }\n}\nif (payload.ota === \"starting\") {\n    msg.payload = `3 Min. OTA mode started on ${payload.value}`;\n    return msg;\n}\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 240,
+        "wires": [
+            [
+                "b25ec336532ff3a9",
+                "6380faf6d2334067"
+            ]
+        ]
+    },
+    {
+        "id": "6380faf6d2334067",
+        "type": "link out",
+        "z": "951a1b4207d9f883",
+        "g": "f2f40bdb9235544a",
+        "name": "OTA Mode Confirmation",
+        "mode": "link",
+        "links": [],
+        "x": 405,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "b25ec336532ff3a9",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "f2f40bdb9235544a",
+        "name": "OTA Confirmation",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "8f052478781886c9",
+        "type": "mqtt in",
+        "z": "951a1b4207d9f883",
+        "g": "6de654acc9018e66",
+        "name": "",
+        "topic": "LoRa_NodeRed/+/+",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a2cc319da1341e36",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 190,
+        "y": 460,
+        "wires": [
+            [
+                "3678763df24d4faf"
+            ]
+        ]
+    },
+    {
+        "id": "8401584375773070",
+        "type": "debug",
+        "z": "951a1b4207d9f883",
+        "g": "6de654acc9018e66",
+        "name": "Multi",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "3678763df24d4faf",
+        "type": "function",
+        "z": "951a1b4207d9f883",
+        "g": "6de654acc9018e66",
+        "name": "MQTT Split for InfluxDB",
+        "func": "const parts = msg.topic.split('/');\nconst device = parts[1];\nconst measurement = parts[2];\nconst value = msg.payload;\n\n// Raw line protocol: measurement,device=name value=123\nmsg.payload = `${measurement},device=${device} value=${value}`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 460,
+        "wires": [
+            [
+                "8401584375773070"
+            ]
+        ]
+    },
+    {
+        "id": "ca107bba390c1689",
+        "type": "comment",
+        "z": "951a1b4207d9f883",
+        "g": "6de654acc9018e66",
+        "name": "MQTT Pre-Split to InfluxDB (not being used)",
+        "info": "",
+        "x": 270,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

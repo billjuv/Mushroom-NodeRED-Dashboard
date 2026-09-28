@@ -1,0 +1,581 @@
+[
+    {
+        "id": "609ca16ca0c4d8e5",
+        "type": "tab",
+        "label": "EZO Info Test",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e54ba610c37d9055",
+        "type": "group",
+        "z": "609ca16ca0c4d8e5",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "dd5660df1d45b7f4",
+            "fa54520dd4410e24",
+            "c773faae58dbd4d6",
+            "a5c2ac3eba294a89",
+            "8d78557a96ea6a28",
+            "3d1d5bbec6083c32",
+            "ceddb5f24a8cb795",
+            "5d5b5ca7a40410d3",
+            "f669268e548fa89e",
+            "0989c55c767895a1",
+            "04b9a7b0f53096e8",
+            "2545e338f91ca465",
+            "b1901316cfbe41e9",
+            "3bbd44ce6b3f1d4c",
+            "b557cc32ebd102e5",
+            "5736fa985b6fc24c"
+        ],
+        "x": 114,
+        "y": 59,
+        "w": 852,
+        "h": 502
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "cbb09358a5c9450b",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "2px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "a0e4e8c6e6df9adf",
+        "type": "mqtt-broker",
+        "name": "MushRmPi- (switch from)",
+        "broker": "192.168.1.109",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "56826214d9b731b9",
+        "type": "ui-page",
+        "name": "Sensor Calibration",
+        "ui": "b19902285c24f724",
+        "path": "/page8",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "cbb09358a5c9450b",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "15e83fdbc742d28f",
+        "type": "ui-group",
+        "name": "EZO-Sensor Test",
+        "page": "56826214d9b731b9",
+        "width": "6",
+        "height": "1",
+        "order": 6,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "dd5660df1d45b7f4",
+        "type": "mqtt out",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "name": "",
+        "topic": "ezo32-box2/sensor/ezo-co2/cmd",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a0e4e8c6e6df9adf",
+        "x": 800,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "fa54520dd4410e24",
+        "type": "comment",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "name": "EZO Sensor Status/Calibration (ReadMe)",
+        "info": "Works by sending commands to sensor thru\nMQTT. Status only at this time but \ncalibration or changing i2c address could \nbe done using MQTT in the future\n\nModifications to the ESP-EZO yaml is nedded\nto make this work \n\n?Status,P,5.038\nReason for restart\nVoltage at Vcc\n\nRestart codes:\nP powered off\nS software reset\nB brown out\nW watchdog\nU unknown\n\n\n\n",
+        "x": 300,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c773faae58dbd4d6",
+        "type": "ui-text",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "group": "15e83fdbc742d28f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Result - CO2",
+        "label": "Result - CO2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 730,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a5c2ac3eba294a89",
+        "type": "mqtt in",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "name": "",
+        "topic": "ezo32-box2/sensor/ezo-co2/resp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 470,
+        "y": 260,
+        "wires": [
+            [
+                "8d78557a96ea6a28",
+                "c773faae58dbd4d6"
+            ]
+        ]
+    },
+    {
+        "id": "8d78557a96ea6a28",
+        "type": "debug",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "name": "CO2 Result",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "3d1d5bbec6083c32",
+        "type": "debug",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "name": "CO2 Sensor",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ceddb5f24a8cb795",
+        "type": "ui-dropdown",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "group": "15e83fdbc742d28f",
+        "name": "",
+        "label": "Select Option: CO2 Sensor",
+        "tooltip": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "Status",
+                "value": "Status",
+                "type": "str"
+            },
+            {
+                "label": "Device Calibrated?",
+                "value": "Cal,?",
+                "type": "str"
+            },
+            {
+                "label": "Restore to Factory",
+                "value": "Factory",
+                "type": "str"
+            },
+            {
+                "label": "I - Info (device, firmware)",
+                "value": "i",
+                "type": "str"
+            },
+            {
+                "label": "R - Reading",
+                "value": "R",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 460,
+        "y": 160,
+        "wires": [
+            [
+                "dd5660df1d45b7f4",
+                "3d1d5bbec6083c32"
+            ]
+        ]
+    },
+    {
+        "id": "5d5b5ca7a40410d3",
+        "type": "comment",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "name": "EZO Commands thru MQTT ",
+        "info": "",
+        "x": 600,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f669268e548fa89e",
+        "type": "mqtt out",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "name": "",
+        "topic": "ezo32-box2/sensor/ezo-hum/cmd",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a0e4e8c6e6df9adf",
+        "x": 800,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "0989c55c767895a1",
+        "type": "ui-text",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "group": "15e83fdbc742d28f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "Result - HUM",
+        "label": "Result - HUM",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 740,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "04b9a7b0f53096e8",
+        "type": "mqtt in",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "name": "",
+        "topic": "ezo32-box2/sensor/ezo-hum/resp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 480,
+        "y": 480,
+        "wires": [
+            [
+                "2545e338f91ca465",
+                "0989c55c767895a1"
+            ]
+        ]
+    },
+    {
+        "id": "2545e338f91ca465",
+        "type": "debug",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "name": "HUM Result",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "b1901316cfbe41e9",
+        "type": "debug",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "name": "HUM",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "3bbd44ce6b3f1d4c",
+        "type": "ui-dropdown",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "group": "15e83fdbc742d28f",
+        "name": "",
+        "label": "Select Option: HUM Sensor",
+        "tooltip": "",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "Status",
+                "value": "Status",
+                "type": "str"
+            },
+            {
+                "label": "Device Calibrated?",
+                "value": "Cal,?",
+                "type": "str"
+            },
+            {
+                "label": "Restore to Factory",
+                "value": "Factory",
+                "type": "str"
+            },
+            {
+                "label": "I - Info (device, firmware)",
+                "value": "i",
+                "type": "str"
+            },
+            {
+                "label": "R - Reading",
+                "value": "R",
+                "type": "str"
+            },
+            {
+                "label": "Enabled Parameters",
+                "value": "O,?",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 460,
+        "y": 380,
+        "wires": [
+            [
+                "f669268e548fa89e",
+                "b1901316cfbe41e9"
+            ]
+        ]
+    },
+    {
+        "id": "b557cc32ebd102e5",
+        "type": "ui-markdown",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "group": "15e83fdbc742d28f",
+        "name": "Instructions",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "content": "NOTE for Status:\n?Status,P,5.038 =\nReason for restart,\nVoltage at Vcc\n\nRestart codes:\nP powered off,\nS software reset,\nB brown out,\nW watchdog,\nU unknown\n",
+        "className": "",
+        "x": 810,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5736fa985b6fc24c",
+        "type": "ui-text-input",
+        "z": "609ca16ca0c4d8e5",
+        "g": "e54ba610c37d9055",
+        "group": "15e83fdbc742d28f",
+        "name": "Text - Hum",
+        "label": "Command Input - HUM (keyboard)",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "See Datasheet",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": false,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 410,
+        "y": 420,
+        "wires": [
+            [
+                "f669268e548fa89e"
+            ]
+        ]
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]

@@ -1,0 +1,2427 @@
+[
+    {
+        "id": "a5726fa4fc8cd3f3",
+        "type": "tab",
+        "label": "Smart Plugs",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ba81d079373131c7",
+        "type": "group",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "2bc72b5115b63521",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c6367454d0b7a570",
+            "fdd7681db9bd5854",
+            "d758fd6e4968d286",
+            "b5d4abe3922980af",
+            "86bb29a6c45035a3",
+            "03c0c0588faac6d8",
+            "3b78e0393a7c015b",
+            "7ca17a05de352d70",
+            "ae375ad9ee27652f",
+            "19f761e6bf9c0435"
+        ],
+        "x": 94,
+        "y": 2259,
+        "w": 892,
+        "h": 242
+    },
+    {
+        "id": "973ec16ffb04c22e",
+        "type": "group",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "e601ea460f9e9c5a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cb73904533eeeb70",
+            "b417ae16e44823cd",
+            "06789912ef861d84",
+            "68a79961b03b254b",
+            "5dfbaa3924945dc4",
+            "fa7ab4add5e66eeb",
+            "d59d583d880bfdb3",
+            "2f3f7668e5927b2a",
+            "a56f6002f2fc75a8",
+            "bd5479ac1e098a25",
+            "82592ce4e204e521",
+            "1a0ef59bac8cd3df",
+            "7d72384ad02adda1",
+            "e8b6ce6cb23a8b91",
+            "1a8e14b93dc8392b",
+            "4442f52f59bd1252",
+            "f9e80caf735e016d"
+        ],
+        "x": 94,
+        "y": 59,
+        "w": 832,
+        "h": 402
+    },
+    {
+        "id": "19e0cf8188c8cc41",
+        "type": "group",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "2bc72b5115b63521",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b70b3ed08e538a02",
+            "6d7a4666a0301bb8",
+            "fd1d149b4240ed0a",
+            "4a3bc475b1d2bcdb",
+            "8e562452d565b412",
+            "8899cde0bfa66420",
+            "1624f36a27abe124",
+            "f632621627ba4564",
+            "63ff586c6eeb5f12",
+            "bf32a8051d0b4e7c",
+            "13921cbf57a951bb",
+            "d4cf7c8c760baf29",
+            "68bd0ac37f801e16",
+            "0cd08ea0e17c7196",
+            "99d11678805e7018",
+            "d1997fdd538a8bc7",
+            "85f3024119f5afed",
+            "d811ae88d1d2f1c3",
+            "410d05324bf8a785",
+            "6759aff8d4e8c5b9",
+            "8a4a4d7014878621",
+            "7148e257459f5e27",
+            "0d8a8ef1c8ae72c3",
+            "344ebf2f8ba59b48",
+            "8f5e8d9a5112a3d7",
+            "8d62a2e62ae99601",
+            "9331441ad1b7165a",
+            "d64696b07e3361bf",
+            "aa13d85e69f3889f",
+            "aaf3bb1c53a641a3"
+        ],
+        "x": 94,
+        "y": 1379,
+        "w": 972,
+        "h": 862
+    },
+    {
+        "id": "9ccb67bd55ca8b8e",
+        "type": "group",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "2bc72b5115b63521",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c704960205b9e222",
+            "c0d1d438b80807c3",
+            "d7c33c48d86097f9",
+            "b117b69f1f069ad2",
+            "478673af7d9cb29b",
+            "1454fe3e5fb31ce2",
+            "d49b04ea41010856",
+            "9deae458d29650a4",
+            "eab3a1381a1147a6",
+            "59de0dc34fcf3522",
+            "525d5dc4a2f7eeec",
+            "10cf0f23f99d7c2e",
+            "ecf91c7b0e71acec",
+            "0a46eeacd7224ffc",
+            "b31cbd85c92a2561",
+            "f5f85784ef314c60",
+            "9172648f7c76960d",
+            "6f0cbdfd57d9b656",
+            "4500b1f8cc40c87a",
+            "097e7b873686e298"
+        ],
+        "x": 114,
+        "y": 819,
+        "w": 872,
+        "h": 542
+    },
+    {
+        "id": "2bc72b5115b63521",
+        "type": "group",
+        "z": "a5726fa4fc8cd3f3",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9ccb67bd55ca8b8e",
+            "19e0cf8188c8cc41",
+            "ba81d079373131c7"
+        ],
+        "x": 68,
+        "y": 793,
+        "w": 1024,
+        "h": 1734
+    },
+    {
+        "id": "68cffdbebc0c17d5",
+        "type": "group",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "e601ea460f9e9c5a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2f0edc5babf8a9c1",
+            "90f4c879e48b414f",
+            "033d3f6456500ba6",
+            "82e52d326f6ef9b7",
+            "32f83fd348b39896",
+            "b9354cd92ec66d2e",
+            "b389770f2b122bf2",
+            "f4c9f42e4a265f37",
+            "5e1ad682111b9f48",
+            "d40919447b692b22"
+        ],
+        "x": 94,
+        "y": 479,
+        "w": 892,
+        "h": 242
+    },
+    {
+        "id": "e601ea460f9e9c5a",
+        "type": "group",
+        "z": "a5726fa4fc8cd3f3",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "973ec16ffb04c22e",
+            "68cffdbebc0c17d5"
+        ],
+        "x": 68,
+        "y": 33,
+        "w": 944,
+        "h": 714
+    },
+    {
+        "id": "b19902285c24f724",
+        "type": "ui-base",
+        "name": "MushRmPi Dashboard 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": false,
+        "notificationDisplayTime": "5",
+        "showDisconnectNotification": false,
+        "allowInstall": true
+    },
+    {
+        "id": "12606b49c66bd206",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "4px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "a0e4e8c6e6df9adf",
+        "type": "mqtt-broker",
+        "name": "MushRmPi- (switch from)",
+        "broker": "192.168.1.109",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "559ee68b414e9d2b",
+        "type": "ui-page",
+        "name": "Spare Parts ",
+        "ui": "b19902285c24f724",
+        "path": "/page5",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "12606b49c66bd206",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "6"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 5,
+        "className": "",
+        "visible": false,
+        "disabled": "false"
+    },
+    {
+        "id": "03c0d40a5040c76f",
+        "type": "ui-group",
+        "name": "S31 Smart Plugs",
+        "page": "559ee68b414e9d2b",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": false,
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5699c52904a1a98b",
+        "type": "ui-group",
+        "name": "WyzePlugs",
+        "page": "559ee68b414e9d2b",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": false,
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a2cc319da1341e36",
+        "type": "mqtt-broker",
+        "name": "MushRmPi - K1W1 (use)",
+        "broker": "192.168.1.109",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c704960205b9e222",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "tele/WyzePlug1_Mushroom/SENSOR",
+        "topic": "tele/WyzePlug1_Mushroom/SENSOR",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 330,
+        "y": 1100,
+        "wires": [
+            [
+                "59de0dc34fcf3522"
+            ]
+        ]
+    },
+    {
+        "id": "c0d1d438b80807c3",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "Power 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "d7c33c48d86097f9",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "tele/WyzePlug1_Mushroom/POWER2",
+        "topic": "tele/WyzePlug1_Mushroom/POWER2",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 330,
+        "y": 1000,
+        "wires": [
+            [
+                "eab3a1381a1147a6"
+            ]
+        ]
+    },
+    {
+        "id": "b117b69f1f069ad2",
+        "type": "rbe",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 730,
+        "y": 920,
+        "wires": [
+            [
+                "c0d1d438b80807c3"
+            ]
+        ]
+    },
+    {
+        "id": "478673af7d9cb29b",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "Power 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "1454fe3e5fb31ce2",
+        "type": "change",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "on",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "off",
+                "fromt": "str",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 920,
+        "wires": [
+            [
+                "b117b69f1f069ad2"
+            ]
+        ]
+    },
+    {
+        "id": "d49b04ea41010856",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "Time",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "9deae458d29650a4",
+        "type": "rbe",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 730,
+        "y": 1000,
+        "wires": [
+            [
+                "478673af7d9cb29b"
+            ]
+        ]
+    },
+    {
+        "id": "eab3a1381a1147a6",
+        "type": "change",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "on",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "off",
+                "fromt": "str",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 1000,
+        "wires": [
+            [
+                "9deae458d29650a4"
+            ]
+        ]
+    },
+    {
+        "id": "59de0dc34fcf3522",
+        "type": "split",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": true,
+        "addname": "topic",
+        "x": 570,
+        "y": 1100,
+        "wires": [
+            [
+                "525d5dc4a2f7eeec"
+            ]
+        ]
+    },
+    {
+        "id": "525d5dc4a2f7eeec",
+        "type": "switch",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Time",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "ANALOG",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "ENERGY",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 690,
+        "y": 1100,
+        "wires": [
+            [
+                "d49b04ea41010856"
+            ],
+            [
+                "10cf0f23f99d7c2e"
+            ],
+            [
+                "ecf91c7b0e71acec"
+            ]
+        ]
+    },
+    {
+        "id": "10cf0f23f99d7c2e",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "Analog",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "ecf91c7b0e71acec",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "Energy",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "0a46eeacd7224ffc",
+        "type": "comment",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "WyzePlug1 - Tasmota",
+        "info": "stat/WyzePlug1/POWER1",
+        "x": 240,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "b31cbd85c92a2561",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "tele/WyzePlug1_Mushroom/SENSOR",
+        "topic": "tele/WyzePlug1_Mushroom/SENSOR",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 330,
+        "y": 1320,
+        "wires": [
+            [
+                "097e7b873686e298"
+            ]
+        ]
+    },
+    {
+        "id": "f5f85784ef314c60",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "stat/WyzePlug1_Mushroom/POWER2",
+        "topic": "stat/WyzePlug1_Mushroom/POWER2",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 330,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9172648f7c76960d",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "stat/WyzePlug1_Mushroom/POWER1",
+        "topic": "stat/WyzePlug1_Mushroom/POWER1",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 330,
+        "y": 1200,
+        "wires": [
+            [
+                "4500b1f8cc40c87a"
+            ]
+        ]
+    },
+    {
+        "id": "6f0cbdfd57d9b656",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "WyzePlug1_Mushroom/POWER1",
+        "topic": "tele/WyzePlug1_Mushroom/POWER1",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 310,
+        "y": 920,
+        "wires": [
+            [
+                "1454fe3e5fb31ce2"
+            ]
+        ]
+    },
+    {
+        "id": "b70b3ed08e538a02",
+        "type": "split",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Split into individual messages",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": true,
+        "addname": "topic",
+        "x": 530,
+        "y": 2000,
+        "wires": [
+            [
+                "6d7a4666a0301bb8"
+            ]
+        ]
+    },
+    {
+        "id": "6d7a4666a0301bb8",
+        "type": "switch",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Power",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Current",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": true,
+        "outputs": 2,
+        "x": 550,
+        "y": 2080,
+        "wires": [
+            [
+                "fd1d149b4240ed0a",
+                "344ebf2f8ba59b48",
+                "8f5e8d9a5112a3d7",
+                "8e562452d565b412"
+            ],
+            [
+                "4a3bc475b1d2bcdb"
+            ]
+        ]
+    },
+    {
+        "id": "fd1d149b4240ed0a",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Power (Watts)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "4a3bc475b1d2bcdb",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Current (Amps)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "8e562452d565b412",
+        "type": "mqtt out",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Save SaveWyze1/Watts MQTT",
+        "topic": "SaveWyze1/Watts",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 910,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "8899cde0bfa66420",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "stat/WyzePlug1_Mushroom/POWER1",
+        "topic": "stat/WyzePlug1_Mushroom/POWER1",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 1620,
+        "wires": [
+            [
+                "f632621627ba4564",
+                "1624f36a27abe124"
+            ]
+        ]
+    },
+    {
+        "id": "1624f36a27abe124",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Power !",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "f632621627ba4564",
+        "type": "change",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 1620,
+        "wires": [
+            [
+                "d1997fdd538a8bc7"
+            ]
+        ]
+    },
+    {
+        "id": "63ff586c6eeb5f12",
+        "type": "comment",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "UI relay status LED",
+        "info": "tele/WyzePlug1_Ika/SENSOR",
+        "x": 210,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "bf32a8051d0b4e7c",
+        "type": "mqtt out",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "cmnd/WyzePlug1_Mushroom/POWER2",
+        "topic": "cmnd/WyzePlug1_Mushroom/POWER2",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 620,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "13921cbf57a951bb",
+        "type": "change",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 1780,
+        "wires": [
+            [
+                "85f3024119f5afed"
+            ]
+        ]
+    },
+    {
+        "id": "d4cf7c8c760baf29",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Plug2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "cb73904533eeeb70",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "tele/S31Plug_84F041/SENSOR",
+        "topic": "tele/S31Plug_84F041/SENSOR",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 380,
+        "wires": [
+            [
+                "06789912ef861d84"
+            ]
+        ]
+    },
+    {
+        "id": "b417ae16e44823cd",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "Time",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "06789912ef861d84",
+        "type": "split",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": true,
+        "addname": "topic",
+        "x": 490,
+        "y": 380,
+        "wires": [
+            [
+                "68a79961b03b254b"
+            ]
+        ]
+    },
+    {
+        "id": "68a79961b03b254b",
+        "type": "switch",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Time",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "ANALOG",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "ENERGY",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 630,
+        "y": 380,
+        "wires": [
+            [
+                "b417ae16e44823cd"
+            ],
+            [
+                "5dfbaa3924945dc4"
+            ],
+            [
+                "fa7ab4add5e66eeb"
+            ]
+        ]
+    },
+    {
+        "id": "5dfbaa3924945dc4",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "Analog",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "fa7ab4add5e66eeb",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "Energy",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "d59d583d880bfdb3",
+        "type": "mqtt out",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "cmnd/S31Plug_84F041/POWER",
+        "topic": "cmnd/S31Plug_84F041/POWER",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 550,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "2f3f7668e5927b2a",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "stat/S31Plug_84F041/POWER",
+        "topic": "stat/S31Plug_84F041/POWER",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 200,
+        "wires": [
+            [
+                "a56f6002f2fc75a8"
+            ]
+        ]
+    },
+    {
+        "id": "a56f6002f2fc75a8",
+        "type": "change",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 200,
+        "wires": [
+            [
+                "bd5479ac1e098a25",
+                "1a0ef59bac8cd3df",
+                "f9e80caf735e016d"
+            ]
+        ]
+    },
+    {
+        "id": "bd5479ac1e098a25",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "Plug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "82592ce4e204e521",
+        "type": "ui-switch",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "S31 Plug Switch",
+        "label": "S31 SmartPlug",
+        "group": "03c0d40a5040c76f",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 280,
+        "y": 140,
+        "wires": [
+            [
+                "d59d583d880bfdb3"
+            ]
+        ]
+    },
+    {
+        "id": "1a0ef59bac8cd3df",
+        "type": "ui-led",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "S31 LED",
+        "group": "03c0d40a5040c76f",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "label": "S31 Plug Status",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "true",
+                "valueType": "bool",
+                "color": "#00f900"
+            },
+            {
+                "value": "false",
+                "valueType": "bool",
+                "color": "#919191"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 740,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "7d72384ad02adda1",
+        "type": "comment",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "Sonoff S31 - Tasmota",
+        "info": "",
+        "x": 220,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4500b1f8cc40c87a",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "debug 168",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "097e7b873686e298",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "9ccb67bd55ca8b8e",
+        "name": "debug 170",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "68bd0ac37f801e16",
+        "type": "ui-switch",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Wyze1 - Plug 1",
+        "label": "Wyze1 - Plug 1",
+        "group": "5699c52904a1a98b",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 220,
+        "y": 1560,
+        "wires": [
+            [
+                "99d11678805e7018"
+            ]
+        ]
+    },
+    {
+        "id": "0cd08ea0e17c7196",
+        "type": "ui-switch",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Wyze1 - Plug 2",
+        "label": "Wyze1 - Plug 2",
+        "group": "5699c52904a1a98b",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 240,
+        "y": 1720,
+        "wires": [
+            [
+                "bf32a8051d0b4e7c"
+            ]
+        ]
+    },
+    {
+        "id": "99d11678805e7018",
+        "type": "mqtt out",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "cmnd/WyzePlug1_Mushroom/POWER1",
+        "topic": "cmnd/WyzePlug1_Mushroom/POWER1",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a2cc319da1341e36",
+        "x": 620,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "d1997fdd538a8bc7",
+        "type": "ui-led",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Wyze1-Out 1 Status",
+        "group": "5699c52904a1a98b",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "label": "Wyze1-Out 1 Status",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "true",
+                "valueType": "bool",
+                "color": "#00f900"
+            },
+            {
+                "value": "false",
+                "valueType": "bool",
+                "color": "#919191"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 840,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "85f3024119f5afed",
+        "type": "ui-led",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Wyze1-Out 2 Status",
+        "group": "5699c52904a1a98b",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "label": "Wyze1-Out 2 Status",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "true",
+                "valueType": "bool",
+                "color": "#00f900"
+            },
+            {
+                "value": "false",
+                "valueType": "bool",
+                "color": "#919191"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 840,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "d811ae88d1d2f1c3",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "tele/WyzePlug1_Mushroom/SENSOR",
+        "topic": "tele/WyzePlug1_Mushroom/SENSOR",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 1920,
+        "wires": [
+            [
+                "6759aff8d4e8c5b9"
+            ]
+        ]
+    },
+    {
+        "id": "410d05324bf8a785",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Time",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "6759aff8d4e8c5b9",
+        "type": "split",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": true,
+        "addname": "topic",
+        "x": 510,
+        "y": 1920,
+        "wires": [
+            [
+                "8a4a4d7014878621"
+            ]
+        ]
+    },
+    {
+        "id": "8a4a4d7014878621",
+        "type": "switch",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Time",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "ANALOG",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "ENERGY",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 650,
+        "y": 1920,
+        "wires": [
+            [
+                "410d05324bf8a785"
+            ],
+            [
+                "7148e257459f5e27"
+            ],
+            [
+                "0d8a8ef1c8ae72c3",
+                "b70b3ed08e538a02"
+            ]
+        ]
+    },
+    {
+        "id": "7148e257459f5e27",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Analog",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "0d8a8ef1c8ae72c3",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Energy",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "344ebf2f8ba59b48",
+        "type": "ui-text",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "group": "5699c52904a1a98b",
+        "order": 6,
+        "width": "6",
+        "height": "1",
+        "name": "Current Wyze Power",
+        "label": "Current Wyze Power",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 880,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "8f5e8d9a5112a3d7",
+        "type": "ui-chart",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "group": "5699c52904a1a98b",
+        "name": "Wyze Power Chart",
+        "label": "Wyze Power",
+        "order": 7,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "property",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": "",
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "86400",
+        "removeOlderPoints": "",
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "4",
+        "className": "",
+        "interpolation": "linear",
+        "x": 870,
+        "y": 2100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8b6ce6cb23a8b91",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "",
+        "topic": "tele/S31Plug_84F041/LWT",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 300,
+        "wires": [
+            [
+                "1a8e14b93dc8392b",
+                "4442f52f59bd1252"
+            ]
+        ]
+    },
+    {
+        "id": "1a8e14b93dc8392b",
+        "type": "ui-led",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "S31 LWT",
+        "group": "03c0d40a5040c76f",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "label": "S31 Online",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "Online",
+                "valueType": "str",
+                "color": "#00fdff"
+            },
+            {
+                "value": "Offline",
+                "valueType": "str",
+                "color": "#919191"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showBorder": true,
+        "showGlow": false,
+        "x": 540,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8d62a2e62ae99601",
+        "type": "ui-led",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Wyze1 LWT",
+        "group": "5699c52904a1a98b",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "label": "Wyze1 Online",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "Online",
+                "valueType": "str",
+                "color": "#00fdff"
+            },
+            {
+                "value": "Offline",
+                "valueType": "str",
+                "color": "#919191"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showBorder": true,
+        "showGlow": false,
+        "x": 690,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "9331441ad1b7165a",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "",
+        "topic": "tele/WyzePlug1_Mushroom/LWT",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 1460,
+        "wires": [
+            [
+                "8d62a2e62ae99601",
+                "d64696b07e3361bf",
+                "aa13d85e69f3889f"
+            ]
+        ]
+    },
+    {
+        "id": "d64696b07e3361bf",
+        "type": "link out",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "Wyze1 - LWT",
+        "mode": "link",
+        "links": [],
+        "x": 635,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "4442f52f59bd1252",
+        "type": "link out",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "S31_84F041 - LWT",
+        "mode": "link",
+        "links": [],
+        "x": 495,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "f9e80caf735e016d",
+        "type": "link out",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "973ec16ffb04c22e",
+        "name": "S31_84F041 Power out",
+        "mode": "link",
+        "links": [],
+        "x": 725,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "aa13d85e69f3889f",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "LWT",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "fdd7681db9bd5854",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "ba81d079373131c7",
+        "name": "",
+        "topic": "tele/WyzePlug1_Mushroom/STATE",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 260,
+        "y": 2340,
+        "wires": [
+            [
+                "b5d4abe3922980af"
+            ]
+        ]
+    },
+    {
+        "id": "d758fd6e4968d286",
+        "type": "link out",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "ba81d079373131c7",
+        "name": "WyzePlug1-RSSI",
+        "mode": "link",
+        "links": [],
+        "x": 775,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "b5d4abe3922980af",
+        "type": "split",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "ba81d079373131c7",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": true,
+        "addname": "topic",
+        "x": 490,
+        "y": 2340,
+        "wires": [
+            [
+                "3b78e0393a7c015b"
+            ]
+        ]
+    },
+    {
+        "id": "86bb29a6c45035a3",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "ba81d079373131c7",
+        "name": "RSSI -Wyze",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "03c0c0588faac6d8",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "ba81d079373131c7",
+        "name": "Current (Amps)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "3b78e0393a7c015b",
+        "type": "switch",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "ba81d079373131c7",
+        "name": "Wifi",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Wifi",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 650,
+        "y": 2340,
+        "wires": [
+            [
+                "03c0c0588faac6d8",
+                "7ca17a05de352d70"
+            ]
+        ]
+    },
+    {
+        "id": "c6367454d0b7a570",
+        "type": "switch",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "ba81d079373131c7",
+        "name": "RSSI (Signal)",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Signal",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 610,
+        "y": 2400,
+        "wires": [
+            [
+                "86bb29a6c45035a3",
+                "d758fd6e4968d286"
+            ]
+        ]
+    },
+    {
+        "id": "7ca17a05de352d70",
+        "type": "split",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "ba81d079373131c7",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": true,
+        "addname": "topic",
+        "x": 450,
+        "y": 2400,
+        "wires": [
+            [
+                "c6367454d0b7a570",
+                "ae375ad9ee27652f"
+            ]
+        ]
+    },
+    {
+        "id": "ae375ad9ee27652f",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "ba81d079373131c7",
+        "name": "Current (Amps)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "19f761e6bf9c0435",
+        "type": "comment",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "ba81d079373131c7",
+        "name": "RSSI",
+        "info": "",
+        "x": 190,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "aaf3bb1c53a641a3",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "19e0cf8188c8cc41",
+        "name": "stat/WyzePlug1_Mushroom/POWER2",
+        "topic": "stat/WyzePlug1_Mushroom/POWER2",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 1780,
+        "wires": [
+            [
+                "13921cbf57a951bb",
+                "d4cf7c8c760baf29"
+            ]
+        ]
+    },
+    {
+        "id": "2f0edc5babf8a9c1",
+        "type": "switch",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "68cffdbebc0c17d5",
+        "name": "RSSI (Signal)",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Signal",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 610,
+        "y": 620,
+        "wires": [
+            [
+                "32f83fd348b39896",
+                "033d3f6456500ba6"
+            ]
+        ]
+    },
+    {
+        "id": "90f4c879e48b414f",
+        "type": "mqtt in",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "68cffdbebc0c17d5",
+        "name": "",
+        "topic": "tele/S31Plug_84F041/STATE",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "a0e4e8c6e6df9adf",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 240,
+        "y": 560,
+        "wires": [
+            [
+                "82e52d326f6ef9b7"
+            ]
+        ]
+    },
+    {
+        "id": "033d3f6456500ba6",
+        "type": "link out",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "68cffdbebc0c17d5",
+        "name": "S31_84f041 -RSSI",
+        "mode": "link",
+        "links": [],
+        "x": 775,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "82e52d326f6ef9b7",
+        "type": "split",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "68cffdbebc0c17d5",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": true,
+        "addname": "topic",
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "b389770f2b122bf2"
+            ]
+        ]
+    },
+    {
+        "id": "32f83fd348b39896",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "68cffdbebc0c17d5",
+        "name": "RSSI S31",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "b9354cd92ec66d2e",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "68cffdbebc0c17d5",
+        "name": "Current (Amps)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "b389770f2b122bf2",
+        "type": "switch",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "68cffdbebc0c17d5",
+        "name": "Wifi",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Wifi",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 650,
+        "y": 560,
+        "wires": [
+            [
+                "b9354cd92ec66d2e",
+                "f4c9f42e4a265f37"
+            ]
+        ]
+    },
+    {
+        "id": "f4c9f42e4a265f37",
+        "type": "split",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "68cffdbebc0c17d5",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": true,
+        "addname": "topic",
+        "x": 450,
+        "y": 620,
+        "wires": [
+            [
+                "2f0edc5babf8a9c1",
+                "5e1ad682111b9f48"
+            ]
+        ]
+    },
+    {
+        "id": "5e1ad682111b9f48",
+        "type": "debug",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "68cffdbebc0c17d5",
+        "name": "Current (Amps)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "d40919447b692b22",
+        "type": "comment",
+        "z": "a5726fa4fc8cd3f3",
+        "g": "68cffdbebc0c17d5",
+        "name": "RSSI",
+        "info": "",
+        "x": 190,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "ac7e5cec8cbd4120",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-remote": "2.0.5",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0",
+            "node-red-contrib-eztimer": "1.2.7",
+            "node-red-contrib-countdown": "1.3.2",
+            "node-red-contrib-simple-gate": "0.5.2"
+        }
+    }
+]
