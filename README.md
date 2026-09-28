@@ -4,6 +4,8 @@ The phone dashboard for a mushroom grow operation housed in two shipping contain
 
 It's built with **Node-RED** and **FlowFuse Dashboard 2.0** (`@flowfuse/node-red-dashboard`), *not* the old Dashboard 1.0. It's designed first and foremost to be easy to use on a cell phone.
 
+As per usual, to view the dashboards from the local WiFi network, use the IP address of the computer running Node-Red as follows - "xxx.xxx.x.xx:1880/dashboard". To allow viewing of the dashboards remotely we used the RemoteRED add-on (with optional alerts if desired). Now I'm using Tailscale 
+
 Each section below includes a screenshot, a short description, the devices used, and a link to the Node-RED flow you can import.
 
 ---
@@ -15,6 +17,13 @@ Each section below includes a screenshot, a short description, the devices used,
 - An MQTT broker (Mosquitto here)
 
 **Importing a flow:** In Node-RED, open the menu (☰) → **Import** → paste the JSON (or select the file) → **Import** → **Deploy**. You'll need to point the MQTT nodes at your own broker and adjust topics to match your devices.
+
+---
+---
+
+## Main Page
+
+My friend with the mushroom grow liked having all the screens below on one main page so he could pull it up on his phone and quickly scroll to what he needed. There are separate "Occasional" pages below for less needed functions.
 
 ---
 
