@@ -1,5 +1,6 @@
 # Mushroom Grow: Node-RED Dashboard 2.0
-
+> 🍄 One of several related projects. See the full list at **[billjuv.github.io](https://billjuv.github.io)**.
+> 
 The phone dashboard for a mushroom grow operation housed in two shipping containers in Nevada. Part of [Bill's Mushroom Grow Project](https://github.com/billjuv/billjuv.github.io).
 
 It's built with **Node-RED** and **FlowFuse Dashboard 2.0** (`@flowfuse/node-red-dashboard`), *not* the old Dashboard 1.0. It's designed first and foremost to be easy to use on a cell phone.
